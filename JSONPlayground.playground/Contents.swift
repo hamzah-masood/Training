@@ -29,14 +29,14 @@ struct Ability: Decodable {
 struct Forms: Decodable{
     let name: String
     
-    enum CodingKeys: String, CodingKey {
-        case name = "name"
-    }
-    
-    init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        name = try container.decode(String.self, forKey: .name)
-    }
+//    enum CodingKeys: String, CodingKey {
+//        case name = "name"
+//    }
+//
+//    init(from decoder: Decoder) throws {
+//        let container = try decoder.container(keyedBy: CodingKeys.self)
+//        name = try container.decode(String.self, forKey: .name)
+//    }
 }
 struct GameIndices: Decodable{
     let name: String
