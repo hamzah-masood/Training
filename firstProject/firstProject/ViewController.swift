@@ -28,7 +28,6 @@ class ViewController: UIViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         
         
-        
     }
 }
 
