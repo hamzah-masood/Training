@@ -43,7 +43,7 @@ class ViewController: UIViewController{
 //  let answer:String
 //}
 
-struct Clue: Codable {
+struct Clue: Decodable {
   let answer:String?
   let question: String?
   let value: Int?
@@ -103,6 +103,7 @@ extension ViewController: UITableViewDelegate{
     //assigning next screen
     let nextViewController = storyboard.instantiateViewController(withIdentifier: "nextViewController") as! nextViewController
     //let tappedRow = clue[indexPath.row]
+    
     
     nextViewController.updatedQuestion = clue[indexPath.row].question
     nextViewController.updatedAnswer = clue[indexPath.row].answer

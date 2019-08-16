@@ -233,7 +233,7 @@ if let pokemonURL = Bundle.main.url(forResource: "PokemonExample", withExtension
     let pokemonData = try? Data(contentsOf: pokemonURL){
     
     let pokemon = try? JSONDecoder().decode(Pokemon.self, from: pokemonData)
-    print(pokemon)
+    print(pokemon?.moves)
     
 }else {
     print("womething went wrong")
