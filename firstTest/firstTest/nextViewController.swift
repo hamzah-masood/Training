@@ -35,13 +35,14 @@ class nextViewController: UIViewController {
     super.viewDidLoad()
     
     // Do any additional setup after loading the view.
+    var updatedString = updatedSummary?.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression, range: nil)
     
     seasonLabel.text = "Season: \(updatedSeason ?? 0)"
     episodeNumberLabel.text = "Episode Number: \(updatedEpisodeNumber ?? 0)"
     episodeNameLabel.text = "Episode Name: \(updatedEpisodeName ?? "")"
     premierDateLabel.text = "Premier Date: \(updatedPremierDate ?? "")"
     airTimeLabel.text = "Air Time: \(updatedAirTime ?? "")"
-    summaryLabel.text = "Summary: \(updatedSummary ?? "")"
+    summaryLabel.text = "Summary: \(updatedString ?? "")"
     
     
     
