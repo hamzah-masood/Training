@@ -30,7 +30,10 @@ class ViewController: UIViewController{
         print("Something went wrong")
         return
       }
+      
       self.clue = allClue
+      
+      
 
       DispatchQueue.main.async {
         self.clueTable.reloadData()
