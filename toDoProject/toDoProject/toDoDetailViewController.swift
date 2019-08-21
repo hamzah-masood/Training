@@ -11,6 +11,7 @@ import  CoreData
 
 protocol toDoDetailViewControllerDelegate {
   func updateString(with value: String)
+  func updateArray(with value: [ToDo])
 }
 
 
@@ -18,6 +19,7 @@ class toDoDetailViewController: UIViewController {
   
   var editString: String?
   var delegate: toDoDetailViewControllerDelegate?
+  var toDoList: [ToDo] = []
 
 
   @IBOutlet weak var toDoItem: UITextField!
@@ -27,20 +29,36 @@ class toDoDetailViewController: UIViewController {
   var makeToDoItem: String?
   var controlValue: Int = 0
   var deleteElement: ToDo?
+  var arrayIndex: Int?
   
-  @IBAction func isCompleted(_ sender: Any) {
-    controlValue = 1
+  @IBAction func isCompleted(_ sender: UISegmentedControl) {
+    switch sender.selectedSegmentIndex {
+        case 0:
+          controlValue = 0
+        case 1:
+          controlValue = 1
+        default:
+          break
+    }
   }
+  
   
   @IBAction func submit(_ sender: Any) {
     delegate?.updateString(with: toDoItem.text ?? "")
-    
     makeToDoItem = toDoItem.text
+    toDoList = stuff.getAllToDo()
+    stuff.finishedToDo(toDo: toDoList[arrayIndex!])
+    
     try? stuff.toDo(whatToDo: makeToDoItem ?? "")
     stuff.save()
+    let updatedArray = stuff.getAllToDo()
+    delegate?.updateArray(with: updatedArray)
     
     if controlValue == 1 {
-      stuff.finishedToDo(toDo: deleteElement!)
+      toDoList = stuff.getAllToDo()
+      stuff.finishedToDo(toDo: toDoList[arrayIndex!])
+      let newToDoList = stuff.getAllToDo()
+      delegate?.updateArray(with: newToDoList)
     }
     
     navigationController?.popViewController(animated: true)

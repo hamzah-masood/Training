@@ -9,12 +9,17 @@
 import UIKit
 import CoreData
 
+protocol NextViewControllerDelegate {
+  func updateArray(with value: [ToDo])
+}
+
 class NextViewController: UIViewController {
 
   @IBOutlet weak var toDoItem: UITextField!
   
   let stuff = CoreDataStuff()
   var makeToDoItem: String?
+  var delegate: NextViewControllerDelegate?
   
   @IBAction func submit(_ sender: Any) {
     
@@ -23,7 +28,8 @@ class NextViewController: UIViewController {
     try? stuff.toDo(whatToDo: makeToDoItem ?? "")
     stuff.save()
     
-    
+    let newList = stuff.getAllToDo()
+    delegate?.updateArray(with: newList)
     
     navigationController?.popViewController(animated: true)
   }
@@ -31,7 +37,8 @@ class NextViewController: UIViewController {
   
   override func viewDidLoad() {
         super.viewDidLoad()
-
+    
+    
     //makeToDoItem = toDoItem.text
         
     }

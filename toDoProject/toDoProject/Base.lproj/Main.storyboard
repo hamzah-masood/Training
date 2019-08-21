@@ -33,6 +33,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="etk-eX-wK1">
+                        <nil key="title"/>
+                        <switch key="titleView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="u54-Pz-ufM">
+                            <rect key="frame" x="181.5" y="6.5" width="51" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="isDarkModeEnabled:" destination="BYZ-38-t0r" eventType="valueChanged" id="2Y8-Ya-9TU"/>
+                            </connections>
+                        </switch>
                         <barButtonItem key="rightBarButtonItem" title="+" id="lLx-9O-A3r">
                             <connections>
                                 <action selector="addToDo:" destination="BYZ-38-t0r" id="O7U-v9-g5B"/>
@@ -40,6 +48,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="darkModeSwitch" destination="u54-Pz-ufM" id="rY6-pF-LYU"/>
                         <outlet property="toDoTable" destination="hJb-XN-gsf" id="hyK-hu-SvE"/>
                     </connections>
                 </viewController>
