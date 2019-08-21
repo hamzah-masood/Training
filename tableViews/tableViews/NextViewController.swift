@@ -23,7 +23,7 @@ class NextViewController: UIViewController {
     @IBAction func submit(_ sender: Any) {
         //update String through delegate
         delegate?.updateString(with: textField.text ?? "")
-        
+      
         navigationController?.popViewController(animated: true)
         //go back to very first screen
         //navigationController?.popToRootViewController(animated:  true )
