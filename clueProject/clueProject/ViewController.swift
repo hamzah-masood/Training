@@ -44,7 +44,6 @@ class ViewController: UIViewController, MyCellDelegate {
     clueTable.register(UINib(nibName: "MyTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
     //clueTable.register(ClueCell.self, forCellReuseIdentifier: "cell")
     
-    self.clue = favoritedArray//stuff.getAllClues()
     URLSession.shared.dataTask(with: URL(string: "http://jservice.io/api/clues")!) { (data, response, error) in
       if error == nil {
         self.wifiConnection = true
