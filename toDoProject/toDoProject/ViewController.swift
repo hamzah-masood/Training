@@ -32,7 +32,6 @@ class ViewController: UIViewController, toDoDetailViewControllerDelegate, NextVi
       //toDoTable.textColor = .white
       view.backgroundColor = .black
       toDoTable.backgroundColor = .black
-      
       toDoTable.reloadData()
       
     } else {

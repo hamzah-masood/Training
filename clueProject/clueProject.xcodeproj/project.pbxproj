@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04015A91230DCE1700789EA4 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04015A8F230DCE1700789EA4 /* MyTableViewCell.swift */; };
+		04015A92230DCE1700789EA4 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04015A90230DCE1700789EA4 /* MyTableViewCell.xib */; };
+		04015A98230E3B0100789EA4 /* ClueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04015A97230E3B0100789EA4 /* ClueCell.swift */; };
+		04015A9C230EC17C00789EA4 /* ClueDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04015A9B230EC17C00789EA4 /* ClueDataManager.swift */; };
+		04015A9F230EC18F00789EA4 /* ClueDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04015A9D230EC18F00789EA4 /* ClueDataModel.xcdatamodeld */; };
+		04015AA2230EC24E00789EA4 /* Clue+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04015AA0230EC24E00789EA4 /* Clue+CoreDataClass.swift */; };
+		04015AA3230EC24E00789EA4 /* Clue+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04015AA1230EC24E00789EA4 /* Clue+CoreDataProperties.swift */; };
 		0405F0D02305893900620FB3 /* nextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405F0CF2305893900620FB3 /* nextViewController.swift */; };
 		0489DF692304B54A001DAA50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489DF682304B54A001DAA50 /* AppDelegate.swift */; };
 		0489DF6B2304B54A001DAA50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489DF6A2304B54A001DAA50 /* ViewController.swift */; };
 		0489DF6E2304B54A001DAA50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0489DF6C2304B54A001DAA50 /* Main.storyboard */; };
 		0489DF702304B54A001DAA50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0489DF6F2304B54A001DAA50 /* Assets.xcassets */; };
 		0489DF732304B54A001DAA50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0489DF712304B54A001DAA50 /* LaunchScreen.storyboard */; };
-		0489DF7E2304B54A001DAA50 /* clueProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489DF7D2304B54A001DAA50 /* clueProjectTests.swift */; };
-		0489DF892304B54A001DAA50 /* clueProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489DF882304B54A001DAA50 /* clueProjectUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04015A8F230DCE1700789EA4 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		04015A90230DCE1700789EA4 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		04015A97230E3B0100789EA4 /* ClueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClueCell.swift; sourceTree = "<group>"; };
+		04015A9B230EC17C00789EA4 /* ClueDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClueDataManager.swift; sourceTree = "<group>"; };
+		04015A9E230EC18F00789EA4 /* ClueDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClueDataModel.xcdatamodel; sourceTree = "<group>"; };
+		04015AA0230EC24E00789EA4 /* Clue+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clue+CoreDataClass.swift"; sourceTree = "<group>"; };
+		04015AA1230EC24E00789EA4 /* Clue+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clue+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0405F0CF2305893900620FB3 /* nextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextViewController.swift; sourceTree = "<group>"; };
 		0489DF652304B54A001DAA50 /* clueProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clueProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0489DF682304B54A001DAA50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +56,7 @@
 		0489DF722304B54A001DAA50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0489DF742304B54A001DAA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0489DF792304B54A001DAA50 /* clueProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clueProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0489DF7D2304B54A001DAA50 /* clueProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clueProjectTests.swift; sourceTree = "<group>"; };
-		0489DF7F2304B54A001DAA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0489DF842304B54A001DAA50 /* clueProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clueProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0489DF882304B54A001DAA50 /* clueProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clueProjectUITests.swift; sourceTree = "<group>"; };
-		0489DF8A2304B54B001DAA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				0489DF672304B54A001DAA50 /* clueProject */,
-				0489DF7C2304B54A001DAA50 /* clueProjectTests */,
-				0489DF872304B54A001DAA50 /* clueProjectUITests */,
 				0489DF662304B54A001DAA50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,26 +112,15 @@
 				0489DF6F2304B54A001DAA50 /* Assets.xcassets */,
 				0489DF712304B54A001DAA50 /* LaunchScreen.storyboard */,
 				0489DF742304B54A001DAA50 /* Info.plist */,
+				04015A8F230DCE1700789EA4 /* MyTableViewCell.swift */,
+				04015A90230DCE1700789EA4 /* MyTableViewCell.xib */,
+				04015A97230E3B0100789EA4 /* ClueCell.swift */,
+				04015A9D230EC18F00789EA4 /* ClueDataModel.xcdatamodeld */,
+				04015AA0230EC24E00789EA4 /* Clue+CoreDataClass.swift */,
+				04015AA1230EC24E00789EA4 /* Clue+CoreDataProperties.swift */,
+				04015A9B230EC17C00789EA4 /* ClueDataManager.swift */,
 			);
 			path = clueProject;
-			sourceTree = "<group>";
-		};
-		0489DF7C2304B54A001DAA50 /* clueProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				0489DF7D2304B54A001DAA50 /* clueProjectTests.swift */,
-				0489DF7F2304B54A001DAA50 /* Info.plist */,
-			);
-			path = clueProjectTests;
-			sourceTree = "<group>";
-		};
-		0489DF872304B54A001DAA50 /* clueProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0489DF882304B54A001DAA50 /* clueProjectUITests.swift */,
-				0489DF8A2304B54B001DAA50 /* Info.plist */,
-			);
-			path = clueProjectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0489DF732304B54A001DAA50 /* LaunchScreen.storyboard in Resources */,
+				04015A92230DCE1700789EA4 /* MyTableViewCell.xib in Resources */,
 				0489DF702304B54A001DAA50 /* Assets.xcassets in Resources */,
 				0489DF6E2304B54A001DAA50 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +255,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04015A9F230EC18F00789EA4 /* ClueDataModel.xcdatamodeld in Sources */,
 				0405F0D02305893900620FB3 /* nextViewController.swift in Sources */,
+				04015A91230DCE1700789EA4 /* MyTableViewCell.swift in Sources */,
+				04015A98230E3B0100789EA4 /* ClueCell.swift in Sources */,
 				0489DF6B2304B54A001DAA50 /* ViewController.swift in Sources */,
+				04015AA3230EC24E00789EA4 /* Clue+CoreDataProperties.swift in Sources */,
+				04015AA2230EC24E00789EA4 /* Clue+CoreDataClass.swift in Sources */,
+				04015A9C230EC17C00789EA4 /* ClueDataManager.swift in Sources */,
 				0489DF692304B54A001DAA50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0489DF7E2304B54A001DAA50 /* clueProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0489DF892304B54A001DAA50 /* clueProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +586,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04015A9D230EC18F00789EA4 /* ClueDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04015A9E230EC18F00789EA4 /* ClueDataModel.xcdatamodel */,
+			);
+			currentVersion = 04015A9E230EC18F00789EA4 /* ClueDataModel.xcdatamodel */;
+			path = ClueDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0489DF5D2304B549001DAA50 /* Project object */;
 }
