@@ -6,7 +6,6 @@
 //  Copyright © 2019 MCS. All rights reserved.
 //
 //
-
 import Foundation
 import CoreData
 
@@ -39,7 +38,7 @@ public class Clue: NSManagedObject, Codable {
     airDate = try container.decode(String.self, forKey: .airDate)
     creationDate = try container.decode(String.self, forKey: .creationDate)
     
-
+    
     if let intValue = try container.decodeIfPresent(Int.self, forKey: .value) {
       value = NSNumber(integerLiteral: intValue)
     } else {
@@ -61,7 +60,5 @@ public class Clue: NSManagedObject, Codable {
     
     
   }
-
+  
 }
-
-

@@ -5,7 +5,6 @@
 //  Created by MCS on 8/14/19.
 //  Copyright © 2019 MCS. All rights reserved.
 //
-
 import UIKit
 import CoreData
 
@@ -24,7 +23,7 @@ class ViewController: UIViewController, MyCellDelegate {
   }
   
   var updatedArray: [Clue] = []
-  var stuff = ClueDataManager()
+  //var stuff = ClueDataManager()
   
   @IBOutlet weak var clueTable: UITableView!
   
@@ -32,13 +31,12 @@ class ViewController: UIViewController, MyCellDelegate {
   var clue: [Clue] = []
   var wifiConnection = false
   var favoritedArray = ClueDataManager.shared.getAllClues() //stuff.getAllClue()
-
   
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
     
-   
+    
     
     clueTable.dataSource = self
     clueTable.delegate = self
@@ -46,7 +44,7 @@ class ViewController: UIViewController, MyCellDelegate {
     clueTable.register(UINib(nibName: "MyTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
     //clueTable.register(ClueCell.self, forCellReuseIdentifier: "cell")
     
-     self.clue = favoritedArray//stuff.getAllClues()
+    self.clue = favoritedArray//stuff.getAllClues()
     URLSession.shared.dataTask(with: URL(string: "http://jservice.io/api/clues")!) { (data, response, error) in
       if error == nil {
         self.wifiConnection = true
@@ -61,9 +59,9 @@ class ViewController: UIViewController, MyCellDelegate {
       
       self.clue = allClue
       
-    
+      
       self.updatedArray = clue.self ?? []
-
+      
       
       
       DispatchQueue.main.async {
@@ -72,8 +70,8 @@ class ViewController: UIViewController, MyCellDelegate {
       }.resume()
     
     if wifiConnection == false{
-
-      self.clue = favoritedArray//stuff.getAllClues()
+      
+      self.clue = ClueDataManager.shared.getAllClues()//stuff.getAllClues()
       print(self.clue)
       clueTable.reloadData()
     }
@@ -83,7 +81,6 @@ class ViewController: UIViewController, MyCellDelegate {
 //struct Answer: Codable {
 //  let answer:String
 //}
-
 //struct Clue: Decodable {
 //  let answer:String?
 //  let question: String?
@@ -117,7 +114,6 @@ class ViewController: UIViewController, MyCellDelegate {
 //    creationDate = try container.decode(String.self, forKey: .creationDate)
 //  }
 //}
-
 extension ViewController: UITableViewDataSource {
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return clue.count
@@ -137,7 +133,12 @@ extension ViewController: UITableViewDataSource {
     }
     
     cell.selectedCell = clue[indexPath.row]
-    
+    cell.cellAnswer = clue[indexPath.row].answer
+    cell.cellQuestion = clue[indexPath.row].question
+    cell.cellValue = clue[indexPath.row].value
+    cell.cellAirDate = clue[indexPath.row].airDate
+    cell.cellTitle = clue[indexPath.row].category
+    cell.cellCreationAt = clue[indexPath.row].creationDate
     
     return cell
   }
@@ -171,5 +172,3 @@ extension ViewController: UITableViewDelegate{
     
   }
 }
-
-
