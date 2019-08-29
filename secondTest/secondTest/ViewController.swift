@@ -13,6 +13,7 @@ class ViewController: UIViewController {
   @IBOutlet weak var jokesTableView: UITableView!
   var jokesArray: [Joke] = []
   
+  var favoritesArray: [Joke] = []
 
   @IBOutlet weak var selectCategoryControl: UISegmentedControl!
   
@@ -55,7 +56,7 @@ class ViewController: UIViewController {
       jokesTableView.reloadData()
     case 4:
       jokesArray = []
-      //jokesArray = MyTableViewCell.favoritesArray
+      
     default:
       break
     }
@@ -95,8 +96,8 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     
     jokesTableView.dataSource = self
-    jokesTableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-    //jokesTableView.register(UINib(nibName: "MyTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
+//    jokesTableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+    jokesTableView.register(UINib(nibName: "MyTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
     
     self.jokesArray = CoreDataManager.shared.getAllJokes()
     self.jokesTableView.reloadData()
@@ -111,25 +112,30 @@ extension ViewController: UITableViewDataSource {
     return jokesArray.count
   }
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
-//    var cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MyTableViewCell
-//    if (cell == nil)
-//    {
-//      cell = MyTableViewCell(style: UITableViewCell.CellStyle.subtitle,
-//                             reuseIdentifier: "cell")
-//    }
+//    let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
+    var cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MyTableViewCell
+    if (cell == nil)
+    {
+      cell = MyTableViewCell(style: UITableViewCell.CellStyle.subtitle,
+                             reuseIdentifier: "cell")
+    }
     cell.textLabel?.numberOfLines = 0
     cell.textLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
+
+    
+        cell.selectedCell = jokesArray[indexPath.row]
 
     
     if jokesArray[indexPath.row].joke == nil {
       let setup = jokesArray[indexPath.row].setup ?? ""
       let delivery = jokesArray[indexPath.row].delivery ?? ""
-      cell.textLabel?.text = setup
-      cell.detailTextLabel?.text = delivery
+      //cell.textLabel?.text = setup
+      //cell.detailTextLabel?.text = delivery
+      cell.jokeLAbel?.text = setup + "\n" + delivery
     }
     else {
-    cell.textLabel?.text = jokesArray[indexPath.row].joke
+    //cell.textLabel?.text = jokesArray[indexPath.row].joke
+      cell.jokeLAbel?.text = jokesArray[indexPath.row].joke
     }
     
     
@@ -140,3 +146,11 @@ extension ViewController: UITableViewDataSource {
     return cell
   }
 }
+
+//extension ViewController: UITableViewDelegate {
+//  func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+//
+//    cell.selectedCell = jokesArray[indexPath.row]
+//
+//  }
+//}

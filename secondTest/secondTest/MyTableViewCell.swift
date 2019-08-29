@@ -10,6 +10,7 @@ import UIKit
 
 class MyTableViewCell: UITableViewCell {
 
+  @IBOutlet weak var jokeLAbel: UILabel!
   
   var favoritesArray: [Joke] = []
   var isFavorited: Bool = false

@@ -131,6 +131,7 @@ extension ViewController: UITableViewDataSource {
       cell.backgroundColor = .red
     }
     
+    
     cell.selectedCell = clue[indexPath.row]
     cell.cellAnswer = clue[indexPath.row].answer
     cell.cellQuestion = clue[indexPath.row].question

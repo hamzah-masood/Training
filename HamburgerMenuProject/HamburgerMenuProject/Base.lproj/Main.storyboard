@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rwI-9j-d7S">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HamburgerMenuProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EgR-Wc-e7F">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="oYD-RL-U35">
+                            <connections>
+                                <action selector="didTapMenu:" destination="BYZ-38-t0r" id="XGa-LO-tf5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="97.767857142857139"/>
+        </scene>
+        <!--Hamburger Menu View Controller-->
+        <scene sceneID="OUp-5q-MUL">
+            <objects>
+                <viewController storyboardIdentifier="HamburgerMenuViewController" modalPresentationStyle="overCurrentContext" id="usH-Vc-DNf" customClass="HamburgerMenuViewController" customModule="HamburgerMenuProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZnC-ft-Pyf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7xY-Kd-dgI">
+                                <rect key="frame" x="0.0" y="44" width="207" height="818"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fwr-c9-k4G">
+                                <rect key="frame" x="207" y="44" width="207" height="818"/>
+                                <color key="backgroundColor" white="0.54155072773972601" alpha="0.80602525684931503" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bxG-sS-hl5" appends="YES" id="LRb-L6-LVN"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PUy-7R-YFk" firstAttribute="trailing" secondItem="Fwr-c9-k4G" secondAttribute="trailing" id="6Wq-05-oeu"/>
+                            <constraint firstItem="Fwr-c9-k4G" firstAttribute="width" secondItem="ZnC-ft-Pyf" secondAttribute="width" multiplier="0.5" id="6nA-ZJ-YL1"/>
+                            <constraint firstItem="Fwr-c9-k4G" firstAttribute="top" secondItem="PUy-7R-YFk" secondAttribute="top" id="O0y-L4-Qb7"/>
+                            <constraint firstItem="PUy-7R-YFk" firstAttribute="bottom" secondItem="Fwr-c9-k4G" secondAttribute="bottom" id="Rmg-0i-3jH"/>
+                            <constraint firstItem="7xY-Kd-dgI" firstAttribute="top" secondItem="PUy-7R-YFk" secondAttribute="top" id="bad-KF-eaT"/>
+                            <constraint firstItem="7xY-Kd-dgI" firstAttribute="leading" secondItem="PUy-7R-YFk" secondAttribute="leading" id="ms5-jb-egr"/>
+                            <constraint firstItem="PUy-7R-YFk" firstAttribute="bottom" secondItem="7xY-Kd-dgI" secondAttribute="bottom" id="nnC-gQ-hJ2"/>
+                            <constraint firstItem="7xY-Kd-dgI" firstAttribute="width" secondItem="ZnC-ft-Pyf" secondAttribute="width" multiplier="0.5" id="yBm-V8-TGX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PUy-7R-YFk"/>
+                    </view>
+                    <connections>
+                        <outlet property="menuTableView" destination="7xY-Kd-dgI" id="GQo-fS-MRh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="skt-fU-fQJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="bxG-sS-hl5">
+                    <connections>
+                        <action selector="didTapBackgroundView:" destination="usH-Vc-DNf" id="YYW-aU-cAx"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1966" y="96"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fQY-zj-VRO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rwI-9j-d7S" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sIc-fp-gli">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7wB-Cs-Lja"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lfx-gY-ZiN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="93" y="98"/>
+        </scene>
+    </scenes>
+</document>

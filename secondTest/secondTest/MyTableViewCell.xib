@@ -19,25 +19,39 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CBc-3d-rVE">
-                        <rect key="frame" x="290" y="6" width="30" height="30"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKQ-85-EX2">
+                        <rect key="frame" x="0.0" y="5" width="280" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbT-JU-Ej8">
+                        <rect key="frame" x="280" y="5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="0Me-jl-0qM"/>
+                            <constraint firstAttribute="width" constant="40" id="Rbv-se-4rH"/>
+                        </constraints>
                         <state key="normal" title="*"/>
                         <connections>
-                            <action selector="isFavorite:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="gAr-IG-RTJ"/>
+                            <action selector="isFavorite:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Hn3-sB-anu"/>
                         </connections>
                     </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="CBc-3d-rVE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="EFU-3Q-AZV"/>
-                    <constraint firstAttribute="bottom" secondItem="CBc-3d-rVE" secondAttribute="bottom" constant="7.5" id="FSv-Fq-jMZ"/>
-                    <constraint firstAttribute="trailing" secondItem="CBc-3d-rVE" secondAttribute="trailing" id="yu9-gQ-Gxy"/>
+                    <constraint firstAttribute="trailing" secondItem="wbT-JU-Ej8" secondAttribute="trailing" id="2B9-du-MIL"/>
+                    <constraint firstItem="wbT-JU-Ej8" firstAttribute="leading" secondItem="TKQ-85-EX2" secondAttribute="trailing" id="DNn-OZ-LOY"/>
+                    <constraint firstItem="wbT-JU-Ej8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="W3d-GR-Fob"/>
+                    <constraint firstItem="TKQ-85-EX2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Y3n-2s-2Ls"/>
+                    <constraint firstAttribute="bottom" secondItem="TKQ-85-EX2" secondAttribute="bottom" constant="5" id="dYk-i3-ugm"/>
+                    <constraint firstItem="TKQ-85-EX2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="hMP-j0-neA"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="favorite" destination="CBc-3d-rVE" id="lHI-QH-hvM"/>
+                <outlet property="favorite" destination="wbT-JU-Ej8" id="J6j-A3-HCz"/>
+                <outlet property="jokeLAbel" destination="TKQ-85-EX2" id="4rD-nb-4te"/>
             </connections>
-            <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
+            <point key="canvasLocation" x="47.826086956521742" y="34.821428571428569"/>
         </tableViewCell>
     </objects>
 </document>

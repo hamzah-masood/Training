@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     myCollectionView.dataSource = self
     myCollectionView.delegate = self
-    
+  
     
   }
   
@@ -39,8 +39,19 @@ extension ViewController: UICollectionViewDataSource {
     return cell
   }
   
-  
 }
+
+//extension ViewController: UICollectionViewDelegate {
+//  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+//    let selectedCell: UICollectionViewCell = myCollectionView.cellForItem(at: indexPath)!
+//    selectedCell.contentView.backgroundColor = .random
+//  }
+//
+//  func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+//    let cellToDeselect: UICollectionViewCell = myCollectionView.cellForItem(at: indexPath)!
+//    cellToDeselect.contentView.backgroundColor = UIColor.clear
+//  }
+//}
 
 extension ViewController: UICollectionViewDelegateFlowLayout {
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
