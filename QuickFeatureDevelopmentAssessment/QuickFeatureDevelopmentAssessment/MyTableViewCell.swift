@@ -15,6 +15,7 @@ class MyTableViewCell: UITableViewCell {
   @IBOutlet weak var subtitleLabel: UILabel!
   
   @IBOutlet weak var cellImage: UIImageView!
+  
   var selectedCell: Episode?
 
     override func awakeFromNib() {

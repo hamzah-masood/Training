@@ -68,108 +68,55 @@ class ViewController: UIViewController {
 
 
 struct Episodes: Codable {
-
  let season:Int?
-
  let episodeNumber: Int?
-
  let episodeName: String?
-
  let premierDate: String?
-
  let airTime: String?
-
  let summary: String?
 
-
-
  enum CodingKeys: String, CodingKey {
-
    case season
-
    case episodeNumber = "number"
-
    case episodeName = "name"
-
    case premierDate = "airdate"
-
    case airTime = "airtime"
-
    case summary
 
  }
 
-
-
-
-
  init(from decoder: Decoder) throws {
 
    let container = try decoder.container(keyedBy: CodingKeys.self)
-
    season = try container.decode(Int.self, forKey: .season)
-
    episodeNumber = try container.decode(Int.self, forKey: .episodeNumber)
-
    episodeName = try container.decode(String.self, forKey: .episodeName)
-
    premierDate = try container.decode(String.self, forKey: .premierDate)
-
    airTime = try container.decode(String.self, forKey: .airTime)
-
    summary = try container.decode(String.self, forKey: .summary)
-
-
-
  }
 
 }
 
-
-
 struct GameofThrones: Codable {
 
-
-
  let embedded:String
-
  let episodes: [Episodes]
 
-
-
-
-
  enum CodingKeys: String, CodingKey {
-
    case embedded =  "_embedded"
 
-
-
  }
-
-
-
+  
  enum embeddedCodingKeys: String, CodingKey{
-
    case episodes
-
  }
-
-
-
-
 
  init(from decoder: Decoder) throws {
 
    let container = try decoder.container(keyedBy: CodingKeys.self)
-
    let episodeContainer = try container.nestedContainer(keyedBy: embeddedCodingKeys.self, forKey: .embedded)
-
    episodes = try episodeContainer.decode([Episodes].self, forKey: .episodes)
-
-
-
-
 
  }
 

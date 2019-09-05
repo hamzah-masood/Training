@@ -27,6 +27,15 @@ struct EpisodeContainer: Codable {
     self.episodes = try subContainer.decode([Episode].self, forKey: .episodes)
     
   }
+  
+  init(array: [Episode]) {
+   episodes = array
+  }
+  func encode(to encoder: Encoder) throws {
+    var topContainer = encoder.container(keyedBy: TopLevelCodingKeys.self)
+    var subContainer = topContainer.nestedContainer(keyedBy: EpisodeCodingKeys.self, forKey: .topLevel)
+    try subContainer.encode(episodes, forKey: .episodes)
+  }
 }
 
 struct Episode: Codable {
@@ -60,6 +69,24 @@ struct Episode: Codable {
     self.summary = try container.decode(String.self, forKey: .summary)
     self.image = try imageContainer.decode(String.self, forKey: .original)
   }
-
+  init() {
+    airDate = "2019"
+    airStamp = "2018"
+    name = "Where the gang goes fishing"
+    runtime = 28
+    summary = "the gang goes fishing in central Park"
+    image = "string"
+  }
+  func encode(to encoder: Encoder) throws {
+    var container = encoder.container(keyedBy: CodingKeys.self)
+    var imageContainer = container.nestedContainer(keyedBy: imageCodingKeys.self, forKey: .image)
+    try container.encode(airDate, forKey: .airDate)
+    try container.encode(airStamp, forKey: .airStamp)
+    try container.encode(name, forKey: .name)
+    try container.encode(runtime, forKey: .runtime)
+    try container.encode(summary, forKey: .summary)
+    try imageContainer.encode(image, forKey: .original)
+  }
   
 }
+
