@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
   @IBOutlet weak var jokesTableView: UITableView!
   var jokesArray: [Joke] = []
+  var displayedJokes: [Joke] = []
   
   var favoritesArray: [Joke] = []
 
@@ -36,6 +37,7 @@ class ViewController: UIViewController {
       jokesTableView.reloadData()
       
     case 2:
+      displayedJokes = jokesArray.filter( { $0.category == "Dark"} )
       jokesArray = []
       let darkJokes = CoreDataManager.shared.getAllJokes()
       let darkWord = "Dark"
@@ -46,16 +48,20 @@ class ViewController: UIViewController {
       }
       jokesTableView.reloadData()
     case 3:
-      jokesArray = []
-      let programmingJokes = CoreDataManager.shared.getAllJokes()
-      for joke in programmingJokes {
-        if joke.category == "Programming" {
-          jokesArray.append(joke)
-        }
-      }
+      jokesArray = CoreDataManager.shared.getAllJokes().filter( { $0.category == "Programming" } )
+//      for joke in programmingJokes {
+//        if joke.category == "Programming" {
+//          jokesArray.append(joke)
+//        }
+//      }
       jokesTableView.reloadData()
     case 4:
       jokesArray = []
+      let favoritedJokes = CoreDataManager.shared.getAllJokes().filter( { $0.isFavorited == true } )
+      for joke in favoritedJokes {
+          jokesArray.append(joke)
+      }
+      jokesTableView.reloadData()
       
     default:
       break

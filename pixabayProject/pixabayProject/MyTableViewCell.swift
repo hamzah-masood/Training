@@ -10,26 +10,17 @@ import UIKit
 
 class MyTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource {
   
-
-  var imageArray: [Image] = []
-
   
-  
-  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-  
-    return 15
-  }
-  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath as IndexPath) as! MyCollectionViewCell
-    
+  //let viewModel = imagesViewModel()
 
-    let cellImage = try! UIImage(data: NSData(contentsOf: NSURL(string:"https://pixabay.com/get/55e1d5474e53af14f6da8c7dda79367d1139d8e555536c4870297cd2934ac45eb0_640.jpg")! as URL) as Data)
-    cell.myImage.image = cellImage
-
-    return cell
+  var imageArray: [Image] = [] {
+    didSet {
+      myCollectionView.reloadData()
+    }
   }
   
 
+  
   @IBOutlet weak var myImage: UIImageView!
   
   @IBOutlet weak var myCollectionView: UICollectionView!
@@ -39,6 +30,11 @@ class MyTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionVi
         super.awakeFromNib()
         // Initialization code
     
+
+//      self.imageArray = self.viewModel.imagesArray
+//      self.viewModel.getData {
+//        DispatchQueue.main.async {}
+//
       self.myCollectionView.dataSource = self
       self.myCollectionView.delegate = self
       self.myCollectionView.register(UINib.init(nibName: "MyCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell") 
@@ -49,12 +45,30 @@ class MyTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionVi
 
         // Configure the view for the selected state
     }
+  
+  
+  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     
+    return imageArray.count
+  }
+  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath as IndexPath) as! MyCollectionViewCell
+    
+    
+//    let cellImage = try! UIImage(data: NSData(contentsOf: NSURL(string: imageArray[indexPath.row].url ?? "")! as URL) as Data)
+    URLSession.shared.dataTask(with: URL(string: imageArray[indexPath.row].url!)!, completionHandler: { (data, response, error) in
+      if let data = data, let image = UIImage(data: data) {
+        DispatchQueue.main.async {
+          cell.myImageView.image = image
+        }
+      }
+    }).resume()
+    
+//    cell.myImage.image = cellImage
+    
+    return cell
+  }
 }
 
 
-
-
-//    let cellImage = try! UIImage(data: NSData(contentsOf: NSURL(string: "https://pixabay.com/get/55e1d5474e53af14f6da8c7dda79367d1139d8e555536c4870297cd69f48cc5bbb_640.jpg")! as URL) as Data)
-//    myImage.image = cellImage
 

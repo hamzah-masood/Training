@@ -1,0 +1,77 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 Optionals - Optionals are properties or variables that could be nil. They are denoted with a question mark after the type.\
+\
+How to handle optionals? There are 5 main ways to handle optionals. Force unwrapping(not recommended due to crashing the app), conditional binding(if let/guard let), nil coalescing(Done with ?? And provides a default value), implicitly unwrapped optionals(similar to optionals, but are denoted by an exclamation mark after the type), and optional chaining(this is when you are accessing a long trail of properties, and some are optional, like self.view?.isHidden. If it hits the question mark, and the value is nil, It just stops there, and the whole thing evaluates to nil)\
+\
+Autolayout - This is the engine that takes the provided constraints, both by the developer and the default constraints, to figure out where everything goes on the screen. If there are conflicting constraints, it also decides which constraint(s) to break until it has a set of constraints that it con use without any conflicts\
+\
+Constraints - These are mathematical equations that auto layout uses to figure out how big  and where to place each UI element in regards to its neighboring views and its super view.\
+\
+Size classes - These are used in conjunction with constraints to have conditional constraints based on how big the device is. There are two size classes: compact and regular\
+\
+Table view - Table views are a basic UI element typically used to show a list of things. Table views can only scroll vertically, and each row in the table view is denoted by its section and row number. Typically we use these to figure out what information to show for each row. The minimum requirements to show information on a table view is the table view\'92s data source needs to be set. The data source must implement UITableViewDataSource protocol, which has required functions for number of rows, ad cell for row at. The table view delegate usually is used to handle interaction with the user, but is not required.\
+\
+Core Data - Core Data is a framework that uses object relational mapping to figure out how to save the information. By default, it saves the information in a SQLite database. The Core Data stack consists of 4 components: persistent store, context, managed objects, and the coordinator. The managed objects are the classes that represent the objects we want to save. The context allows managed objects to be added or deleted to the persistent store after it has saved. Without saving, the additions, deletions, and updates will not be persisted. The context uses the coordinator to speak to the persistent store for all of its operations. The persistent store would be where the data is actually saved. Core Data is not thread safe, and passing managed objects around doesn\'92t work well, as the managed objects get their information from the context. Without the context, the objects are pretty useless, if they even stay in memory.\
+\
+Collection view - Collection views are similar to table views, as they both have data source and delegates, data source being required to show any information. Collection view cells represent a single item, as opposed to a row in table views. It is also a lot harder to have dynamic cell sizes in collection views. In table views, you just need a well-constrained table view cell. With collection views, you need to determine the size of each cell yourself, using the delegate flow layout protocol function size for item at. For a hardcoded percentage, such as 25% of the screen for each cell size, this function is where you would do it at. Collection views can also be horizontally or vertically scrolling, as opposed to just vertically scrolling like table views.\
+\
+delegation - Delegation is a design pattern where you hand work off to something else, similar to how a boss hands work to an employee who has the correct requirements for the task. A use case for this would be passing information back to a previous view controller, or passing information from the table view cell back to the main view controller.\
+\
+Protocols - Protocols are a list of requirements. For an object to implement a protocol, it must have all of the requirements implemented, as well as declare that it implements the protocol.\
+\
+MVC - Stands for Model-View-Controller. The default app architecture for iOS. The model is where the data is stored. The view is where the presentation logic is done. The controller is where the business logic is done. This differs from MVVM in that the view tends to have access to the model objects, and uses those to set up its view, such as with a table view. The issue with the way it is set up initially in iOS is that the view and controller layers are tightly coupled in the view controller. Typically developers will not work with the view controller\'92s view, letting the view controller handle it. To properly use MVC, the view controller must be treated as the view layer only, with a separate controller.\
+\
+MVVM - Stands for Model-View-View Model. My preferred app architecture, as it allows for easier testing of the business logic, and allows the view controllers to concentrate on presentation logic, and just asks the view model for the information it needs. Similar to MVC, model has the data, view has presentation logic, view model has the business logic. Where it stands different from MVC is that the view layer(read view controllers) don\'92t have access to the model. To get the information it needs, it needs to ask the view model for that information. This separation is what allows for better testing of the business logic. It also doesn\'92t over-abstract things like VIPER does.\
+\
+User defaults - One way to persist data. You can save any kind of JSON value, except for null, and you can store data. This is best used to save flags, such as whether dark mode is used or not, or other simple pieces of information that is not user-sensitive.\
+\
+Keychain One way to persist data in iOS. This is typically used for user-sensitive pieces of information, such as passwords. The actual APIs used for this are pretty hard to understand, leading to a lot of people not really understanding how it works, and relying on third party frameworks to do this work for them.\
+\
+API calls - API calls are done using URLSession.shared for the most part. For JSON data, we use the dataTask function. One thing to remember is that the data task that is returned from this function is started in a paused state, so we need to resume it so it actually calls the API as required.\
+\
+JSON parsing - There are two options for JSON parsing. JSONSerialization, which turns data into either an array or a dictionary based on what the JSON is, and Codable protocol, which lets us decode the data directly into our model objects using JSONDecoder. Codable protocol does allow for some customization using CodingKey and not using the default implementation.\
+\
+Git - Git is a version control system. It uses snapshots of changes made to the code. Putting all the changes together results in the current project. These snapshots are referred to as commits. The process to put code onto the internet would be\
+git add . //This adds the changes to the project you have made since the last commit\
+git commit -m \'93the commit message\'94 //This saves the changes on you local repository\
+git push origin master // This pushes the saves to the remote repository, which is accessible via the Internet. Note that pushing to the master branch is something you should basically never do on project. \
+\
+OOP - Stands for Object-Oriented programming. In iOS it contrasts with protocol-oriented programming. OOP tends to use inheritance to solve problems, which means it uses a super class for base functionality, and then classes that need that functionality, but need a different implementation, subclasses this super class and then uses polymorphism to use the highest possible class in the class hierarchy. Biggest issue with this approach is the God class issue, which is where the functionality for everything is put into this one class, and is then subclassed. POP solves this using protocols to add the required functionality to classes, and then uses polymorphism so that objects have the type of the protocol, and only knows about the functionality guaranteed by the protocol, allowing for better separation of concerns. Polymorphism in both of these cases meaning the ability to treat an object as another. In OOP, that means treating a class as its superclass, while POP that means treating it as an object that has implemented the protocol.\
+ \
+Swift vs Objective-C - The biggest difference is the syntax difference. Objective-C uses the basket notation more often, while Swift uses the dot notation. Swift also has type inference, which can clean the code up a bit, as well as type safety. Type safety is accomplished through optionals. In objective-C basically everything is an implicitly unwrapped optional, so if an object that no longer had a value, due to deinitialization for example, and we tried to access it, it would crash the app. One thing Objective-C has over Swift is Objective-C has the capability for dynamic programming, meaning the definition of something can be changed mid-flight. The biggest example of this is called method swizzling. Method swizzling is where you exchange the implementation of two functions at run time.\
+\
+How to use Objective-C code in Swift project - We would use a bridging header where we would import all of the Objective-C classes we wanted to use in our swift project\
+\
+Atomic vs nonatomic - Atomic is slower, but we are guaranteed a valid value due to the fact that read and writes to a piece of memory are locked while the read/write is in process, meaning other threads that want to access it in the middle of a read/write have to wait for the lock to be released. This makes it more thread safe than nonatomic, but it is not foolproof. Nonatomic is faster, but due to the fact there is no lock during read/writes it is possible to get an invalid value if a read is performed halfway through a write.\
+\
+Value vs reference types - Value types are immutable, and are copied upon assignment. Reference types are mutable, and only the place in memory is copied upon assignment. So if two variables are assigned the same object, if the object is a value type, there will be two copies of the object. If the object is a reference type, there will only be one copy of the object.\
+\
+Ways to navigate - Segues(I don\'92t prefer due to tight coupling between view controllers), programmatic. With programmatic you can either present(where the view controller is shown on top of the current view controller), or push on to the navigation stack, provided there is a navigation controller.\
+\
+Ways to do animations(don\'92t penalize too much for not knowing this) - UIView.animate and CABasicAnimation. Can also do keyed frame animations, I believe they are called.\
+\
+ARC(difference between strong, weak, and unowned) - Stands for Automatic reference counting. It is a compile time feature, so not a garbage collector. At compile time it inserts the retain and release calls for us that we needed in MRR(manual retain release). The way it determines where to place these calls in the program is determined by the retain count of the objects. The retain count is the number of strong references an object has. Once the retain count goes to 0, the object is released and deinitialized. Strong increases the retain count by 1, while weak and unowned do not increase the retain count. The difference between weak and unowned is similar to the difference between an optional and an implicitly unwrapped optional. If you try to access a weak variable that contained an object that has been deinitialized, it will just give nil. Usually this is covered by using optional chaining, like this: self?.view. With unowned, you don\'92t need to worry about handling it as an optional, but if it has become deinitialized, and you try to access it, the app will crash.\
+\
+Memory leaks(how to fix and how to find) - memory leaks are objects that stay in memory longer than they should. The only way to get memory leaks with ARC is when two objects have a strong reference to each other, or when referencing self in a closure. The second is more of a special case of the first, as both self and the closure have a reference to each other. The way to fix this is by making one of the references weak or unowned(I prefer weak due to the whole crashing thing). For closures, this would involve capturing self as a weak reference, like this `\{ [weak self] in`.\
+\
+Multithreading(Don\'92t penalize for not knowing NSOperations. Should know Dispatch Queue/GCD though) - There are 2 main options for multithreading in iOS. GCD, which stand for Grand Central Dispatch and uses the Dispatch Queues, and NSoperations. The difference is that NSOperations is built on top of GCD, and allows for more control, such as pausing, resuming, etc. any operation.\
+\
+Singletons - Singletons are objects where there is only one instance of the object. This is accomplished by making the initializer(s) private, and then initializing the object in a class property or function, denoted by static let or static func.\
+\
+View controller lifecycle - There are 5: viewDidLoad, viewWillAppear, viewDidAppear, viewWillDisappear, viewDidDisappear. Relatively self-explanatory, only caveat is that viewDidLoad only executes once per instance. The others execute as the view controller is shown/dismissed\
+\
+What is interface builder? Interface builder is the system that shows the UI elements and their constraints visually using a GUI. It uses xml to show this information. The IB in IBOutlet/IBAction stands for interface builder, as they are outlets/actions that come from interface builder. Interface builder is used in both storyboards and XIBs.\
+\
+Extension - An extension adds functionality to an already existing object\
+\
+Objective-C Category vs Extension - An Objective-C category is the same as a Swift extension. An Objective-C extension is similar, except that you need access to the class you are adding functionality to.\
+\
+closures - closures are blocks of code that take inputs and have outputs, similar to functions, and can be passed around to other functions as inputs. The only difference is that closures can capture values in the scope it is defined, while functions can only access properties and other functions in the object definition(could be class or struct definition).\
+\
+Escaping vs non escaping - An escaping closure is a closure that can be executed outside of the scope of the function it was passed into. Using URLSession to call an API would require an escaping closure, as the function definitely finishes before the API returns the data. A non-escaping closure is a closure that must be executed within the scope of the function it was passed into. The default for non-optional closures is non-escaping. For optional closures, the default is escaping.}

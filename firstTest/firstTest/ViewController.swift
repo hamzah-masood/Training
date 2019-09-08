@@ -24,8 +24,8 @@ class ViewController: UIViewController {
     
     URLSession.shared.dataTask(with: URL(string: "https://api.tvmaze.com/shows/82?embed=seasons&embed=episodes")!) { (data, response, _) in
       guard let data = data else { return }
-      let gameOfThrones = try? JSONDecoder().decode(GameOfThrones.self, from: data)
-      self.gameOfThronesArray = (gameOfThrones?.embedded.episodes)!
+      let gameOfThrones = try? JSONDecoder().decode(GameofThrones.self, from: data)
+      self.gameOfThronesArray = (gameOfThrones?.episodes)!
       
       DispatchQueue.main.async {
         self.episodes.reloadData()
@@ -67,7 +67,7 @@ class ViewController: UIViewController {
 
 
 
-struct Episodes: Codable {
+struct Episode: Codable {
  let season:Int?
  let episodeNumber: Int?
  let episodeName: String?
@@ -100,8 +100,8 @@ struct Episodes: Codable {
 
 struct GameofThrones: Codable {
 
- let embedded:String
- let episodes: [Episodes]
+ let embedded:String = ""
+ let episodes: [Episode]
 
  enum CodingKeys: String, CodingKey {
    case embedded =  "_embedded"
@@ -116,7 +116,7 @@ struct GameofThrones: Codable {
 
    let container = try decoder.container(keyedBy: CodingKeys.self)
    let episodeContainer = try container.nestedContainer(keyedBy: embeddedCodingKeys.self, forKey: .embedded)
-   episodes = try episodeContainer.decode([Episodes].self, forKey: .episodes)
+   episodes = try episodeContainer.decode([Episode].self, forKey: .episodes)
 
  }
 
@@ -132,7 +132,10 @@ extension ViewController: UITableViewDataSource {
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
     cell.textLabel?.numberOfLines = 0
-    cell.textLabel?.text = "Season: " + "\(gameOfThronesArray[indexPath.row].season)" + " / Episode Number: " + "\(gameOfThronesArray[indexPath.row].episodeNumber)" + " /Episode Name: " + gameOfThronesArray[indexPath.row].episodeName
+    let season = "Season: " + "\(gameOfThronesArray[indexPath.row].season ?? 0)"
+    let episodeNumber = " / Episode Number: " + "\(gameOfThronesArray[indexPath.row].episodeNumber ?? 0)"
+    let episodeName = " /Episode Name: \(gameOfThronesArray[indexPath.row].episodeName ?? "")"
+    cell.textLabel?.text = season + episodeNumber + episodeName
     
     return cell
   }

@@ -8,8 +8,16 @@
 
 import UIKit
 import CoreData
+import RealmSwift
 
 class ViewController: UIViewController, toDoDetailViewControllerDelegate, NextViewControllerDelegate {
+  
+  let realm = try! Realm()
+//  class ToDo: Object {
+//    @objc dynamic var whatToDo = ""
+//    @objc dynamic var isFinished = false
+//  }
+
   
   @IBOutlet weak var darkModeSwitch: UISwitch!
   
@@ -78,7 +86,12 @@ class ViewController: UIViewController, toDoDetailViewControllerDelegate, NextVi
   }
   
   override func viewDidLoad() {
+    
     super.viewDidLoad()
+    
+    
+
+    
     darkModeSwitch.isOn = isDarkModeEnabled
     updateUI()
     toDoTable.dataSource = self

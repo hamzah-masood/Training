@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import RealmSwift
 
 protocol NextViewControllerDelegate {
   func updateArray(with value: [ToDo])
@@ -17,6 +18,7 @@ class NextViewController: UIViewController {
 
   @IBOutlet weak var toDoItem: UITextField!
   
+  let realm = try! Realm()
   let stuff = CoreDataStuff()
   var makeToDoItem: String?
   var delegate: NextViewControllerDelegate?
@@ -30,6 +32,10 @@ class NextViewController: UIViewController {
     
     let newList = stuff.getAllToDo()
     delegate?.updateArray(with: newList)
+    
+//    try! realm.write {
+//      realm.add(ToDo)
+//    }
     
     navigationController?.popViewController(animated: true)
   }
