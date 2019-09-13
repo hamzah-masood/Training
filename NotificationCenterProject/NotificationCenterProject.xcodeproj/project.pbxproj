@@ -13,6 +13,7 @@
 		04509EC92322997100D0117A /* NotificationCenterProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04509EC72322997100D0117A /* NotificationCenterProject.xcdatamodeld */; };
 		04509ECB2322997300D0117A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04509ECA2322997300D0117A /* Assets.xcassets */; };
 		04509ECE2322997300D0117A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04509ECC2322997300D0117A /* LaunchScreen.storyboard */; };
+		04509F7A232A6EE400D0117A /* NewNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04509F79232A6EE300D0117A /* NewNotificationCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		04509ECA2322997300D0117A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04509ECD2322997300D0117A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04509ECF2322997300D0117A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04509F79232A6EE300D0117A /* NewNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNotificationCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				04509ECC2322997300D0117A /* LaunchScreen.storyboard */,
 				04509ECF2322997300D0117A /* Info.plist */,
 				04509EC72322997100D0117A /* NotificationCenterProject.xcdatamodeld */,
+				04509F79232A6EE300D0117A /* NewNotificationCenter.swift */,
 			);
 			path = NotificationCenterProject;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04509F7A232A6EE400D0117A /* NewNotificationCenter.swift in Sources */,
 				04509EC92322997100D0117A /* NotificationCenterProject.xcdatamodeld in Sources */,
 				04509EC32322997100D0117A /* ViewController.swift in Sources */,
 				04509EC12322997100D0117A /* AppDelegate.swift in Sources */,

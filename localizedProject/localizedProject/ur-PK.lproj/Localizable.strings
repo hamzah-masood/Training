@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  localizedProject
+
+  Created by MCS on 9/11/19.
+  Copyright © 2019 MCS. All rights reserved.
+*/
+
+"helloWorldText" = "سلام دنیا";
+
+"helloPerson" = "سلام, %@";
+ 
+// حمزہ

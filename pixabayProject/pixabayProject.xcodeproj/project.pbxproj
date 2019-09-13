@@ -21,6 +21,7 @@
 		0400346A231F4A08009CF5B2 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04003468231F4A08009CF5B2 /* MyCollectionViewCell.swift */; };
 		0400346B231F4A08009CF5B2 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04003469231F4A08009CF5B2 /* MyCollectionViewCell.xib */; };
 		0400346D231F5B96009CF5B2 /* sectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400346C231F5B96009CF5B2 /* sectionData.swift */; };
+		04509F472327531000D0117A /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04509F462327531000D0117A /* NextViewController.swift */; };
 		04AB252C23213A3E00A4387F /* imagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB252B23213A3E00A4387F /* imagesViewModel.swift */; };
 		04AB252E23213AD000A4387F /* imageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB252D23213AD000A4387F /* imageContainer.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		04003468231F4A08009CF5B2 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		04003469231F4A08009CF5B2 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 		0400346C231F5B96009CF5B2 /* sectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sectionData.swift; sourceTree = "<group>"; };
+		04509F462327531000D0117A /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		04AB252B23213A3E00A4387F /* imagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagesViewModel.swift; sourceTree = "<group>"; };
 		04AB252D23213AD000A4387F /* imageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 			children = (
 				0400344723194D20009CF5B2 /* AppDelegate.swift */,
 				0400344923194D20009CF5B2 /* ViewController.swift */,
+				04509F462327531000D0117A /* NextViewController.swift */,
 				0400344B23194D20009CF5B2 /* Main.storyboard */,
 				0400346C231F5B96009CF5B2 /* sectionData.swift */,
 				0400345123194D22009CF5B2 /* Assets.xcassets */,
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0400344A23194D20009CF5B2 /* ViewController.swift in Sources */,
+				04509F472327531000D0117A /* NextViewController.swift in Sources */,
 				0400345E23194EA3009CF5B2 /* MyTableViewCell.swift in Sources */,
 				0400346A231F4A08009CF5B2 /* MyCollectionViewCell.swift in Sources */,
 				0400346D231F5B96009CF5B2 /* sectionData.swift in Sources */,

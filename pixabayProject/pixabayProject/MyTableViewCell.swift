@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MyTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource {
+class MyTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
   
   
   //let viewModel = imagesViewModel()
@@ -48,13 +48,11 @@ class MyTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionVi
   
   
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-    
     return imageArray.count
   }
+  
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath as IndexPath) as! MyCollectionViewCell
-    
-    
 //    let cellImage = try! UIImage(data: NSData(contentsOf: NSURL(string: imageArray[indexPath.row].url ?? "")! as URL) as Data)
     URLSession.shared.dataTask(with: URL(string: imageArray[indexPath.row].url!)!, completionHandler: { (data, response, error) in
       if let data = data, let image = UIImage(data: data) {
@@ -63,12 +61,38 @@ class MyTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionVi
         }
       }
     }).resume()
-    
 //    cell.myImage.image = cellImage
-    
+
     return cell
   }
+  
+  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    return CGSize(width: 180, height: 200)
+  }
+  
+  
+  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    let nextViewController = storyboard.instantiateViewController(withIdentifier: "nextViewController") as! NextViewController
+    
+    nextViewController.updatedUser = imageArray[indexPath.row].user
+    nextViewController.updatedViews = imageArray[indexPath.row].views as? Int
+    nextViewController.updatedLikes = imageArray[indexPath.row].likes as? Int
+    nextViewController.updatedComments = imageArray[indexPath.row].comments as? Int
+  
+    
+    //UINavigationController.pushViewController(nextViewController, animated: true)
+    
+    
+//      if let index = self.clueTable.indexPathForSelectedRow {
+//        self.clueTable.deselectRow(at: index, animated: true)
+//      }
+      
+    
+      //navigationController?.pushViewController(NextViewController, animated: true)
+  }
+  
 }
-
 
 

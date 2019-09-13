@@ -9,16 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+  
+  
 
   let apiKey = "13466062-6ac6987f27cfb51eb71fee381"
   var imagesArray: [[Image]] = [[], [], [], [], []]
   lazy var apiURLStringArray: [String] = {
      return [
       "https://pixabay.com/api/?key=\(apiKey)&q=sunset&image_type=photo&pretty=true",
-      "https://pixabay.com/api/?key=\(apiKey)&q=dogs&image_type=photo&pretty=true",
-      "https://pixabay.com/api/?key=\(apiKey)&q=popcorn&image_type=photo&pretty=true",
-      "https://pixabay.com/api/?key=\(apiKey)&q=rooster&image_type=photo&pretty=true",
-      "https://pixabay.com/api/?key=\(apiKey)&q=ice%20cream&image_type=photo&pretty=true"]
+      "https://pixabay.com/api/?key=\(apiKey)&q=mountains&image_type=photo&pretty=true",
+      "https://pixabay.com/api/?key=\(apiKey)&q=cityscape&image_type=photo&pretty=true",
+      "https://pixabay.com/api/?key=\(apiKey)&q=night%20sky&image_type=photo&pretty=true",
+      "https://pixabay.com/api/?key=\(apiKey)&q=stars&image_type=photo&pretty=true"]
   }()
   
   
@@ -26,7 +28,7 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+        
     self.mainTable.dataSource = self
     self.mainTable.delegate = self
     self.mainTable.register(UINib(nibName: "MyTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
@@ -41,8 +43,6 @@ class ViewController: UIViewController {
           return
         }
         self.imagesArray[index] = newImagesContainer.image
-        
-        print(self.imagesArray)
         
         do {
           try CoreDataManager.shared.context.save()
@@ -93,13 +93,16 @@ extension ViewController: UITableViewDataSource {
     let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MyTableViewCell
 //    guard indexPath.row < imagesArray.count else { return cell }
     cell.imageArray = imagesArray[indexPath.row]
+    
     return cell
   }
-  
+  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    return 150.0
+  }
   
 }
 
 extension ViewController: UITableViewDelegate {
-  
 }
+
 

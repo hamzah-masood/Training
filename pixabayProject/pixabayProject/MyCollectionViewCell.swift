@@ -15,7 +15,7 @@ class MyCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-      self.backgroundColor = .red
+      //self.backgroundColor = .red
     }
 
 }
