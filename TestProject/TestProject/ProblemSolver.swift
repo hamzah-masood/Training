@@ -193,13 +193,18 @@ class ProblemSolver {
   func solveThirdProblem() {
     print("incomplete implementation")
     //TODO: Finish Implementation
+
+    
     let amountOfLines: Int = Int(readLine() ?? "") ?? 0//: Int = Int(input[0]) ?? 0
-    var arrayOfNumbers: [String] = []
+    var wordArray: [String] = []
+    var baseWord: String = ""
     
     for i in 0...amountOfLines {
       let myInput = readLine()
       let unwrappedInput = myInput ?? ""
+      wordArray.append(unwrappedInput)
     }
+    baseWord = wordArray[0]
     
   }
 }
