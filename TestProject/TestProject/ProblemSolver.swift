@@ -32,6 +32,12 @@ class ProblemSolver {
              "8    Germany",
              "9    China"]
     solveSecondProblem()
+//    input = ["2",
+//             "acd",
+//             "abc"]
+//    input = ["2",
+//             "abc",
+//             "abcd"]
     input = ["3",
              "abc",
              "abd",
@@ -84,7 +90,7 @@ class ProblemSolver {
     let amountOfLines: Int = Int(readLine() ?? "") ?? 0//: Int = Int(input[0]) ?? 0
     var arrayOfNumbers: [String] = []
 
-    for i in 0...amountOfLines {
+    for _ in 0...amountOfLines {
       let myInput = readLine()
       let unwrappedInput = myInput ?? ""
       var seperatedString = myInput?.components(separatedBy: "    ")
@@ -191,20 +197,37 @@ class ProblemSolver {
    2
    */
   func solveThirdProblem() {
-    print("incomplete implementation")
-    //TODO: Finish Implementation
+
 
     
     let amountOfLines: Int = Int(readLine() ?? "") ?? 0//: Int = Int(input[0]) ?? 0
     var wordArray: [String] = []
-    var baseWord: String = ""
+    var finalAnswer = 0
     
-    for i in 0...amountOfLines {
+    for _ in 0...amountOfLines - 1{
       let myInput = readLine()
       let unwrappedInput = myInput ?? ""
       wordArray.append(unwrappedInput)
     }
-    baseWord = wordArray[0]
-    
+    let min = wordArray.min() ?? ""
+    var finalword: String = ""
+    wordArray.removeAll() {$0 == min}
+
+    for word in wordArray {
+      for eachElement in word {
+        for index in 0...Array(min).count - 1 {
+
+          if Array(min)[index] == Array(word)[index] {
+          if Array(min)[index] == eachElement {
+            finalword.append(eachElement)
+            break
+            }
+          }
+        }
+      }
+      finalAnswer = finalword.count
+      finalword = ""
+    }
+    print(finalAnswer)
   }
 }
