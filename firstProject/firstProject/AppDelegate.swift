@@ -2,8 +2,13 @@
 //  AppDelegate.swift
 //  firstProject
 //
+<<<<<<< HEAD
 //  Created by mcs on 9/20/19.
 //  Copyright © 2019 mcs. All rights reserved.
+=======
+//  Created by MCS on 8/9/19.
+//  Copyright © 2019 MCS. All rights reserved.
+>>>>>>> e04a1522a1809d5ee6611df04304365daf2b0396
 //
 
 import UIKit

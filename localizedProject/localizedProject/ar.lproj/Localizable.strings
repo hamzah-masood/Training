@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  localizedProject
+
+  Created by MCS on 9/11/19.
+  Copyright © 2019 MCS. All rights reserved.
+*/
+
+"helloWorldText" = "مرحبا بالعالم";
+ 
+"helloPerson" = "مرحبا, %@";
