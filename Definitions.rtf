@@ -1,0 +1,187 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1	How would you make sure an app is securely handling user information?\
+	using keychain\
+\
+2	What are our native options for persistance in iOS? Any third party options?\
+	user defaults\
+	keychain\
+	Core data\
+	SQLite\
+	PropertyLists\
+	Realm\
+\
+3	What is core data and what are its main components?\
+	Core data is a framework that uses object relational mapping to figure out how to save the 	information. There are 4 main components persisted store, context, managed objects and the 	coordinator 	\
+\
+4	How do you make a network call? What objects would you use in swift?\
+	you make a network call using URLSession.shared. For JSON data we use dataTask function.\
+\
+5	What is a closure? Explain escaping and non-escaping closures.\
+	closures are blocks of code that take inputs and have outputs and can be passed around to 	other functions as inputs. Nonescaping closures are closures have no existence in memory 	after it goes out of scope whereas escaping closures are where the scope of the passed 	closure exists and has existence in memory till the closure is executed.\
+	\
+6	What is a capture list?\
+	capture lists capture values from the environment a either strong, weak or unowned, we use 	them mainly to avoid strong reference cycles. \
+\
+7	What is the difference between escaping and non escaping? Which is the default?\
+	non escaping are by default. Non escaping functions can\'92t return or finish executing after the body of the calling function has returned. Whereas escaping closures are where their return can escape the body of calling and can be stored somewhere to be retained after the calling function has finished executing.\
+\
+8	How is memory managed in iOS?\
+	Memory management in iOS is automatic as Xcode takes care of the job automatically, Auto Reference Counting(ARC) is where Xcode retains and releases objects automatically.\
+\
+9	What is the difference between strong, weak and unowned?\
+	Strong reference increases the retain count by, while weak and unowned do not. If you try to access a weak variable that has been deinitilized it will give a ni whereas unowned will make an app crash.\
+\
+10	What is a retain cycle and how do you fix it?\
+	retain cycle is a loop that happens when object A retains object B and vice versa, if either object is released Object A won\'92t be reallocated as object B holds a reference to it, we can fix this by assigning them as weak or unowned variables.\
+\
+11	What is an extension? \
+	extension adds functionality to an already existing object.\
+\
+12	What is interface builder?\
+	it is the system that shows the UI elements and their constraints visually through a GUI. It is used both in storyboards and XIBs\
+\
+13	What is auto-layout?\
+	this is the engine takes in provided and user given constraints and figures out where everything goes\
+\
+14	What are size classes?\
+	there are 2 size classes compact and regular, used in conjunction to constraints on how big the device is.\
+\
+15	How do you like to build your views? Why?\
+	I prefer to build my views using storyboard as I am able to see what I want my app to look like and it provides for an easier way to connect to my source code and go from there\
+\
+16	Tell me about the design patterns you\'92ve worked with.\
+	creational: Singleton and Structural: MVC, Adaptor.\
+	\
+17	What is the difference between MVVM and MVC? What advantages does one offer over the other?\
+	MVC stands for Model-View-Controller, which is default app architecture for iOS. The model is where the data is stored, the view is where the presentation logic is done and the controller is where the business logic is done. This is different from MVVM in that the view tends to have access to the model objects and uses those to set up the view. \
+	MVVM stands for Model-View-View Model which is the preferred app architecture as it allows for easier testing of business logic. The model has the data, view has presentation logic and view model has the business logic. This is different from MVC as that the view layer does not have access to the logic, it has to go through the view model for that information. This is what allows for better testing of the business logic. \
+\
+18	What is delegation?\
+	delegation is a design pattern where you hand work off to something else.\
+\
+19	What is a protocol?\
+	protocols are a list of requirements, for an object to implement a protocol, it must have all requirements\
+\
+20	What is TDD? What are the pros and cons of TDD?\
+	TDD stands for test driven development. It is a practice where developers write code only if an automated test has failed. First the test is developed which specifies and validates what the code will do. This is to prevent duplication of code. It also helps make the code clearer, simple and bug free. A disadvantage of TDD is where it might take longer, all team members must use it or none and tests need to be maintained when requirements change,	\
+\
+21	How do you do unit testing?\
+	unit testing involves breaking your program into pieces and subjecting each piece to a series of tests.\
+\
+22	What are your thoughts on making network calls in unit tests?\
+	unit tests and the system under the test should access the network resources to eliminate the influence of external factors.\
+\
+23	How would you mock objects for testing?\
+	to isolate the behavior of the object you want to test, you replace the other objects by mocks that simulate the behavior of the real objects.\
+\
+24	What is dependency injection and how do you do that in Swift?\
+	dependency inject is giving an object its instance variables. It is a technique where one object supplies the dependencies of another object.\
+\
+25	What kinds of notifications are there in iOS?\
+	there are 3 different types of notifications, NsNotifications, UILocal Notification and Remote Notifications \
+\
+26	What are reference and value types? \
+	value types are immutable and are copied upon assignment. Reference types are mutable and only the place in memory is copied\
+\
+27	What are the APIs in iOS for executing code on different threads? Pros and cons of each one?\
+	Grand Central Dispatch lets you focus on the tasks you need to perform rather than on thread management.NSOperation and NSoperationQueue uses GCD for larger and more power functionality, and takes into account the number of available cores and the current load to execute your tasks more efficiently.\
+\
+28	Tell me about the lifecycle of a view controller.\
+	there are 5; viewDidLoad, viewWillAppear, viewDidAppear, viewWillDisappear, viewDidDisappear. View did load executes once per instance\
+\
+29	Tell me about the different states of an app.\
+	There 5: non running, inactive(app is running in foreground but not receiving events,) Active, background, suspended.\
+\
+30	What are atomic and non atomic?\
+	atomic means only on thread can access the variable, it is thread safe and hence is slower. Nonatomic means multiple threads have access to the variable and is thread unsafe as it may result in unexpected behavior if 2 different process try to access the variable at the same time.\
+\
+31	What is the difference between a category and extension in Objc?\
+	categories provide a way to add methods to a class, extensions are only possible if the source code is available the compiler compiles the extension and source code at the same time.\
+\
+32	How can we manage third party dependencies in iOS?\
+	by using Cocoapods(or any dependency manager)\
+\
+33	What are some third party libraries you are familiar with?\
+	Realm and AlamoFire\
+\
+34	What is lazy?\
+	lazy variable is a property whose initial value is not calculated until the first time it is used.\
+\
+35	What is a tuple?\
+	tuples is a type which is used to group multiple values in a single compound value. \
+\
+36	Compare and contrast delegation and broadcaster/observer patterns.\
+	Delegation hands off responsibility to an instance of another type, where as observer patterns distributes communication by introducing observer and subject object. \
+\
+37	What is method swizzling?\
+	it is the process of changing the implementation of an existing selector. \
+\
+38	Tell me all about optionals. What they are, how to handle them, different types, etc.\
+	optionals are properties that could be nil, they are donated with a question mark after the type. There are 5 ways to handle optionals: force unwrapping, conditional binding nil coalescing, implicitly unwrapped optionals and optional chaining. \
+\
+39	What is a higher order function? What are some examples in Swift?\
+	they are functions that operate on other functions by taking a function as an argument or returning a function i.e. sorted, map, filter.\
+\
+40	What is the difference between Any and AnyObject?\
+	AnyObject is only for reference types and any is for both value and reference types.\
+\
+41	Tell me about Scrum. What are the usual Scrum meetings?\
+	Scrum is a framework that helps team work together. Scrums describes a set of meetings, tools and roles that work in concert to help teams structure and manage their work. On each day of a sprint, the team holds a daily scrum meeting called daily scrum. \
+\
+42	What are continuous integration and continuous deployment? What is a tool to achieve them?\
+	CI is where developers merge their changes back to the main branch as often as possible. CD is where every change that passes all stages of the production pipeline is released to your customers. This can be achieved by using Jenkins, TeamCity and Bamboo\
+\
+43	What is a singleton? Give me some examples from the iOS SDK.\
+	singletons are objects where there is only one instance of the object. CoreData\
+\
+44	How can you share data between apps?\
+	you can use the systemwide general pasteboard and by using the same team ID.\
+	\
+45	What is the nil-coelescing operator and what does it do?\
+	it is used for unwrapping optionals by providing a default value\
+\
+46	What is the turnary operator and what does it do?\
+	it allows you to run a check and return one of two values depending on the result of that check.\
+\
+47	How would you distribute apps for testing?\
+	by using testFlight\
+	\
+48	What is instruments? Which have you used and what did you use each one for?\
+	it is a powerful performance analysis and testing tool that is a part of Xcode. We have used Leaks instrument for detecting memory leaks in our code.\
+\
+49	What is the difference between a storyboard and xib?\
+	storyboard is one single file for all the views that are in our app where\'92s XIB is the view of a specific object\
+\
+50	What is OAuth and how does it work?\
+	it uses authorization tokens to prove an identity between consumers and service providers, it is an authentication protocol that allows you to approve one application interacting with another on your behalf without giving access to your username and password.\
+\
+51 	Differences between Swift & Objective-C\
+	The biggest difference is the syntax difference, objC uses the basket notation while swift uses dot notation. Swift also has type inference, as well as type safety. In objC everything is implicitly unwrapped which might cause the app to crash more. ObjC does have the capability for dynamic programming meaning the definition of something can be changed mid-flight. \
+\
+52	What makes Protocols so amazing in Swift\
+	less lines of code and can call multiple complex functionalities with one line of code.\
+\
+53	Composition vs Inheritance, or why OOP has failed us\
+	Composition allows reuse of code without extending but for inheritance you must extend the class for any reuse of code or functionality. OOP uses more line of code.\
+\
+54	Protocol-Oriented Programming (pseudo-duplicate of above)\
+	uses less line of code and is faster\
+\
+55	Delegate vs Closure/Block\
+	in delegate you have to conform to all protocols by implementing all required functions whereas closure is shorter and less complex\
+\
+56	How can you interop Swift & Objective-C in a hybrid codebase\
+	we would use a bridging header where we would import all of the ObjC classes we wanted to use in our swift project.\
+\
+57	What is a Generic?\
+	generic code enables you to write flexible, reusable functions and types that work with any type.\
+\
+58	How do you go about handling JSON responses\
+	There 2 options for JSON parsing, JSONSerialization which turns data unto either an array or dictionary, and Codable protocol which lets us decode the data directly into our model objects using JSONDecoder.\
+}

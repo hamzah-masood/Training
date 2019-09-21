@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "b90e643d34ff71445dff4a23c8416314"
+build_time: [1569018800, 27952000]
+inputs:
+  "/Users/mcs/Documents/Training/firstProject/firstProject/ViewController.swift": [1569018554, 102857154]
+  "/Users/mcs/Documents/Training/firstProject/firstProject/AppDelegate.swift": [1569018554, 85600838]
