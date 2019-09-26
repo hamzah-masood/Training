@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
-options: "41a42ff1db282e03dca7c004b64b7b49"
-build_time: [1569378339, 856904000]
-inputs:
-  "/Users/mcs/Documents/Training/HIMYMProject/HIMYMProject/ViewController.swift": [1569104001, 688222739]
-  "/Users/mcs/Documents/Training/HIMYMProject/HIMYMProject/NextViewController.swift": [1569104001, 688512551]
-  "/Users/mcs/Documents/Training/HIMYMProject/HIMYMProject/AppDelegate.swift": [1569104001, 689739618]
