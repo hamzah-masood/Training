@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "C8AE6EF4-BCFE-469F-8FA4-230A12330D8C"
    type = "1"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "E519D2A3-81E5-4166-BEFF-703638276530"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -22,6 +24,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "C6ABDC11-91C1-470E-9FBA-4E06217FF631"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -38,22 +41,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "QuickFeatureDevelopmentAssessment/FriendsViewModel.swift"
-            timestampString = "589338493.393883"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "getData(session:_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
+            uuid = "6DBFADEF-AE53-41B8-BA31-14EBF818D02C"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -70,6 +58,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "D5F14E11-57AC-4E47-B0C6-B58C0F233262"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -86,6 +75,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "85F731BF-C626-4C88-A6E3-1A2E6028D4E0"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -102,6 +92,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "C1841510-359C-45B6-AD12-42ED3DB6A8F7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -113,43 +104,12 @@
             endingLineNumber = "48"
             landmarkName = "testIfCompletiongHandlerReturnsEmpty()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "QuickFeatureDevelopmentAssessmentTests.QuickFeatureDevelopmentAssessmentTests.testIfCompletiongHandlerReturnsEmpty() -&gt; ()"
-                  moduleName = "QuickFeatureDevelopmentAssessmentTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mcs/Documents/Training/QuickFeatureDevelopmentAssessment/QuickFeatureDevelopmentAssessmentTests/QuickFeatureDevelopmentAssessmentTests.swift"
-                  timestampString = "589338363.860227"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "329">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in QuickFeatureDevelopmentAssessmentTests.QuickFeatureDevelopmentAssessmentTests.testIfCompletiongHandlerReturnsEmpty() -&gt; ()"
-                  moduleName = "QuickFeatureDevelopmentAssessmentTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mcs/Documents/Training/QuickFeatureDevelopmentAssessment/QuickFeatureDevelopmentAssessmentTests/QuickFeatureDevelopmentAssessmentTests.swift"
-                  timestampString = "589338363.865515"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "44">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "DA4523CB-7CF8-4740-AE3B-0BDE7044A8CE"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -161,6 +121,86 @@
             endingLineNumber = "26"
             landmarkName = "init(from:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EA212A8-09A2-4EE8-8938-849BC54880DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFeatureDevelopmentAssessment/FriendsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getData(session:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FCC0A30-39C0-42C1-A972-FBD8EF366FFC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFeatureDevelopmentAssessment/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3B4655E-0900-4EF1-899B-E54DBDD8F4D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickFeatureDevelopmentAssessment/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F3B4655E-0900-4EF1-899B-E54DBDD8F4D8 - 42ce6470cdf7c204"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickFeatureDevelopmentAssessment.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "QuickFeatureDevelopmentAssessment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mcs/Documents/Training/QuickFeatureDevelopmentAssessment/QuickFeatureDevelopmentAssessment/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1319">
+               </Location>
+               <Location
+                  uuid = "F3B4655E-0900-4EF1-899B-E54DBDD8F4D8 - c6fabafd6f069878"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in QuickFeatureDevelopmentAssessment.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "QuickFeatureDevelopmentAssessment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mcs/Documents/Training/QuickFeatureDevelopmentAssessment/QuickFeatureDevelopmentAssessment/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

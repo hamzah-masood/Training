@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "c8b328f2f016ea3eee7e8facf3d741e4"
+build_time: [1569378414, 357773000]
+inputs:
+  "/Users/mcs/Documents/Training/clueProject/clueProject/nextViewController.swift": [1569104001, 600009797]
+  "/Users/mcs/Documents/Training/clueProject/clueProject/MyTableViewCell.swift": [1569104001, 601208216]
+  "/Users/mcs/Documents/Training/clueProject/clueProject/ClueCell.swift": [1569104001, 600289527]
+  "/Users/mcs/Documents/Training/clueProject/clueProject/ViewController.swift": [1569104001, 600636356]
+  "/Users/mcs/Documents/Training/clueProject/clueProject/Clue+CoreDataProperties.swift": [1569104001, 602062859]
+  "/Users/mcs/Documents/Training/clueProject/clueProject/Clue+CoreDataClass.swift": [1569104001, 602352846]
+  "/Users/mcs/Documents/Training/clueProject/clueProject/ClueDataManager.swift": [1569104001, 601751698]
+  "/Users/mcs/Documents/Training/clueProject/clueProject/AppDelegate.swift": [1569104001, 604650894]

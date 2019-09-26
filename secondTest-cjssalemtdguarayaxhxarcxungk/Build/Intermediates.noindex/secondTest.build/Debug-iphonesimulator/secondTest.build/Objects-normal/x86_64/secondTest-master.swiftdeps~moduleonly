@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "cd639dfd8811f6f6c6ee8be07643ada2"
+build_time: [1569456213, 579277000]
+inputs:
+  "/Users/mcs/Documents/Training/secondTest/secondTest/MyTableViewCell.swift": [1569104000, 704639450]
+  "/Users/mcs/Documents/Training/secondTest/secondTest/Joke+CoreDataProperties.swift": [1569104000, 705048399]
+  "/Users/mcs/Documents/Training/secondTest/secondTest/ViewController.swift": [1569104000, 703806334]
+  "/Users/mcs/Documents/Training/secondTest/secondTest/CoreDataManager.swift": [1569104000, 706437941]
+  "/Users/mcs/Documents/Training/secondTest/secondTest/Joke+CoreDataClass.swift": [1569104000, 705475347]
+  "/Users/mcs/Documents/Training/secondTest/secondTest/AppDelegate.swift": [1569104000, 707912351]

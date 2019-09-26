@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "71e6e5866b463313cab5e4c079194bf8"
+build_time: [1569459402, 514823000]
+inputs:
+  "/Users/mcs/Documents/Training/abercrombieProject/abercrombieProject/categoryViewModel.swift": [1569451095, 841114236]
+  "/Users/mcs/Documents/Training/abercrombieProject/abercrombieProject/ViewController.swift": [1569459402, 360133800]
+  "/Users/mcs/Documents/Training/abercrombieProject/abercrombieProject/categoryContainer.swift": [1569458690, 724400768]
+  "/Users/mcs/Documents/Training/abercrombieProject/abercrombieProject/AppDelegate.swift": [1569378235, 507561217]
+  "/Users/mcs/Documents/Training/abercrombieProject/abercrombieProject/SceneDelegate.swift": [1569378235, 510905085]
+  "/Users/mcs/Documents/Training/abercrombieProject/abercrombieProject/MyTableViewCell.swift": [1569459402, 346588480]

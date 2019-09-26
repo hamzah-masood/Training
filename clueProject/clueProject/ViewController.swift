@@ -49,6 +49,7 @@ class ViewController: UIViewController, MyCellDelegate {
         self.wifiConnection = true
       }
       guard let data = data else { return }
+        
       let clue = try? JSONDecoder().decode([Clue].self, from: data)
       guard let allClue = clue else {
         
