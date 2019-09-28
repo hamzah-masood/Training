@@ -62,17 +62,47 @@ extension ViewController: UITableViewDataSource {
         if cell.promoMessage.text == "" {
             cell.promoMessage.isHidden = true
         }
-        cell.bottomDescription.text? = category.bottomDescription ?? ""
+        
+        let description = category.bottomDescription ?? ""
+        let  updatedDescription = description.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression, range: nil)
+       
+        cell.bottomDescription.text? = updatedDescription
         if cell.bottomDescription.text == "" {
             cell.bottomDescription.isHidden = true
         }
+        guard var contentArray = category.content  else {return cell}
         
-        cell.content.text? = category.content?[0].title ?? ""
-        if cell.content.text == "" {
+        guard var myCount =  category.content?.count else { return cell }
+        
+        if contentArray.isEmpty {
             cell.content.isHidden = true
+            cell.content2.isHidden = true
         }
-//        cell.content2.text? = category.content?[1].title ?? ""
-//        if cell.content2.text == "" {
+        
+        if category.content?.count == 0 {//myCount == 0 {
+            cell.content.isHidden = true
+            cell.content2.isHidden = true
+        }
+        
+        else if category.content?.count == 1 {//myCount == 1 {
+            cell.content.text? = category.content?[0].title ?? ""
+            cell.content2.isHidden = true
+            if cell.content.text == "" {
+                cell.content.isHidden = true
+            }
+        }
+        else if myCount > 1 {
+            cell.content.text? = category.content?[0].title ?? ""
+            cell.content2.text? = category.content?[1].title ?? ""
+            if cell.content2.text == "" {
+                cell.content2.isHidden = true
+            }
+            if cell.content.text == "" {
+                cell.content.isHidden = true
+            }
+        }
+//        } else {
+//            cell.content.isHidden = true
 //            cell.content2.isHidden = true
 //        }
         

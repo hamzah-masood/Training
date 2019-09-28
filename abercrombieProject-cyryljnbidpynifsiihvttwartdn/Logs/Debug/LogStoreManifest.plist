@@ -6,6 +6,74 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>01C9282D-A3E5-4228-9EED-20F1A8C7CF25</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>01C9282D-A3E5-4228-9EED-20F1A8C7CF25.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591329484.25578904</real>
+			<key>timeStoppedRecording</key>
+			<real>591329637.86001599</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>01C9282D-A3E5-4228-9EED-20F1A8C7CF25</string>
+		</dict>
+		<key>021D0BC0-DB7C-4520-985D-60B89527D040</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>021D0BC0-DB7C-4520-985D-60B89527D040.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591328044.82323301</real>
+			<key>timeStoppedRecording</key>
+			<real>591328084.28908205</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>021D0BC0-DB7C-4520-985D-60B89527D040</string>
+		</dict>
 		<key>026FE03C-C0BF-4E91-AD4A-658D21E05AF2</key>
 		<dict>
 			<key>className</key>
@@ -141,6 +209,40 @@
 			<string>Debug abercrombieProject</string>
 			<key>uniqueIdentifier</key>
 			<string>0DC05F72-D439-41E9-8392-15F187FEFA77</string>
+		</dict>
+		<key>179525E0-0400-4DC4-8D51-2462586AC553</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>179525E0-0400-4DC4-8D51-2462586AC553.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591327874.45458102</real>
+			<key>timeStoppedRecording</key>
+			<real>591328044.952582</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>179525E0-0400-4DC4-8D51-2462586AC553</string>
 		</dict>
 		<key>1B55C694-0903-4D6E-AED4-DA546C553E38</key>
 		<dict>
@@ -550,6 +652,142 @@
 			<key>uniqueIdentifier</key>
 			<string>4B9FFC85-491A-42F9-A7B7-BE237B283395</string>
 		</dict>
+		<key>4BBCCE4A-308D-4EB4-9A2E-564B5639CEA8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4BBCCE4A-308D-4EB4-9A2E-564B5639CEA8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591329268.67961299</real>
+			<key>timeStoppedRecording</key>
+			<real>591329302.24373996</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>4BBCCE4A-308D-4EB4-9A2E-564B5639CEA8</string>
+		</dict>
+		<key>51A060F3-F8EE-4048-9146-5C5B3FEE7312</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>51A060F3-F8EE-4048-9146-5C5B3FEE7312.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591327616.56287801</real>
+			<key>timeStoppedRecording</key>
+			<real>591327864.39050305</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>51A060F3-F8EE-4048-9146-5C5B3FEE7312</string>
+		</dict>
+		<key>527FEDFC-F109-4419-8C2F-EB19E2A3AAA0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>527FEDFC-F109-4419-8C2F-EB19E2A3AAA0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591329901.21284997</real>
+			<key>timeStoppedRecording</key>
+			<real>591329938.32393396</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>527FEDFC-F109-4419-8C2F-EB19E2A3AAA0</string>
+		</dict>
+		<key>5686E55E-32CE-42B6-9C30-88131061442E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5686E55E-32CE-42B6-9C30-88131061442E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591329159.98370302</real>
+			<key>timeStoppedRecording</key>
+			<real>591329267.111184</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>5686E55E-32CE-42B6-9C30-88131061442E</string>
+		</dict>
 		<key>57D489F9-CABF-4A61-8546-250DAF3250B7</key>
 		<dict>
 			<key>className</key>
@@ -617,6 +855,40 @@
 			<string>Debug abercrombieProject</string>
 			<key>uniqueIdentifier</key>
 			<string>588DE057-825D-4025-B6E8-B6EB842287B3</string>
+		</dict>
+		<key>5948F5DC-6579-4F38-94C7-BEC0D18677B7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5948F5DC-6579-4F38-94C7-BEC0D18677B7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591331214.90460503</real>
+			<key>timeStoppedRecording</key>
+			<real>591331284.53253102</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>5948F5DC-6579-4F38-94C7-BEC0D18677B7</string>
 		</dict>
 		<key>5C35E43F-2A8B-4F19-B286-A2AF04CFBBC3</key>
 		<dict>
@@ -686,6 +958,74 @@
 			<key>uniqueIdentifier</key>
 			<string>5C3FED8B-A26B-41C4-A1C9-8505ACD63A35</string>
 		</dict>
+		<key>6775D8DE-42FD-42C6-B4F6-9C49700AD1B3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6775D8DE-42FD-42C6-B4F6-9C49700AD1B3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591329303.74764502</real>
+			<key>timeStoppedRecording</key>
+			<real>591329480.07555306</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>6775D8DE-42FD-42C6-B4F6-9C49700AD1B3</string>
+		</dict>
+		<key>7628ACD6-5ED4-45B5-9F63-4144E438E943</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7628ACD6-5ED4-45B5-9F63-4144E438E943.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591328085.89959598</real>
+			<key>timeStoppedRecording</key>
+			<real>591328169.31944096</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>7628ACD6-5ED4-45B5-9F63-4144E438E943</string>
+		</dict>
 		<key>77CEC993-4B9B-4BFF-B12E-CCFFE8A5501B</key>
 		<dict>
 			<key>className</key>
@@ -753,6 +1093,74 @@
 			<string>Debug abercrombieProject</string>
 			<key>uniqueIdentifier</key>
 			<string>7B2B0F2B-47F2-4746-B4C4-BDCD1DC23A15</string>
+		</dict>
+		<key>7C357D0C-8163-4493-951D-AD4A2717C74F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7C357D0C-8163-4493-951D-AD4A2717C74F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591328625.203336</real>
+			<key>timeStoppedRecording</key>
+			<real>591328940.22857296</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>7C357D0C-8163-4493-951D-AD4A2717C74F</string>
+		</dict>
+		<key>7CD16A31-E061-4CF7-A0D7-24030338824C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7CD16A31-E061-4CF7-A0D7-24030338824C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591331286.21193695</real>
+			<key>timeStoppedRecording</key>
+			<real>591331402.10538304</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>7CD16A31-E061-4CF7-A0D7-24030338824C</string>
 		</dict>
 		<key>7CD69928-BB3E-47E6-B90B-379C81A02BCF</key>
 		<dict>
@@ -856,6 +1264,40 @@
 			<key>uniqueIdentifier</key>
 			<string>7F9F0463-30B5-4C4E-9183-4D31848B0652</string>
 		</dict>
+		<key>80719922-3660-48C3-9A73-47C61AAC5FAB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>80719922-3660-48C3-9A73-47C61AAC5FAB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591327124.79428804</real>
+			<key>timeStoppedRecording</key>
+			<real>591327458.17388904</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>80719922-3660-48C3-9A73-47C61AAC5FAB</string>
+		</dict>
 		<key>81A85148-29EE-44CE-87BA-BBB31981249F</key>
 		<dict>
 			<key>className</key>
@@ -889,6 +1331,74 @@
 			<string>Debug abercrombieProject</string>
 			<key>uniqueIdentifier</key>
 			<string>81A85148-29EE-44CE-87BA-BBB31981249F</string>
+		</dict>
+		<key>862D8EC7-DF77-4E20-8866-C03BE844A9B0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>862D8EC7-DF77-4E20-8866-C03BE844A9B0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591331014.94977295</real>
+			<key>timeStoppedRecording</key>
+			<real>591331205.55459404</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>862D8EC7-DF77-4E20-8866-C03BE844A9B0</string>
+		</dict>
+		<key>87214007-DCA4-4E7D-AC37-42897727299C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>87214007-DCA4-4E7D-AC37-42897727299C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591329040.72501802</real>
+			<key>timeStoppedRecording</key>
+			<real>591329158.33445299</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>87214007-DCA4-4E7D-AC37-42897727299C</string>
 		</dict>
 		<key>8BDAB5AC-C8EF-4FED-907C-CD526CAADD66</key>
 		<dict>
@@ -1093,6 +1603,40 @@
 			<string>Debug abercrombieProject</string>
 			<key>uniqueIdentifier</key>
 			<string>AA0B9EA3-EB66-48FB-B432-A4BAD48352C1</string>
+		</dict>
+		<key>AA74C779-D1D9-4CC0-9AAC-B999955ECC37</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AA74C779-D1D9-4CC0-9AAC-B999955ECC37.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591328182.49818003</real>
+			<key>timeStoppedRecording</key>
+			<real>591328622.56218195</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>AA74C779-D1D9-4CC0-9AAC-B999955ECC37</string>
 		</dict>
 		<key>AE2550F6-0357-4C55-BFC3-D2CE4D8558A3</key>
 		<dict>
@@ -1332,6 +1876,40 @@
 			<key>uniqueIdentifier</key>
 			<string>D43EC973-1A2B-4529-AF0A-E8170CB1BA8C</string>
 		</dict>
+		<key>D723A392-A0DA-4BB6-BE4E-4CDF56D288BD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D723A392-A0DA-4BB6-BE4E-4CDF56D288BD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591328942.12990797</real>
+			<key>timeStoppedRecording</key>
+			<real>591329039.09452105</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>D723A392-A0DA-4BB6-BE4E-4CDF56D288BD</string>
+		</dict>
 		<key>D816D6FC-40CA-4D71-B435-8FDB11CCD0ED</key>
 		<dict>
 			<key>className</key>
@@ -1365,6 +1943,40 @@
 			<string>Debug abercrombieProject</string>
 			<key>uniqueIdentifier</key>
 			<string>D816D6FC-40CA-4D71-B435-8FDB11CCD0ED</string>
+		</dict>
+		<key>D86023DD-DB12-4A77-8876-60E70E7C8767</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D86023DD-DB12-4A77-8876-60E70E7C8767.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591330895.40758705</real>
+			<key>timeStoppedRecording</key>
+			<real>591330920.84290195</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>D86023DD-DB12-4A77-8876-60E70E7C8767</string>
 		</dict>
 		<key>DFCE9943-E128-43B4-8EF9-AC497561A91A</key>
 		<dict>
@@ -1536,6 +2148,74 @@
 			<key>uniqueIdentifier</key>
 			<string>E7844373-7E8B-4787-BA28-3FEFAC7A63B2</string>
 		</dict>
+		<key>E7D820FD-6BFD-4516-A25B-926D4743F892</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E7D820FD-6BFD-4516-A25B-926D4743F892.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591327458.09080803</real>
+			<key>timeStoppedRecording</key>
+			<real>591327614.97889805</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>E7D820FD-6BFD-4516-A25B-926D4743F892</string>
+		</dict>
+		<key>EA849FA0-95D7-46C4-8689-CD120387E9A9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EA849FA0-95D7-46C4-8689-CD120387E9A9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591152259.28812695</real>
+			<key>timeStoppedRecording</key>
+			<real>591327122.12739003</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>EA849FA0-95D7-46C4-8689-CD120387E9A9</string>
+		</dict>
 		<key>ED1F0E78-31FA-452F-A72B-DD714EA166DF</key>
 		<dict>
 			<key>className</key>
@@ -1637,6 +2317,40 @@
 			<string>Debug abercrombieProject</string>
 			<key>uniqueIdentifier</key>
 			<string>F36E4F2C-76ED-4DB9-AC74-8317921391BB</string>
+		</dict>
+		<key>F5D9B9B6-36B6-4FEB-B503-6C6615AEA443</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F5D9B9B6-36B6-4FEB-B503-6C6615AEA443.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>abercrombieProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>abercrombieProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug abercrombieProject</string>
+			<key>timeStartedRecording</key>
+			<real>591330462.38648796</real>
+			<key>timeStoppedRecording</key>
+			<real>591330893.67409897</real>
+			<key>title</key>
+			<string>Debug abercrombieProject</string>
+			<key>uniqueIdentifier</key>
+			<string>F5D9B9B6-36B6-4FEB-B503-6C6615AEA443</string>
 		</dict>
 		<key>F5EECE99-36E5-46AF-AE8B-4666EDF4E1A4</key>
 		<dict>

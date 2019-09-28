@@ -11,6 +11,7 @@ provides-dynamic-lookup:
 - "viewDidLoad"
 depends-top-level:
 - !private "=="
+- !private ">"
 - !private "??"
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
@@ -37,8 +38,13 @@ depends-top-level:
 - "ViewController"
 - "categoryViewModel"
 depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "isEmpty"]
 - !private ["Sa", "subscript"]
+- !private ["SK", "count"]
 - !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "replacingOccurrences"]
 - !private ["SK", "row"]
 - !private ["SK", "subscript"]
 - !private ["So15CALayerDelegateP", "backgroundImage"]
@@ -68,6 +74,7 @@ depends-member:
 - ["s7CVarArgP", "categoryViewModel"]
 - !private ["s7CVarArgP", "content"]
 - !private ["s7CVarArgP", "content2"]
+- !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "dataSource"]
 - !private ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "dequeueReusableCell"]
@@ -75,6 +82,7 @@ depends-member:
 - ["s7CVarArgP", "indexPathForPreferredFocusedView"]
 - ["s7CVarArgP", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
 - !private ["s7CVarArgP", "isHidden"]
 - !private ["s7CVarArgP", "main"]
 - !private ["s7CVarArgP", "mainTable"]
@@ -83,6 +91,7 @@ depends-member:
 - !private ["s7CVarArgP", "promoMessage"]
 - !private ["s7CVarArgP", "register"]
 - !private ["s7CVarArgP", "reloadData"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
 - ["s7CVarArgP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s7CVarArgP", "scrollViewDidEndDecelerating"]
 - ["s7CVarArgP", "scrollViewDidEndDragging"]
@@ -114,11 +123,18 @@ depends-member:
 - !private ["18abercrombieProject8CategoryV", "promoMessage"]
 - !private ["18abercrombieProject8CategoryV", "title"]
 - !private ["18abercrombieProject8CategoryV", "topDescription"]
+- !private ["Sl", "count"]
 - !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "replacingOccurrences"]
 - !private ["Sl", "row"]
 - !private ["Sl", "subscript"]
+- !private ["SL", "replacingOccurrences"]
 - !private ["SL", "row"]
+- !private ["So22NSStringCompareOptionsV", "regularExpression"]
 - !private ["18abercrombieProject7ContentV", "title"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
 - !private ["s28CustomDebugStringConvertibleP", "NSData"]
@@ -132,6 +148,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "categoryViewModel"]
 - !private ["s28CustomDebugStringConvertibleP", "content"]
 - !private ["s28CustomDebugStringConvertibleP", "content2"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "dataSource"]
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
@@ -139,6 +156,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "indexPathForPreferredFocusedView"]
 - ["s28CustomDebugStringConvertibleP", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
 - !private ["s28CustomDebugStringConvertibleP", "isHidden"]
 - !private ["s28CustomDebugStringConvertibleP", "main"]
 - !private ["s28CustomDebugStringConvertibleP", "mainTable"]
@@ -147,6 +165,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "promoMessage"]
 - !private ["s28CustomDebugStringConvertibleP", "register"]
 - !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
 - !private ["s28CustomDebugStringConvertibleP", "row"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewDidEndDecelerating"]
@@ -173,12 +192,15 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "viewForZooming"]
 - ["s28CustomDebugStringConvertibleP", "viewForZoomingInScrollView"]
 - !private ["s28CustomDebugStringConvertibleP", "viewModel"]
+- !private ["s17CustomReflectableP", "count"]
 - !private ["s17CustomReflectableP", "dataSource"]
 - !private ["s17CustomReflectableP", "delegate"]
 - !private ["s17CustomReflectableP", "image"]
+- !private ["s17CustomReflectableP", "isEmpty"]
 - !private ["s17CustomReflectableP", "isHidden"]
 - !private ["s17CustomReflectableP", "register"]
 - !private ["s17CustomReflectableP", "reloadData"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
 - !private ["s17CustomReflectableP", "row"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "text"]
@@ -194,6 +216,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "categoryViewModel"]
 - !private ["s23CustomStringConvertibleP", "content"]
 - !private ["s23CustomStringConvertibleP", "content2"]
+- !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "dataSource"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
@@ -201,6 +224,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "indexPathForPreferredFocusedView"]
 - ["s23CustomStringConvertibleP", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
 - !private ["s23CustomStringConvertibleP", "isHidden"]
 - !private ["s23CustomStringConvertibleP", "main"]
 - !private ["s23CustomStringConvertibleP", "mainTable"]
@@ -209,6 +233,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "promoMessage"]
 - !private ["s23CustomStringConvertibleP", "register"]
 - !private ["s23CustomStringConvertibleP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
 - !private ["s23CustomStringConvertibleP", "row"]
 - ["s23CustomStringConvertibleP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s23CustomStringConvertibleP", "scrollViewDidEndDecelerating"]
@@ -235,18 +260,23 @@ depends-member:
 - ["s23CustomStringConvertibleP", "viewForZooming"]
 - ["s23CustomStringConvertibleP", "viewForZoomingInScrollView"]
 - !private ["s23CustomStringConvertibleP", "viewModel"]
+- !private ["10Foundation12DataProtocolP", "count"]
 - !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
 - !private ["10Foundation12DataProtocolP", "subscript"]
 - !private ["Se", "backgroundImage"]
 - !private ["Se", "bottomDescription"]
 - !private ["Se", "content"]
+- !private ["Se", "count"]
 - !private ["Se", "dataSource"]
 - !private ["Se", "delegate"]
 - !private ["Se", "image"]
+- !private ["Se", "isEmpty"]
 - !private ["Se", "isHidden"]
 - !private ["Se", "promoMessage"]
 - !private ["Se", "register"]
 - !private ["Se", "reloadData"]
+- !private ["Se", "replacingOccurrences"]
 - !private ["Se", "row"]
 - !private ["Se", "subscript"]
 - !private ["Se", "text"]
@@ -256,12 +286,15 @@ depends-member:
 - !private ["So18OS_dispatch_objectC", "main"]
 - !private ["So17OS_dispatch_queueC", "async"]
 - !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "count"]
 - !private ["SE", "dataSource"]
 - !private ["SE", "delegate"]
 - !private ["SE", "image"]
+- !private ["SE", "isEmpty"]
 - !private ["SE", "isHidden"]
 - !private ["SE", "register"]
 - !private ["SE", "reloadData"]
+- !private ["SE", "replacingOccurrences"]
 - !private ["SE", "row"]
 - !private ["SE", "subscript"]
 - !private ["SE", "text"]
@@ -277,6 +310,7 @@ depends-member:
 - ["SQ", "categoryViewModel"]
 - !private ["SQ", "content"]
 - !private ["SQ", "content2"]
+- !private ["SQ", "count"]
 - !private ["SQ", "dataSource"]
 - !private ["SQ", "delegate"]
 - !private ["SQ", "dequeueReusableCell"]
@@ -284,6 +318,7 @@ depends-member:
 - ["SQ", "indexPathForPreferredFocusedView"]
 - ["SQ", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
 - !private ["SQ", "isHidden"]
 - !private ["SQ", "main"]
 - !private ["SQ", "mainTable"]
@@ -291,7 +326,9 @@ depends-member:
 - ["SQ", "numberOfSectionsInTableView"]
 - !private ["SQ", "promoMessage"]
 - !private ["SQ", "register"]
+- !private ["SQ", "regularExpression"]
 - !private ["SQ", "reloadData"]
+- !private ["SQ", "replacingOccurrences"]
 - !private ["SQ", "row"]
 - ["SQ", "scrollViewDidChangeAdjustedContentInset"]
 - ["SQ", "scrollViewDidEndDecelerating"]
@@ -318,8 +355,12 @@ depends-member:
 - ["SQ", "viewForZooming"]
 - ["SQ", "viewForZoomingInScrollView"]
 - !private ["SQ", "viewModel"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "regularExpression"]
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
 - !private ["s23ExpressibleByNilLiteralP", "dataSource"]
 - !private ["s23ExpressibleByNilLiteralP", "delegate"]
 - !private ["s23ExpressibleByNilLiteralP", "image"]
@@ -327,6 +368,9 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "register"]
 - !private ["s23ExpressibleByNilLiteralP", "reloadData"]
 - !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s32ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
 - !private ["SH", "DispatchQueue"]
 - !private ["SH", "NSData"]
 - !private ["SH", "NSURL"]
@@ -339,6 +383,7 @@ depends-member:
 - ["SH", "categoryViewModel"]
 - !private ["SH", "content"]
 - !private ["SH", "content2"]
+- !private ["SH", "count"]
 - !private ["SH", "dataSource"]
 - !private ["SH", "delegate"]
 - !private ["SH", "dequeueReusableCell"]
@@ -346,6 +391,7 @@ depends-member:
 - ["SH", "indexPathForPreferredFocusedView"]
 - ["SH", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
 - !private ["SH", "isHidden"]
 - !private ["SH", "main"]
 - !private ["SH", "mainTable"]
@@ -354,6 +400,7 @@ depends-member:
 - !private ["SH", "promoMessage"]
 - !private ["SH", "register"]
 - !private ["SH", "reloadData"]
+- !private ["SH", "replacingOccurrences"]
 - !private ["SH", "row"]
 - ["SH", "scrollViewDidChangeAdjustedContentInset"]
 - ["SH", "scrollViewDidEndDecelerating"]
@@ -381,8 +428,14 @@ depends-member:
 - ["SH", "viewForZoomingInScrollView"]
 - !private ["SH", "viewModel"]
 - !private ["10Foundation9IndexPathV", "row"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- !private ["SM", "count"]
+- !private ["SM", "isEmpty"]
 - !private ["SM", "row"]
 - !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - !private ["18abercrombieProject15MyTableViewCellC", "backgroundImage"]
 - !private ["18abercrombieProject15MyTableViewCellC", "bottomDescription"]
@@ -416,6 +469,7 @@ depends-member:
 - !private ["So8NSCodingP", "promoMessage"]
 - !private ["So8NSCodingP", "register"]
 - !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
 - ["So8NSCodingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So8NSCodingP", "scrollViewDidEndDecelerating"]
 - ["So8NSCodingP", "scrollViewDidEndDragging"]
@@ -441,6 +495,7 @@ depends-member:
 - ["So8NSCodingP", "viewForZoomingInScrollView"]
 - !private ["So8NSCodingP", "viewModel"]
 - !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
 - !private ["So6NSDataC", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
 - !private ["So26NSExtensionRequestHandlingP", "NSData"]
@@ -477,8 +532,11 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "viewForZoomingInScrollView"]
 - !private ["So26NSExtensionRequestHandlingP", "viewModel"]
 - !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
 - !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
 - !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
 - ["So8NSObjectC", "Category"]
 - !private ["So8NSObjectC", "Data"]
 - !private ["So8NSObjectC", "DispatchQueue"]
@@ -514,6 +572,7 @@ depends-member:
 - !private ["So8NSObjectC", "promoMessage"]
 - !private ["So8NSObjectC", "register"]
 - !private ["So8NSObjectC", "reloadData"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
 - ["So8NSObjectC", "scrollViewDidChangeAdjustedContentInset"]
 - ["So8NSObjectC", "scrollViewDidEndDecelerating"]
 - ["So8NSObjectC", "scrollViewDidEndDragging"]
@@ -565,6 +624,7 @@ depends-member:
 - !private ["So8NSObjectP", "promoMessage"]
 - !private ["So8NSObjectP", "register"]
 - !private ["So8NSObjectP", "reloadData"]
+- !private ["So8NSObjectP", "replacingOccurrences"]
 - ["So8NSObjectP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So8NSObjectP", "scrollViewDidEndDecelerating"]
 - ["So8NSObjectP", "scrollViewDidEndDragging"]
@@ -590,9 +650,12 @@ depends-member:
 - ["So8NSObjectP", "viewForZoomingInScrollView"]
 - !private ["So8NSObjectP", "viewModel"]
 - !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So8NSStringC", "replacingOccurrences"]
 - !private ["So5NSURLC", "init"]
 - !private ["So9OS_objectC", "async"]
 - !private ["So9OS_objectC", "main"]
+- !private ["s9OptionSetP", "regularExpression"]
 - !private ["Sq", "dataSource"]
 - !private ["Sq", "delegate"]
 - !private ["Sq", "image"]
@@ -600,16 +663,30 @@ depends-member:
 - !private ["Sq", "register"]
 - !private ["Sq", "reloadData"]
 - !private ["Sq", "text"]
+- !private ["Sk", "count"]
 - !private ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
 - !private ["Sk", "row"]
 - !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "replacingOccurrences"]
 - !private ["Sm", "subscript"]
+- !private ["SY", "regularExpression"]
 - !private ["10Foundation20ReferenceConvertibleP", "row"]
 - !private ["7Combine9SchedulerP", "async"]
 - !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", "count"]
 - !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "replacingOccurrences"]
 - !private ["ST", "row"]
 - !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "regularExpression"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["Sy", "replacingOccurrences"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
 - !private ["So29UIAccessibilityIdentificationP", "backgroundImage"]
 - !private ["So29UIAccessibilityIdentificationP", "bottomDescription"]
@@ -1380,12 +1457,26 @@ depends-member:
 - ["18abercrombieProject14ViewControllerC", "viewForZooming"]
 - ["18abercrombieProject14ViewControllerC", "viewForZoomingInScrollView"]
 - ["18abercrombieProject14ViewControllerC", "viewModel"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "replacingOccurrences"]
 - !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSData"]
@@ -1414,6 +1505,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "promoMessage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidEndDecelerating"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidEndDragging"]
@@ -1465,6 +1557,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "promoMessage"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "register"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reloadData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "replacingOccurrences"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidEndDecelerating"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidEndDragging"]
@@ -1489,12 +1582,15 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZooming"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZoomingInScrollView"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewModel"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "dataSource"]
 - !private ["s21_ObjectiveCBridgeableP", "delegate"]
 - !private ["s21_ObjectiveCBridgeableP", "image"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
 - !private ["s21_ObjectiveCBridgeableP", "isHidden"]
 - !private ["s21_ObjectiveCBridgeableP", "register"]
 - !private ["s21_ObjectiveCBridgeableP", "reloadData"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
 - !private ["s21_ObjectiveCBridgeableP", "row"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "text"]
@@ -1525,6 +1621,7 @@ depends-nominal:
 - !private "18abercrombieProject8CategoryV"
 - !private "Sl"
 - !private "SL"
+- !private "So22NSStringCompareOptionsV"
 - !private "18abercrombieProject7ContentV"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
@@ -1537,9 +1634,15 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
 - !private "10Foundation9IndexPathV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
 - !private "18abercrombieProject15MyTableViewCellC"
@@ -1553,14 +1656,22 @@ depends-nominal:
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
 - !private "So5NSURLC"
 - !private "So9OS_objectC"
+- !private "s9OptionSetP"
 - !private "Sq"
 - !private "Sk"
 - !private "Sm"
+- !private "SY"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "7Combine9SchedulerP"
 - !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
@@ -1600,6 +1711,9 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"

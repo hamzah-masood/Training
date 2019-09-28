@@ -39,12 +39,17 @@ class MyTableViewCell: UITableViewCell {
         
         backgroundImage.isHidden = false
         topDescription.isHidden = false
+        topDescription.text = ""
         title.isHidden = false
+        title.text = ""
         promoMessage.isHidden = false
+        promoMessage.text = ""
         bottomDescription.isHidden = false
+        bottomDescription.text = ""
         content.isHidden = false
+        content.text = ""
         content2.isHidden = false
-       
+        content2.text = ""
      }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

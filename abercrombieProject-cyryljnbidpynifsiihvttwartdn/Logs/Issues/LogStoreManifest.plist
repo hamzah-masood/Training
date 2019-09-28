@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>B127995E-CF26-4FD8-BDE3-98227FDF539F</key>
+		<key>4749AA2D-5EFE-4FAA-B6E2-C6E5A0F0EEFC</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,24 +15,24 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>B127995E-CF26-4FD8-BDE3-98227FDF539F.xcactivitylog</string>
+			<string>4749AA2D-5EFE-4FAA-B6E2-C6E5A0F0EEFC.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>signature</key>
 			<string>abercrombieProject-cyryljnbidpynifsiihvttwartdn</string>
 			<key>timeStartedRecording</key>
-			<real>591152257.28779399</real>
+			<real>591331401.92284596</real>
 			<key>timeStoppedRecording</key>
-			<real>591152259.27376902</real>
+			<real>591331403.77687097</real>
 			<key>title</key>
 			<string>Build target abercrombieProject</string>
 			<key>uniqueIdentifier</key>
-			<string>B127995E-CF26-4FD8-BDE3-98227FDF539F</string>
+			<string>4749AA2D-5EFE-4FAA-B6E2-C6E5A0F0EEFC</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

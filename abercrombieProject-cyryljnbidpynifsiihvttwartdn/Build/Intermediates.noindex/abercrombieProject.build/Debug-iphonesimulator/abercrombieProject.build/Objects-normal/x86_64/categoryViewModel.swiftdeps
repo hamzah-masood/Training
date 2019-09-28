@@ -25,7 +25,6 @@ depends-top-level:
 - "URLSession"
 - "Void"
 - "categoryViewModel"
-- !private "print"
 depends-member:
 - !private ["Sa", "count"]
 - ["Sa", "init"]
@@ -181,7 +180,6 @@ depends-member:
 - ["18abercrombieProject17categoryViewModelC", "getData"]
 - ["18abercrombieProject17categoryViewModelC", "init"]
 - ["18abercrombieProject17categoryViewModelC", "numberOfCategoriess"]
-- !private ["18abercrombieProject17categoryViewModelC", "print"]
 depends-nominal:
 - "Sa"
 - "SK"
@@ -1437,4 +1435,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "ba9ec157058c8d39c91a4824543787b0"
+interface-hash: "b2bed7b79ae68c31b652bcaa52248df0"
