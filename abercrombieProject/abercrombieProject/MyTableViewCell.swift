@@ -8,18 +8,37 @@
 
 import UIKit
 
+protocol MyViewDelegate {
+    func didTapButton(with value: String)
+}
+
 class MyTableViewCell: UITableViewCell {
 
+    
+    var delegate: MyViewDelegate?
+
+    
     @IBOutlet weak var backgroundImage: UIImageView!
     @IBOutlet weak var topDescription: UILabel!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var promoMessage: UILabel!
     @IBOutlet weak var bottomDescription: UILabel!
-    @IBOutlet weak var content: UILabel!
-    @IBOutlet weak var content2: UILabel!
     
+    @IBOutlet weak var contentButtonLabel: UIButton!
+    @IBOutlet weak var content2Label: UIButton!
     
-//    topDesccription
+    var urlString: String = ""
+    var secondURLString: String = ""
+
+    @IBAction func contentButton(_ sender: Any) {
+        delegate?.didTapButton(with: urlString)
+        
+    }
+    @IBAction func content2(_ sender: Any) {
+        delegate?.didTapButton(with: secondURLString)
+    }
+    
+    //    topDesccription
 //    a. Font Size: 13
 //    3. title
 //    a. Font Size: 17 (BOLD)
@@ -32,6 +51,7 @@ class MyTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+
         // Initialization code
     }
     override func prepareForReuse() {
@@ -46,10 +66,11 @@ class MyTableViewCell: UITableViewCell {
         promoMessage.text = ""
         bottomDescription.isHidden = false
         bottomDescription.text = ""
-        content.isHidden = false
-        content.text = ""
-        content2.isHidden = false
-        content2.text = ""
+        contentButtonLabel.isHidden = false
+        contentButtonLabel.setTitle("", for: .normal)
+        content2Label.isHidden = false
+        content2Label.setTitle("", for: .normal)
+        
      }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

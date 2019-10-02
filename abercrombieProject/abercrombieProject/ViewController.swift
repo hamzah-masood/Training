@@ -8,7 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MyViewDelegate {
+
+    
+
+    
+    
+    func didTapButton(with value: String) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let nextViewController = storyboard.instantiateViewController(withIdentifier: "NextViewController") as! NextViewController
+        nextViewController.url = value
+        self.navigationController?.pushViewController(nextViewController, animated: true)
+    }
+    
 
     @IBOutlet weak var mainTable: UITableView!
     
@@ -17,10 +29,11 @@ class ViewController: UIViewController {
     let categoryArray: [Category] = []
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
   
+        
+        
         mainTable.dataSource = self
         mainTable.delegate = self
         //self.episodeTableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
@@ -43,6 +56,7 @@ extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MyTableViewCell
+        cell.delegate = self
         let category = self.viewModel.category(for: indexPath.row)
         
         DispatchQueue.main.async {
@@ -70,42 +84,38 @@ extension ViewController: UITableViewDataSource {
         if cell.bottomDescription.text == "" {
             cell.bottomDescription.isHidden = true
         }
-        guard var contentArray = category.content  else {return cell}
+        guard let contentArray = category.content  else {return cell}
         
-        guard var myCount =  category.content?.count else { return cell }
+        guard let myCount =  category.content?.count else { return cell }
         
         if contentArray.isEmpty {
-            cell.content.isHidden = true
-            cell.content2.isHidden = true
-        }
-        
-        if category.content?.count == 0 {//myCount == 0 {
-            cell.content.isHidden = true
-            cell.content2.isHidden = true
+            cell.contentButtonLabel.isHidden = true
+            cell.content2Label.isHidden = true
         }
         
         else if category.content?.count == 1 {//myCount == 1 {
-            cell.content.text? = category.content?[0].title ?? ""
-            cell.content2.isHidden = true
-            if cell.content.text == "" {
-                cell.content.isHidden = true
-            }
+            let label = category.content?[0].title ?? ""
+            cell.contentButtonLabel.setTitle(label, for: .normal)
+            cell.urlString = category.content?[0].target ?? ""
+            
+            cell.content2Label.isHidden = true
+        
         }
         else if myCount > 1 {
-            cell.content.text? = category.content?[0].title ?? ""
-            cell.content2.text? = category.content?[1].title ?? ""
-            if cell.content2.text == "" {
-                cell.content2.isHidden = true
-            }
-            if cell.content.text == "" {
-                cell.content.isHidden = true
-            }
+            let label = category.content?[0].title ?? ""
+            let label2 = category.content?[1].title ?? ""
+            
+            cell.contentButtonLabel.setTitle(label, for: .normal)
+            cell.urlString = category.content?[0].target ?? ""
+            
+            cell.content2Label.setTitle(label2, for: .normal)
+            cell.secondURLString = category.content?[1].target ?? ""
+            
+ 
+           
         }
-//        } else {
-//            cell.content.isHidden = true
-//            cell.content2.isHidden = true
-//        }
         
+            
         return cell
     }
     
@@ -113,5 +123,7 @@ extension ViewController: UITableViewDataSource {
 }
 
 extension ViewController: UITableViewDelegate {
+    
+
     
 }

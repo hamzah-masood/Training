@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "67d4ffd0c7a3b7d6b0e141104448ec3b"
+build_time: [1569980898, 120821000]
+inputs:
+  "/Users/mcs/Documents/Training/firstTest/firstTest/nextViewController.swift": [1569103906, 431568846]
+  "/Users/mcs/Documents/Training/firstTest/firstTest/ViewController.swift": [1569103906, 431425246]
+  "/Users/mcs/Documents/Training/firstTest/firstTest/AppDelegate.swift": [1569103906, 430420716]

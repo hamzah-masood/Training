@@ -19,6 +19,7 @@
 		047AEC9A233B0BEA00E7B087 /* categoryContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AEC99233B0BEA00E7B087 /* categoryContainer.swift */; };
 		047AEC9D233C18EA00E7B087 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AEC9B233C18EA00E7B087 /* MyTableViewCell.swift */; };
 		047AEC9E233C18EA00E7B087 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047AEC9C233C18EA00E7B087 /* MyTableViewCell.xib */; };
+		047AECA02342AAF300E7B087 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AEC9F2342AAF300E7B087 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		047AEC99233B0BEA00E7B087 /* categoryContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryContainer.swift; sourceTree = "<group>"; };
 		047AEC9B233C18EA00E7B087 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		047AEC9C233C18EA00E7B087 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		047AEC9F2342AAF300E7B087 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				047AEC67233B073B00E7B087 /* AppDelegate.swift */,
 				047AEC69233B073B00E7B087 /* SceneDelegate.swift */,
 				047AEC6B233B073B00E7B087 /* ViewController.swift */,
+				047AEC9F2342AAF300E7B087 /* NextViewController.swift */,
 				047AEC97233B0B9800E7B087 /* categoryViewModel.swift */,
 				047AEC99233B0BEA00E7B087 /* categoryContainer.swift */,
 				047AEC6D233B073B00E7B087 /* Main.storyboard */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				047AEC98233B0B9800E7B087 /* categoryViewModel.swift in Sources */,
+				047AECA02342AAF300E7B087 /* NextViewController.swift in Sources */,
 				047AEC6C233B073B00E7B087 /* ViewController.swift in Sources */,
 				047AEC9A233B0BEA00E7B087 /* categoryContainer.swift in Sources */,
 				047AEC68233B073B00E7B087 /* AppDelegate.swift in Sources */,
