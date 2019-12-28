@@ -1,0 +1,13 @@
+platform :ios, '12.0'
+
+target 'Hiring' do
+  use_frameworks!
+
+  pod 'SnapKit'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+
+  target 'HiringTests' do
+    inherit! :search_paths
+  end
+end

@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "1fae917fada06f723fe35fa4fc4d1347"
+build_time: [1576686726, 304768000]
+inputs:
+  "/Users/mcs/Documents/Training/BookSearch/Pods/NetworkTransaction/NetworkTransaction/Transactions/APITransaction.swift": [1576252197, 0]
+  "/Users/mcs/Documents/Training/BookSearch/Pods/NetworkTransaction/NetworkTransaction/ServiceConfigurationExamples/BasicGetConfiguration.swift": [1576252197, 0]
+  "/Users/mcs/Documents/Training/BookSearch/Pods/NetworkTransaction/NetworkTransaction/ServiceConfigurationExamples/BasicImageConfiguration.swift": [1576252197, 0]
+  "/Users/mcs/Documents/Training/BookSearch/Pods/NetworkTransaction/NetworkTransaction/Utility/Enums.swift": [1576252197, 0]
+  "/Users/mcs/Documents/Training/BookSearch/Pods/NetworkTransaction/NetworkTransaction/Managers/ImageNetworkManager.swift": [1576252197, 0]
+  "/Users/mcs/Documents/Training/BookSearch/Pods/NetworkTransaction/NetworkTransaction/Transactions/ImageTransaction.swift": [1576252197, 0]
+  "/Users/mcs/Documents/Training/BookSearch/Pods/NetworkTransaction/NetworkTransaction/Managers/NetworkManager.swift": [1576252197, 0]
+  "/Users/mcs/Documents/Training/BookSearch/Pods/NetworkTransaction/NetworkTransaction/NetworkManagerErrors/NetworkManagerError.swift": [1576252197, 0]
+  "/Users/mcs/Documents/Training/BookSearch/Pods/NetworkTransaction/NetworkTransaction/ServiceConfiguration/ServiceConfiguration.swift": [1576252197, 0]

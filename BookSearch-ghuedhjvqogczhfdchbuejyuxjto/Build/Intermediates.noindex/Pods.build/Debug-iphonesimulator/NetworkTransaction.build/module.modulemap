@@ -1,0 +1,11 @@
+framework module NetworkTransaction {
+  umbrella header "NetworkTransaction-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module NetworkTransaction.Swift {
+    header "NetworkTransaction-Swift.h"
+    requires objc
+}

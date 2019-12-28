@@ -1,8 +1,8 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\margl1440\margr1440\vieww15280\viewh12880\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
 \f0\fs24 \cf0 1	How would you make sure an app is securely handling user information?\
@@ -26,7 +26,7 @@
 	closures are blocks of code that take inputs and have outputs and can be passed around to 	other functions as inputs. Nonescaping closures are closures have no existence in memory 	after it goes out of scope whereas escaping closures are where the scope of the passed 	closure exists and has existence in memory till the closure is executed.\
 	\
 6	What is a capture list?\
-	capture lists capture values from the environment a either strong, weak or unowned, we use 	them mainly to avoid strong reference cycles. \
+	capture lists capture values from the environment  either strong, weak or unowned, we use 	them mainly to avoid strong reference cycles. \
 \
 7	What is the difference between escaping and non escaping? Which is the default?\
 	non escaping are by default. Non escaping functions can\'92t return or finish executing after the body of the calling function has returned. Whereas escaping closures are where their return can escape the body of calling and can be stored somewhere to be retained after the calling function has finished executing.\
@@ -35,10 +35,13 @@
 	Memory management in iOS is automatic as Xcode takes care of the job automatically, Auto Reference Counting(ARC) is where Xcode retains and releases objects automatically.\
 \
 9	What is the difference between strong, weak and unowned?\
-	Strong reference increases the retain count by, while weak and unowned do not. If you try to access a weak variable that has been deinitilized it will give a ni whereas unowned will make an app crash.\
+	Strong reference increases the retain count by one, while weak and unowned do not. If you try to access a weak variable that has been deinitilized it will give a nil whereas unowned will make an app crash.\
 \
 10	What is a retain cycle and how do you fix it?\
 	retain cycle is a loop that happens when object A retains object B and vice versa, if either object is released Object A won\'92t be reallocated as object B holds a reference to it, we can fix this by assigning them as weak or unowned variables.\
+\
+\
+\
 \
 11	What is an extension? \
 	extension adds functionality to an already existing object.\
@@ -56,7 +59,8 @@
 	I prefer to build my views using storyboard as I am able to see what I want my app to look like and it provides for an easier way to connect to my source code and go from there\
 \
 16	Tell me about the design patterns you\'92ve worked with.\
-	creational: Singleton and Structural: MVC, Adaptor.\
+	creational: Singleton \
+	 Structural: MVC, Adaptor.\
 	\
 17	What is the difference between MVVM and MVC? What advantages does one offer over the other?\
 	MVC stands for Model-View-Controller, which is default app architecture for iOS. The model is where the data is stored, the view is where the presentation logic is done and the controller is where the business logic is done. This is different from MVVM in that the view tends to have access to the model objects and uses those to set up the view. \
@@ -99,7 +103,7 @@
 	There 5: non running, inactive(app is running in foreground but not receiving events,) Active, background, suspended.\
 \
 30	What are atomic and non atomic?\
-	atomic means only on thread can access the variable, it is thread safe and hence is slower. Nonatomic means multiple threads have access to the variable and is thread unsafe as it may result in unexpected behavior if 2 different process try to access the variable at the same time.\
+	atomic means only one thread can access the variable, it is thread safe and hence is slower. Nonatomic means multiple threads have access to the variable and is thread unsafe as it may result in unexpected behavior if 2 different process try to access the variable at the same time.\
 \
 31	What is the difference between a category and extension in Objc?\
 	categories provide a way to add methods to a class, extensions are only possible if the source code is available the compiler compiles the extension and source code at the same time.\
@@ -123,7 +127,7 @@
 	it is the process of changing the implementation of an existing selector. \
 \
 38	Tell me all about optionals. What they are, how to handle them, different types, etc.\
-	optionals are properties that could be nil, they are donated with a question mark after the type. There are 5 ways to handle optionals: force unwrapping, conditional binding nil coalescing, implicitly unwrapped optionals and optional chaining. \
+	optionals are properties that could be nil, they are denoted with a question mark after the type. There are 5 ways to handle optionals: force unwrapping, conditional bindings, nil coalescing, implicitly unwrapped optionals and optional chaining. \
 \
 39	What is a higher order function? What are some examples in Swift?\
 	they are functions that operate on other functions by taking a function as an argument or returning a function i.e. sorted, map, filter.\
@@ -170,6 +174,8 @@
 53	Composition vs Inheritance, or why OOP has failed us\
 	Composition allows reuse of code without extending but for inheritance you must extend the class for any reuse of code or functionality. OOP uses more line of code.\
 \
+\
+\
 54	Protocol-Oriented Programming (pseudo-duplicate of above)\
 	uses less line of code and is faster\
 \
@@ -183,5 +189,8 @@
 	generic code enables you to write flexible, reusable functions and types that work with any type.\
 \
 58	How do you go about handling JSON responses\
-	There 2 options for JSON parsing, JSONSerialization which turns data unto either an array or dictionary, and Codable protocol which lets us decode the data directly into our model objects using JSONDecoder.\
+	There 2 options for JSON parsing, JSONSerialization which turns data unto either an array or dictionary, and Codable protocol which lets 	us decode the data directly into our model objects using JSONDecoder.\
+\
+\
+\
 }

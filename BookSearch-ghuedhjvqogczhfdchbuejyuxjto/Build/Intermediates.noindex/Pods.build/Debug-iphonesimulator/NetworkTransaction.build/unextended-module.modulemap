@@ -1,0 +1,10 @@
+framework module NetworkTransaction {
+  umbrella header "NetworkTransaction-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module NetworkTransaction.__Swift {
+    exclude header "NetworkTransaction-Swift.h"
+}

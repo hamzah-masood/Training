@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "2f1f73ae7bda0a63bb869b67f5ae834e"
+build_time: [1576250047, 990245000]
+inputs:
+  "/Users/mcs/Documents/Training/apiCrawler/apiCrawler/ViewController.swift": [1569104001, 607544363]
+  "/Users/mcs/Documents/Training/apiCrawler/apiCrawler/AppDelegate.swift": [1569104001, 608729969]

@@ -6,11 +6,7 @@
 //  Copyright © 2019 MCS. All rights reserved.
 //
 
-<<<<<<< HEAD
-////Adding change to upload git
 
-=======
->>>>>>> e04a1522a1809d5ee6611df04304365daf2b0396
 import UIKit
 
 class ViewController: UIViewController {

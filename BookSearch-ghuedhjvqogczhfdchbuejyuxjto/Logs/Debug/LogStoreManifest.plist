@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>1954631F-62F8-433D-913A-AFFC7B41A181</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1954631F-62F8-433D-913A-AFFC7B41A181.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>599186054.99545002</real>
+			<key>timeStoppedRecording</key>
+			<real>599186475.66823101</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>1954631F-62F8-433D-913A-AFFC7B41A181</string>
+		</dict>
+		<key>36D73227-52B8-48B0-BF0E-7695FA9ED7C5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>36D73227-52B8-48B0-BF0E-7695FA9ED7C5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>599184457.44592094</real>
+			<key>timeStoppedRecording</key>
+			<real>599185140.75561404</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>36D73227-52B8-48B0-BF0E-7695FA9ED7C5</string>
+		</dict>
+		<key>3F8BA5AC-DDF2-4497-AB50-D1C5B9CD14B0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3F8BA5AC-DDF2-4497-AB50-D1C5B9CD14B0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>598649069.373384</real>
+			<key>timeStoppedRecording</key>
+			<real>598649259.61472094</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>3F8BA5AC-DDF2-4497-AB50-D1C5B9CD14B0</string>
+		</dict>
+		<key>4DA58A50-B436-47CB-AC99-7DEAC20759B2</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4DA58A50-B436-47CB-AC99-7DEAC20759B2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>599184180.57042205</real>
+			<key>timeStoppedRecording</key>
+			<real>599184454.60171294</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>4DA58A50-B436-47CB-AC99-7DEAC20759B2</string>
+		</dict>
+		<key>5145DC32-DB80-48B4-8AF5-14B11946F03A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5145DC32-DB80-48B4-8AF5-14B11946F03A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>599186577.782776</real>
+			<key>timeStoppedRecording</key>
+			<real>599186656.48043501</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>5145DC32-DB80-48B4-8AF5-14B11946F03A</string>
+		</dict>
+		<key>567DBC2F-E8EC-491D-A687-8A912F16B507</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>567DBC2F-E8EC-491D-A687-8A912F16B507.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>599182735.36328995</real>
+			<key>timeStoppedRecording</key>
+			<real>599182960.12185705</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>567DBC2F-E8EC-491D-A687-8A912F16B507</string>
+		</dict>
+		<key>5975B624-DF00-42A9-89FF-942772974B31</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5975B624-DF00-42A9-89FF-942772974B31.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>599186657.34512806</real>
+			<key>timeStoppedRecording</key>
+			<real>599186696.57896304</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>5975B624-DF00-42A9-89FF-942772974B31</string>
+		</dict>
+		<key>6FEB6C3A-C46D-43FA-9440-B82E822945C4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6FEB6C3A-C46D-43FA-9440-B82E822945C4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>599182962.72286403</real>
+			<key>timeStoppedRecording</key>
+			<real>599183054.93025196</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>6FEB6C3A-C46D-43FA-9440-B82E822945C4</string>
+		</dict>
+		<key>973B4881-4289-4657-B5C8-0782D81E9F11</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>973B4881-4289-4657-B5C8-0782D81E9F11.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>599186697.62873697</real>
+			<key>timeStoppedRecording</key>
+			<real>599186834.88862896</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>973B4881-4289-4657-B5C8-0782D81E9F11</string>
+		</dict>
+		<key>B307CCA9-5945-46FC-841B-EF12D487EC9E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B307CCA9-5945-46FC-841B-EF12D487EC9E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>599186480.98845398</real>
+			<key>timeStoppedRecording</key>
+			<real>599186576.85164499</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>B307CCA9-5945-46FC-841B-EF12D487EC9E</string>
+		</dict>
+		<key>C9E5D572-5645-4145-B4D7-40E1567E1673</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C9E5D572-5645-4145-B4D7-40E1567E1673.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>599186838.71963799</real>
+			<key>timeStoppedRecording</key>
+			<real>599187487.31631696</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>C9E5D572-5645-4145-B4D7-40E1567E1673</string>
+		</dict>
+		<key>D6EBBB5E-9FD5-4438-AFDE-B493B93D3550</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D6EBBB5E-9FD5-4438-AFDE-B493B93D3550.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>599183404.93060803</real>
+			<key>timeStoppedRecording</key>
+			<real>599184174.83167601</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>D6EBBB5E-9FD5-4438-AFDE-B493B93D3550</string>
+		</dict>
+		<key>DE8C8F04-CA18-4E7F-9E70-CAC2A9818D7D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DE8C8F04-CA18-4E7F-9E70-CAC2A9818D7D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>599183337.63826704</real>
+			<key>timeStoppedRecording</key>
+			<real>599183402.48342299</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>DE8C8F04-CA18-4E7F-9E70-CAC2A9818D7D</string>
+		</dict>
+		<key>F86DDFD2-6A5C-4550-B3D5-F5B6E8662475</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F86DDFD2-6A5C-4550-B3D5-F5B6E8662475.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BookSearch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BookSearch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BookSearch</string>
+			<key>timeStartedRecording</key>
+			<real>599185798.09877706</real>
+			<key>timeStoppedRecording</key>
+			<real>599186008.83123195</real>
+			<key>title</key>
+			<string>Debug BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>F86DDFD2-6A5C-4550-B3D5-F5B6E8662475</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

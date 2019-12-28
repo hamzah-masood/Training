@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "c75328b891fe35d62cb75475d789a92a"
+build_time: [1576852349, 198267000]
+inputs:
+  "/Users/mcs/Documents/Training/toDoProject/toDoProject/CoreDataStuff.swift": !dirty [1569103999, 773134322]
+  "/Users/mcs/Documents/Training/toDoProject/toDoProject/ViewController.swift": !dirty [1576695878, 924474658]
+  "/Users/mcs/Documents/Training/toDoProject/toDoProject/NextViewController.swift": !dirty [1576695864, 600133996]
+  "/Users/mcs/Documents/Training/toDoProject/toDoProject/AppDelegate.swift": !dirty [1569103999, 774351573]
+  "/Users/mcs/Documents/Training/toDoProject/toDoProject/toDoDetailViewController.swift": !dirty [1569103999, 771895152]
+  "/Users/mcs/Documents/Training/toDoProject-fdmzycutfaurwmalssiqztzxnvwo/Build/Intermediates.noindex/toDoProject.build/Debug-iphonesimulator/toDoProject.build/DerivedSources/CoreDataGenerated/toDoList/ToDo+CoreDataClass.swift": !dirty [1576698827, 232677677]
+  "/Users/mcs/Documents/Training/toDoProject-fdmzycutfaurwmalssiqztzxnvwo/Build/Intermediates.noindex/toDoProject.build/Debug-iphonesimulator/toDoProject.build/DerivedSources/CoreDataGenerated/toDoList/ToDo+CoreDataProperties.swift": !dirty [1576698827, 234290995]
+  "/Users/mcs/Documents/Training/toDoProject-fdmzycutfaurwmalssiqztzxnvwo/Build/Intermediates.noindex/toDoProject.build/Debug-iphonesimulator/toDoProject.build/DerivedSources/CoreDataGenerated/toDoList/toDoList+CoreDataModel.swift": !dirty [1576698827, 229145603]

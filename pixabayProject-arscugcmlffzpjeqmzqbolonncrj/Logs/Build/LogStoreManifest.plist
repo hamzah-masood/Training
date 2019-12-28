@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>66FC4B82-2132-491A-9D59-2CEE4D525903</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>66FC4B82-2132-491A-9D59-2CEE4D525903.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>pixabayProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>pixabayProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build pixabayProject</string>
+			<key>timeStartedRecording</key>
+			<real>597941836.65605402</real>
+			<key>timeStoppedRecording</key>
+			<real>597941842.633407</real>
+			<key>title</key>
+			<string>Build pixabayProject</string>
+			<key>uniqueIdentifier</key>
+			<string>66FC4B82-2132-491A-9D59-2CEE4D525903</string>
+		</dict>
+		<key>AFB4C155-2A9C-4FA8-A7E0-2D3FB3AF5561</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AFB4C155-2A9C-4FA8-A7E0-2D3FB3AF5561.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>pixabayProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>pixabayProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build pixabayProject</string>
+			<key>timeStartedRecording</key>
+			<real>598388119.50698996</real>
+			<key>timeStoppedRecording</key>
+			<real>598388120.30420899</real>
+			<key>title</key>
+			<string>Build pixabayProject</string>
+			<key>uniqueIdentifier</key>
+			<string>AFB4C155-2A9C-4FA8-A7E0-2D3FB3AF5561</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

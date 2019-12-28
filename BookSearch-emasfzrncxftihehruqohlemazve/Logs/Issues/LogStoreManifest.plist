@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>4501C9C3-EA29-4316-B85A-BFDCDA2E8A84</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>4501C9C3-EA29-4316-B85A-BFDCDA2E8A84.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>NetworkTransaction-euyfjtjpkiqfkzcswlyzmslthikc</string>
+			<key>timeStartedRecording</key>
+			<real>599182619.27187204</real>
+			<key>timeStoppedRecording</key>
+			<real>599182635.17581606</real>
+			<key>title</key>
+			<string>Build target NetworkTransaction</string>
+			<key>uniqueIdentifier</key>
+			<string>4501C9C3-EA29-4316-B85A-BFDCDA2E8A84</string>
+		</dict>
+		<key>5FFAF031-BC28-4577-BDE0-3744EA327BC1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>5FFAF031-BC28-4577-BDE0-3744EA327BC1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-BookSearch-euyfjtjpkiqfkzcswlyzmslthikc</string>
+			<key>timeStartedRecording</key>
+			<real>599182634.86877799</real>
+			<key>timeStoppedRecording</key>
+			<real>599182636.453897</real>
+			<key>title</key>
+			<string>Build target Pods-BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>5FFAF031-BC28-4577-BDE0-3744EA327BC1</string>
+		</dict>
+		<key>615292AB-D9E4-415D-B480-8EF57EC6794D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>615292AB-D9E4-415D-B480-8EF57EC6794D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>BookSearch-gyafjobfqbdpqlbjyxqecdfpqglb</string>
+			<key>timeStartedRecording</key>
+			<real>599182636.41876996</real>
+			<key>timeStoppedRecording</key>
+			<real>599182642.70202804</real>
+			<key>title</key>
+			<string>Build target BookSearch</string>
+			<key>uniqueIdentifier</key>
+			<string>615292AB-D9E4-415D-B480-8EF57EC6794D</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

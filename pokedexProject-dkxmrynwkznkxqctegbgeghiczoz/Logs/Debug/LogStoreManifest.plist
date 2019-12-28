@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>DE130639-4C60-44F4-A090-2E775E653E5E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DE130639-4C60-44F4-A090-2E775E653E5E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>pokedexProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>pokedexProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug pokedexProject</string>
+			<key>timeStartedRecording</key>
+			<real>598201848.33033001</real>
+			<key>timeStoppedRecording</key>
+			<real>598201868.44328403</real>
+			<key>title</key>
+			<string>Debug pokedexProject</string>
+			<key>uniqueIdentifier</key>
+			<string>DE130639-4C60-44F4-A090-2E775E653E5E</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
