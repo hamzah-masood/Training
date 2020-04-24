@@ -1,9 +1,0 @@
-version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
-options: "91f8b836be4393004b9fe1773fe1c098"
-build_time: [1576247905, 866612000]
-inputs:
-  "/Users/mcs/Documents/Training/coreDataCodable/coreDataCodable/coreDataManager.swift": [1569104001, 580682713]
-  "/Users/mcs/Documents/Training/coreDataCodable/coreDataCodable/ViewController.swift": [1569104001, 580953718]
-  "/Users/mcs/Documents/Training/coreDataCodable/coreDataCodable/AppDelegate.swift": [1569104001, 582877480]
-  "/Users/mcs/Documents/Training/coreDataCodable/coreDataCodable/Pokemon+CoreDataProperties.swift": [1569104001, 581240197]
-  "/Users/mcs/Documents/Training/coreDataCodable/coreDataCodable/Pokemon+CoreDataClass.swift": [1569104001, 581498151]

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>2D372D30-524C-4A6D-9AC9-3A3DE6D25EF9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2D372D30-524C-4A6D-9AC9-3A3DE6D25EF9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QuickFeatureDevelopmentAssessment project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QuickFeatureDevelopmentAssessment</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QuickFeatureDevelopmentAssessment</string>
+			<key>timeStartedRecording</key>
+			<real>608759234.03750205</real>
+			<key>timeStoppedRecording</key>
+			<real>608759247.04794502</real>
+			<key>title</key>
+			<string>Build QuickFeatureDevelopmentAssessment</string>
+			<key>uniqueIdentifier</key>
+			<string>2D372D30-524C-4A6D-9AC9-3A3DE6D25EF9</string>
+		</dict>
+		<key>34BB8AA4-F65D-4BD6-B105-08D4CE0A415F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>34BB8AA4-F65D-4BD6-B105-08D4CE0A415F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QuickFeatureDevelopmentAssessment project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QuickFeatureDevelopmentAssessment</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QuickFeatureDevelopmentAssessment</string>
+			<key>timeStartedRecording</key>
+			<real>608759007.69708395</real>
+			<key>timeStoppedRecording</key>
+			<real>608759009.38333297</real>
+			<key>title</key>
+			<string>Build QuickFeatureDevelopmentAssessment</string>
+			<key>uniqueIdentifier</key>
+			<string>34BB8AA4-F65D-4BD6-B105-08D4CE0A415F</string>
+		</dict>
+		<key>513AE174-A8C8-4927-BBC8-3E976FF6D252</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>513AE174-A8C8-4927-BBC8-3E976FF6D252.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QuickFeatureDevelopmentAssessment project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QuickFeatureDevelopmentAssessment</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QuickFeatureDevelopmentAssessment</string>
+			<key>timeStartedRecording</key>
+			<real>608759205.65650904</real>
+			<key>timeStoppedRecording</key>
+			<real>608759220.02049994</real>
+			<key>title</key>
+			<string>Build QuickFeatureDevelopmentAssessment</string>
+			<key>uniqueIdentifier</key>
+			<string>513AE174-A8C8-4927-BBC8-3E976FF6D252</string>
+		</dict>
+		<key>88F04EC7-EA9A-42DD-ADB1-AB16C32A6C7C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>88F04EC7-EA9A-42DD-ADB1-AB16C32A6C7C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QuickFeatureDevelopmentAssessment project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QuickFeatureDevelopmentAssessment</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QuickFeatureDevelopmentAssessment</string>
+			<key>timeStartedRecording</key>
+			<real>608758981.47432804</real>
+			<key>timeStoppedRecording</key>
+			<real>608758997.41412795</real>
+			<key>title</key>
+			<string>Build QuickFeatureDevelopmentAssessment</string>
+			<key>uniqueIdentifier</key>
+			<string>88F04EC7-EA9A-42DD-ADB1-AB16C32A6C7C</string>
+		</dict>
+		<key>D0CF7865-DD43-48FD-817C-B11B09E41E65</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D0CF7865-DD43-48FD-817C-B11B09E41E65.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QuickFeatureDevelopmentAssessment project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QuickFeatureDevelopmentAssessment</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QuickFeatureDevelopmentAssessment</string>
+			<key>timeStartedRecording</key>
+			<real>608759300.25055301</real>
+			<key>timeStoppedRecording</key>
+			<real>608759302.165519</real>
+			<key>title</key>
+			<string>Build QuickFeatureDevelopmentAssessment</string>
+			<key>uniqueIdentifier</key>
+			<string>D0CF7865-DD43-48FD-817C-B11B09E41E65</string>
+		</dict>
+		<key>F4E2C5BD-C125-416D-B65A-0A9F11D92EF5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F4E2C5BD-C125-416D-B65A-0A9F11D92EF5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QuickFeatureDevelopmentAssessment project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QuickFeatureDevelopmentAssessment</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QuickFeatureDevelopmentAssessment</string>
+			<key>timeStartedRecording</key>
+			<real>608759339.30468702</real>
+			<key>timeStoppedRecording</key>
+			<real>608759340.66454995</real>
+			<key>title</key>
+			<string>Build QuickFeatureDevelopmentAssessment</string>
+			<key>uniqueIdentifier</key>
+			<string>F4E2C5BD-C125-416D-B65A-0A9F11D92EF5</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

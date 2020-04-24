@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>F60D2F46-D28F-4D79-BBAF-7FC1D85EAE53</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>F60D2F46-D28F-4D79-BBAF-7FC1D85EAE53.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>QuickFeatureDevelopmentAssessment-gewgwqtaxkxwyodgnueqwzppvyvf</string>
+			<key>timeStartedRecording</key>
+			<real>608759339.45722401</real>
+			<key>timeStoppedRecording</key>
+			<real>608759339.68884397</real>
+			<key>title</key>
+			<string>Build target QuickFeatureDevelopmentAssessment</string>
+			<key>uniqueIdentifier</key>
+			<string>F60D2F46-D28F-4D79-BBAF-7FC1D85EAE53</string>
+		</dict>
+		<key>FAED7822-D7D8-476C-AC02-0672756AD241</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
+			<key>fileName</key>
+			<string>FAED7822-D7D8-476C-AC02-0672756AD241.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>QuickFeatureDevelopmentAssessmentTests-gewgwqtaxkxwyodgnueqwzppvyvf</string>
+			<key>timeStartedRecording</key>
+			<real>608759339.68948305</real>
+			<key>timeStoppedRecording</key>
+			<real>608759340.65281701</real>
+			<key>title</key>
+			<string>Build target QuickFeatureDevelopmentAssessmentTests</string>
+			<key>uniqueIdentifier</key>
+			<string>FAED7822-D7D8-476C-AC02-0672756AD241</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

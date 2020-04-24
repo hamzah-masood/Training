@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
-options: "e0f8bfdf032c28f472f7acf52efb24f1"
-build_time: [1576248063, 764818000]
-inputs:
-  "/Users/mcs/Documents/Training/SingletonProject/SingletonProject/ViewController.swift": [1569104001, 623463780]
-  "/Users/mcs/Documents/Training/SingletonProject/SingletonProject/AppDelegate.swift": [1569104001, 624632897]

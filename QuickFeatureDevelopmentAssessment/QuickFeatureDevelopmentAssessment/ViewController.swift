@@ -31,17 +31,19 @@ final class ViewController: UIViewController {
   }
 }
 
+
+
 extension ViewController: UITableViewDataSource {
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return self.viewModel.numberOfEpisodes()
   }
-  
+
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MyTableViewCell
 
     let episode = self.viewModel.episode(for: indexPath.row)
     cell.detailLabel?.text = episode.name
-    
+
     let secondDateFormatterGet = DateFormatter()
     secondDateFormatterGet.dateFormat = "yyyy-MM-dd"
     let secondDateFormatterPrint = DateFormatter()
@@ -49,13 +51,13 @@ extension ViewController: UITableViewDataSource {
     let airDate = secondDateFormatterGet.date(from: episode.airDate )
     let newAirDate = (secondDateFormatterPrint.string(from: airDate!))
     cell.subtitleLabel?.text = newAirDate
-    
+
     DispatchQueue.main.async {
       let cellImage = try! UIImage(data: NSData(contentsOf: NSURL(string:episode.image)! as URL) as Data)
       cell.cellImage.image = cellImage
     }
- 
-    
+
+
     return cell
   }
 }

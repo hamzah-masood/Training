@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "d9dd8c6d80023ab782b620d0050a829b"
+build_time: [1587066539, 706271000]
+inputs:
+  "/Users/mcs/Documents/Training/QuickFeatureDevelopmentAssessment/QuickFeatureDevelopmentAssessmentTests/QuickFeatureDevelopmentAssessmentTests.swift": [1569104001, 638330617]

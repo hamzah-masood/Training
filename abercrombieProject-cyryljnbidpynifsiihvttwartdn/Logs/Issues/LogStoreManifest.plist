@@ -5,36 +5,7 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict>
-		<key>17F176AC-4511-49CE-8EF4-F7723E6A82A0</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>17F176AC-4511-49CE-8EF4-F7723E6A82A0.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>abercrombieProject-cyryljnbidpynifsiihvttwartdn</string>
-			<key>timeStartedRecording</key>
-			<real>598203426.24980199</real>
-			<key>timeStoppedRecording</key>
-			<real>598203432.56886899</real>
-			<key>title</key>
-			<string>Build target abercrombieProject</string>
-			<key>uniqueIdentifier</key>
-			<string>17F176AC-4511-49CE-8EF4-F7723E6A82A0</string>
-		</dict>
-	</dict>
+	<dict/>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>

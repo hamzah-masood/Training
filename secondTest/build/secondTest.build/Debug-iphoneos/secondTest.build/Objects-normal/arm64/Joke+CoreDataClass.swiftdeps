@@ -1,0 +1,495 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Joke"
+- "CoreDataError"
+provides-nominal:
+- "10secondTest4JokeC"
+- "10secondTest4JokeC10CodingKeysO"
+- "10secondTest13CoreDataErrorO"
+provides-member:
+- ["10secondTest4JokeC", ""]
+- ["10secondTest4JokeC10CodingKeysO", ""]
+- ["10secondTest13CoreDataErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "CodingKey"
+- "CoreDataError"
+- !private "CoreDataManager"
+- "Decodable"
+- "Decoder"
+- "Error"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "IntegerLiteralType"
+- "Joke"
+- !private "NSEntityDescription"
+- "NSManagedObject"
+- !private "NSNumber"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["s7CVarArgP", "CodingKeys"]
+- !private ["s7CVarArgP", "CoreDataError"]
+- !private ["s7CVarArgP", "CoreDataManager"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "NSEntityDescription"]
+- !private ["s7CVarArgP", "NSNumber"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_findStringSwitchCase"]
+- !private ["s7CVarArgP", "category"]
+- !private ["s7CVarArgP", "delivery"]
+- !private ["s7CVarArgP", "entity"]
+- !private ["s7CVarArgP", "id"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joke"]
+- !private ["s7CVarArgP", "setup"]
+- !private ["s7CVarArgP", "type"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- !private ["s9CodingKeyP", "category"]
+- ["s9CodingKeyP", "debugDescription"]
+- !private ["s9CodingKeyP", "delivery"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- !private ["s9CodingKeyP", "id"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "joke"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "setup"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "type"]
+- ["10secondTest4JokeC10CodingKeysO", "=="]
+- ["10secondTest4JokeC10CodingKeysO", "RawValue"]
+- ["10secondTest4JokeC10CodingKeysO", "_Default_RawValue"]
+- !private ["10secondTest4JokeC10CodingKeysO", "_findStringSwitchCase"]
+- ["10secondTest4JokeC10CodingKeysO", "_rawHashValue"]
+- ["10secondTest4JokeC10CodingKeysO", "category"]
+- ["10secondTest4JokeC10CodingKeysO", "debugDescription"]
+- ["10secondTest4JokeC10CodingKeysO", "deinit"]
+- ["10secondTest4JokeC10CodingKeysO", "delivery"]
+- ["10secondTest4JokeC10CodingKeysO", "description"]
+- ["10secondTest4JokeC10CodingKeysO", "hash"]
+- ["10secondTest4JokeC10CodingKeysO", "hashValue"]
+- ["10secondTest4JokeC10CodingKeysO", "id"]
+- ["10secondTest4JokeC10CodingKeysO", "init"]
+- ["10secondTest4JokeC10CodingKeysO", "intValue"]
+- ["10secondTest4JokeC10CodingKeysO", "joke"]
+- ["10secondTest4JokeC10CodingKeysO", "rawValue"]
+- ["10secondTest4JokeC10CodingKeysO", "setup"]
+- ["10secondTest4JokeC10CodingKeysO", "stringValue"]
+- ["10secondTest4JokeC10CodingKeysO", "type"]
+- ["10secondTest13CoreDataErrorO", "=="]
+- ["10secondTest13CoreDataErrorO", "__derived_enum_equals"]
+- ["10secondTest13CoreDataErrorO", "_code"]
+- ["10secondTest13CoreDataErrorO", "_domain"]
+- ["10secondTest13CoreDataErrorO", "_getEmbeddedNSError"]
+- ["10secondTest13CoreDataErrorO", "_rawHashValue"]
+- ["10secondTest13CoreDataErrorO", "_userInfo"]
+- ["10secondTest13CoreDataErrorO", "deinit"]
+- ["10secondTest13CoreDataErrorO", "hash"]
+- ["10secondTest13CoreDataErrorO", "hashValue"]
+- ["10secondTest13CoreDataErrorO", "noSuchEntity"]
+- !private ["10secondTest15CoreDataManagerC", "context"]
+- !private ["10secondTest15CoreDataManagerC", "shared"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", "CodingKeys"]
+- !private ["s28CustomDebugStringConvertibleP", "CoreDataError"]
+- !private ["s28CustomDebugStringConvertibleP", "CoreDataManager"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "NSEntityDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNumber"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "category"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "delivery"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "entity"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "joke"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "setup"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "CodingKeys"]
+- !private ["s23CustomStringConvertibleP", "CoreDataError"]
+- !private ["s23CustomStringConvertibleP", "CoreDataManager"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "NSEntityDescription"]
+- !private ["s23CustomStringConvertibleP", "NSNumber"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "category"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "delivery"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "entity"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "joke"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "setup"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "CoreDataError"]
+- !private ["Se", "CoreDataManager"]
+- !private ["Se", "Int"]
+- !private ["Se", "NSEntityDescription"]
+- !private ["Se", "NSNumber"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "category"]
+- !private ["Se", "delivery"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "joke"]
+- !private ["Se", "setup"]
+- !private ["Se", "type"]
+- !private ["s7DecoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", "CodingKeys"]
+- !private ["SQ", "CoreDataError"]
+- !private ["SQ", "CoreDataManager"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "NSEntityDescription"]
+- !private ["SQ", "NSNumber"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "category"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "delivery"]
+- ["SQ", "description"]
+- !private ["SQ", "entity"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "id"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "joke"]
+- !private ["SQ", "noSuchEntity"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "setup"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "type"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s5ErrorP", "noSuchEntity"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["SH", "=="]
+- !private ["SH", "CodingKeys"]
+- !private ["SH", "CoreDataError"]
+- !private ["SH", "CoreDataManager"]
+- !private ["SH", "Int"]
+- !private ["SH", "NSEntityDescription"]
+- !private ["SH", "NSNumber"]
+- ["SH", "RawValue"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- !private ["SH", "category"]
+- ["SH", "debugDescription"]
+- !private ["SH", "delivery"]
+- ["SH", "description"]
+- !private ["SH", "entity"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "id"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "joke"]
+- !private ["SH", "noSuchEntity"]
+- ["SH", "rawValue"]
+- !private ["SH", "setup"]
+- ["SH", "stringValue"]
+- !private ["SH", "type"]
+- !private ["s6HasherV", "combine"]
+- ["10secondTest4JokeC", "CodingKey"]
+- ["10secondTest4JokeC", "CodingKeys"]
+- !private ["10secondTest4JokeC", "CoreDataError"]
+- !private ["10secondTest4JokeC", "CoreDataManager"]
+- ["10secondTest4JokeC", "Decoder"]
+- !private ["10secondTest4JokeC", "Int"]
+- !private ["10secondTest4JokeC", "NSEntityDescription"]
+- !private ["10secondTest4JokeC", "NSNumber"]
+- ["10secondTest4JokeC", "String"]
+- !private ["10secondTest4JokeC", "_findStringSwitchCase"]
+- !private ["10secondTest4JokeC", "category"]
+- ["10secondTest4JokeC", "deinit"]
+- !private ["10secondTest4JokeC", "delivery"]
+- !private ["10secondTest4JokeC", "id"]
+- ["10secondTest4JokeC", "init"]
+- !private ["10secondTest4JokeC", "joke"]
+- !private ["10secondTest4JokeC", "setup"]
+- !private ["10secondTest4JokeC", "type"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["So8NSCodingP", "entity"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "entity"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So19NSEntityDescriptionC", "entity"]
+- !private ["So17NSFastEnumerationP", "entity"]
+- !private ["So20NSFetchRequestResultP", "CodingKeys"]
+- !private ["So20NSFetchRequestResultP", "CoreDataError"]
+- !private ["So20NSFetchRequestResultP", "CoreDataManager"]
+- !private ["So20NSFetchRequestResultP", "Int"]
+- !private ["So20NSFetchRequestResultP", "NSEntityDescription"]
+- !private ["So20NSFetchRequestResultP", "NSNumber"]
+- !private ["So20NSFetchRequestResultP", "String"]
+- ["So20NSFetchRequestResultP", ""]
+- !private ["So20NSFetchRequestResultP", "_findStringSwitchCase"]
+- !private ["So20NSFetchRequestResultP", "category"]
+- !private ["So20NSFetchRequestResultP", "delivery"]
+- !private ["So20NSFetchRequestResultP", "id"]
+- ["So20NSFetchRequestResultP", "init"]
+- !private ["So20NSFetchRequestResultP", "joke"]
+- !private ["So20NSFetchRequestResultP", "setup"]
+- !private ["So20NSFetchRequestResultP", "type"]
+- ["So15NSManagedObjectC", "CodingKey"]
+- !private ["So15NSManagedObjectC", "CodingKeys"]
+- !private ["So15NSManagedObjectC", "CoreDataError"]
+- !private ["So15NSManagedObjectC", "CoreDataManager"]
+- ["So15NSManagedObjectC", "Decoder"]
+- !private ["So15NSManagedObjectC", "Int"]
+- !private ["So15NSManagedObjectC", "NSEntityDescription"]
+- !private ["So15NSManagedObjectC", "NSNumber"]
+- ["So15NSManagedObjectC", "String"]
+- ["So15NSManagedObjectC", ""]
+- !private ["So15NSManagedObjectC", "_findStringSwitchCase"]
+- !private ["So15NSManagedObjectC", "category"]
+- !private ["So15NSManagedObjectC", "delivery"]
+- !private ["So15NSManagedObjectC", "id"]
+- ["So15NSManagedObjectC", "init"]
+- !private ["So15NSManagedObjectC", "joke"]
+- !private ["So15NSManagedObjectC", "setup"]
+- !private ["So15NSManagedObjectC", "type"]
+- !private ["So8NSNumberC", "init"]
+- ["So8NSObjectC", "CodingKey"]
+- !private ["So8NSObjectC", "CodingKeys"]
+- !private ["So8NSObjectC", "CoreDataError"]
+- !private ["So8NSObjectC", "CoreDataManager"]
+- ["So8NSObjectC", "Decoder"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSEntityDescription"]
+- !private ["So8NSObjectC", "NSNumber"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "_findStringSwitchCase"]
+- !private ["So8NSObjectC", "category"]
+- !private ["So8NSObjectC", "delivery"]
+- !private ["So8NSObjectC", "entity"]
+- !private ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "joke"]
+- !private ["So8NSObjectC", "setup"]
+- !private ["So8NSObjectC", "type"]
+- !private ["So8NSObjectP", "CodingKeys"]
+- !private ["So8NSObjectP", "CoreDataError"]
+- !private ["So8NSObjectP", "CoreDataManager"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "NSEntityDescription"]
+- !private ["So8NSObjectP", "NSNumber"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_findStringSwitchCase"]
+- !private ["So8NSObjectP", "category"]
+- !private ["So8NSObjectP", "delivery"]
+- !private ["So8NSObjectP", "entity"]
+- !private ["So8NSObjectP", "id"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "joke"]
+- !private ["So8NSObjectP", "setup"]
+- !private ["So8NSObjectP", "type"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So7NSValueC", "init"]
+- !private ["7Combine16ObservableObjectP", "CodingKeys"]
+- !private ["7Combine16ObservableObjectP", "CoreDataError"]
+- !private ["7Combine16ObservableObjectP", "CoreDataManager"]
+- !private ["7Combine16ObservableObjectP", "Int"]
+- !private ["7Combine16ObservableObjectP", "NSEntityDescription"]
+- !private ["7Combine16ObservableObjectP", "NSNumber"]
+- !private ["7Combine16ObservableObjectP", "String"]
+- ["7Combine16ObservableObjectP", ""]
+- !private ["7Combine16ObservableObjectP", "_findStringSwitchCase"]
+- !private ["7Combine16ObservableObjectP", "category"]
+- !private ["7Combine16ObservableObjectP", "delivery"]
+- !private ["7Combine16ObservableObjectP", "id"]
+- ["7Combine16ObservableObjectP", "init"]
+- !private ["7Combine16ObservableObjectP", "joke"]
+- !private ["7Combine16ObservableObjectP", "setup"]
+- !private ["7Combine16ObservableObjectP", "type"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "category"]
+- ["SY", "debugDescription"]
+- !private ["SY", "delivery"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- !private ["SY", "id"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "joke"]
+- ["SY", "rawValue"]
+- !private ["SY", "setup"]
+- ["SY", "stringValue"]
+- !private ["SY", "type"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CodingKeys"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CoreDataError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CoreDataManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSEntityDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_findStringSwitchCase"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "category"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delivery"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "entity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "joke"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CodingKeys"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CoreDataError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CoreDataManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSEntityDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSNumber"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_findStringSwitchCase"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "category"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delivery"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "entity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "id"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "joke"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setup"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "type"]
+depends-nominal:
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "10secondTest4JokeC10CodingKeysO"
+- "10secondTest13CoreDataErrorO"
+- !private "10secondTest15CoreDataManagerC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SQ"
+- "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "10secondTest4JokeC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So19NSEntityDescriptionC"
+- !private "So17NSFastEnumerationP"
+- "So20NSFetchRequestResultP"
+- "So15NSManagedObjectC"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- "7Combine16ObservableObjectP"
+- "SY"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5c4a9783755260e335035490d714b487"

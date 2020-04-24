@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
-options: "2e69403cdf1bcb00289e486d3de643b6"
-build_time: [1571172871, 499125000]
-inputs:
-  "/Users/mcs/Documents/Training/Twenty - Code Challenge/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [1571172851, 832880026]
-  "/Users/mcs/Documents/Training/Twenty - Code Challenge/Pods/RxRelay/RxRelay/Observable+Bind.swift": [1571172851, 832307109]
-  "/Users/mcs/Documents/Training/Twenty - Code Challenge/Pods/RxRelay/RxRelay/PublishRelay.swift": [1571172851, 832048869]
-  "/Users/mcs/Documents/Training/Twenty - Code Challenge/Pods/RxRelay/RxRelay/Utils.swift": [1571172851, 832549326]

@@ -47,7 +47,7 @@ final class DetailViewController: UIViewController {
     
     
     let episodeInformation = "Name: \(self.episode.name)\n\nAir Date: \(newAirDate)\n\nAir Stamp: \(newAirStamp)\n\nRuntime: \(self.episode.runtime) minutes\n\nSummary: \n\n\(self.episode.summary)"
-    var updatedLabel = episodeInformation.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression, range: nil)
+    let updatedLabel = episodeInformation.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression, range: nil)
 
     self.episodeInformationLabel.text = updatedLabel
   }

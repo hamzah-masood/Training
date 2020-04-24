@@ -1,0 +1,277 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Category"
+- "Content"
+provides-nominal:
+- "18abercrombieProject8CategoryV"
+- "18abercrombieProject8CategoryV10CodingKeysO"
+- "18abercrombieProject7ContentV"
+- "18abercrombieProject7ContentV16ContenCodingKeysO"
+provides-member:
+- ["18abercrombieProject8CategoryV", ""]
+- ["18abercrombieProject8CategoryV10CodingKeysO", ""]
+- ["18abercrombieProject7ContentV", ""]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Category"
+- "CodingKey"
+- "Content"
+- "Decodable"
+- "Decoder"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["18abercrombieProject8CategoryV", "CodingKey"]
+- ["18abercrombieProject8CategoryV", "CodingKeys"]
+- ["18abercrombieProject8CategoryV", "Content"]
+- ["18abercrombieProject8CategoryV", "Decoder"]
+- ["18abercrombieProject8CategoryV", "String"]
+- !private ["18abercrombieProject8CategoryV", "_findStringSwitchCase"]
+- ["18abercrombieProject8CategoryV", "backgroundImage"]
+- ["18abercrombieProject8CategoryV", "bottomDescription"]
+- ["18abercrombieProject8CategoryV", "content"]
+- ["18abercrombieProject8CategoryV", "deinit"]
+- ["18abercrombieProject8CategoryV", "init"]
+- ["18abercrombieProject8CategoryV", "promoMessage"]
+- ["18abercrombieProject8CategoryV", "title"]
+- ["18abercrombieProject8CategoryV", "topDescription"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- !private ["s9CodingKeyP", "backgroundImage"]
+- !private ["s9CodingKeyP", "bottomDescription"]
+- !private ["s9CodingKeyP", "content"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "promoMessage"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "target"]
+- !private ["s9CodingKeyP", "title"]
+- !private ["s9CodingKeyP", "topDescription"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "=="]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "RawValue"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "_Default_RawValue"]
+- !private ["18abercrombieProject8CategoryV10CodingKeysO", "_findStringSwitchCase"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "_rawHashValue"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "backgroundImage"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "bottomDescription"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "content"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "debugDescription"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "deinit"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "description"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "hash"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "hashValue"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "init"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "intValue"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "promoMessage"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "rawValue"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "stringValue"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "title"]
+- ["18abercrombieProject8CategoryV10CodingKeysO", "topDescription"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "=="]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "RawValue"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "_Default_RawValue"]
+- !private ["18abercrombieProject7ContentV16ContenCodingKeysO", "_findStringSwitchCase"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "_rawHashValue"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "debugDescription"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "deinit"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "description"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "hash"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "hashValue"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "init"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "intValue"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "rawValue"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "stringValue"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "target"]
+- ["18abercrombieProject7ContentV16ContenCodingKeysO", "title"]
+- ["18abercrombieProject7ContentV", "CodingKey"]
+- ["18abercrombieProject7ContentV", "ContenCodingKeys"]
+- ["18abercrombieProject7ContentV", "Decoder"]
+- ["18abercrombieProject7ContentV", "String"]
+- !private ["18abercrombieProject7ContentV", "_findStringSwitchCase"]
+- ["18abercrombieProject7ContentV", "deinit"]
+- ["18abercrombieProject7ContentV", "init"]
+- ["18abercrombieProject7ContentV", "target"]
+- ["18abercrombieProject7ContentV", "title"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundImage"]
+- !private ["s28CustomDebugStringConvertibleP", "bottomDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "content"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "promoMessage"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "target"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "topDescription"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "backgroundImage"]
+- !private ["s23CustomStringConvertibleP", "bottomDescription"]
+- !private ["s23CustomStringConvertibleP", "content"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "promoMessage"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "target"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "topDescription"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "ContenCodingKeys"]
+- !private ["Se", "Content"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "backgroundImage"]
+- !private ["Se", "bottomDescription"]
+- !private ["Se", "content"]
+- ["Se", "init"]
+- !private ["Se", "promoMessage"]
+- !private ["Se", "target"]
+- !private ["Se", "title"]
+- !private ["Se", "topDescription"]
+- !private ["s7DecoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "backgroundImage"]
+- !private ["SQ", "bottomDescription"]
+- !private ["SQ", "content"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "promoMessage"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "target"]
+- !private ["SQ", "title"]
+- !private ["SQ", "topDescription"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "backgroundImage"]
+- !private ["SH", "bottomDescription"]
+- !private ["SH", "content"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "promoMessage"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["SH", "target"]
+- !private ["SH", "title"]
+- !private ["SH", "topDescription"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "backgroundImage"]
+- !private ["SY", "bottomDescription"]
+- !private ["SY", "content"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "promoMessage"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["SY", "target"]
+- !private ["SY", "title"]
+- !private ["SY", "topDescription"]
+depends-nominal:
+- "18abercrombieProject8CategoryV"
+- "s9CodingKeyP"
+- "18abercrombieProject8CategoryV10CodingKeysO"
+- "18abercrombieProject7ContentV16ContenCodingKeysO"
+- "18abercrombieProject7ContentV"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SQ"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1a39c14f74e5465d230f44c3e6bc5043"

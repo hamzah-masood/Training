@@ -1,0 +1,587 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MyTableViewCell"
+provides-nominal:
+- "10secondTest15MyTableViewCellC"
+provides-member:
+- ["10secondTest15MyTableViewCellC", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "favorite"
+- "favoritesArray"
+- "isFavorite"
+- "isFavorited"
+- "jokeLAbel"
+- "prepareForReuse"
+- "selectedCell"
+- "setSelected"
+depends-top-level:
+- !private "!"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CoreDataManager"
+- "Joke"
+- "MyTableViewCell"
+- !private "StringLiteralType"
+- "UIButton"
+- "UILabel"
+- "UITableViewCell"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "firstIndex"]
+- !private ["Sa", "remove"]
+- !private ["SK", "append"]
+- !private ["SK", "firstIndex"]
+- !private ["SK", "remove"]
+- !private ["So15CALayerDelegateP", "CoreDataManager"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "favoritesArray"]
+- !private ["So15CALayerDelegateP", "isFavorited"]
+- !private ["So15CALayerDelegateP", "prepareForReuse"]
+- !private ["So15CALayerDelegateP", "print"]
+- !private ["So15CALayerDelegateP", "selectedCell"]
+- !private ["So15CALayerDelegateP", "setSelected"]
+- !private ["s7CVarArgP", "CoreDataManager"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "favoritesArray"]
+- !private ["s7CVarArgP", "firstIndex"]
+- !private ["s7CVarArgP", "isFavorited"]
+- !private ["s7CVarArgP", "prepareForReuse"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "red"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "selectedCell"]
+- !private ["s7CVarArgP", "setSelected"]
+- !private ["s7CVarArgP", "white"]
+- !private ["Sl", "append"]
+- !private ["Sl", "firstIndex"]
+- !private ["Sl", "remove"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "firstIndex"]
+- !private ["10Foundation15ContiguousBytesP", "remove"]
+- !private ["10secondTest15CoreDataManagerC", "save"]
+- !private ["10secondTest15CoreDataManagerC", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "CoreDataManager"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "favoritesArray"]
+- !private ["s28CustomDebugStringConvertibleP", "firstIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "isFavorited"]
+- !private ["s28CustomDebugStringConvertibleP", "prepareForReuse"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "red"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedCell"]
+- !private ["s28CustomDebugStringConvertibleP", "setSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "firstIndex"]
+- !private ["s17CustomReflectableP", "red"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "white"]
+- !private ["s23CustomStringConvertibleP", "CoreDataManager"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "favoritesArray"]
+- !private ["s23CustomStringConvertibleP", "firstIndex"]
+- !private ["s23CustomStringConvertibleP", "isFavorited"]
+- !private ["s23CustomStringConvertibleP", "prepareForReuse"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "red"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "selectedCell"]
+- !private ["s23CustomStringConvertibleP", "setSelected"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "firstIndex"]
+- !private ["10Foundation12DataProtocolP", "remove"]
+- !private ["Se", "append"]
+- !private ["Se", "firstIndex"]
+- !private ["Se", "isFavorited"]
+- !private ["Se", "red"]
+- !private ["Se", "remove"]
+- !private ["Se", "white"]
+- !private ["SE", "append"]
+- !private ["SE", "firstIndex"]
+- !private ["SE", "red"]
+- !private ["SE", "remove"]
+- !private ["SE", "white"]
+- !private ["SQ", "CoreDataManager"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "favoritesArray"]
+- !private ["SQ", "firstIndex"]
+- !private ["SQ", "isFavorited"]
+- !private ["SQ", "prepareForReuse"]
+- !private ["SQ", "print"]
+- !private ["SQ", "red"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "selectedCell"]
+- !private ["SQ", "setSelected"]
+- !private ["SQ", "white"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "firstIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s23ExpressibleByNilLiteralP", "red"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- !private ["SH", "CoreDataManager"]
+- ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "favoritesArray"]
+- !private ["SH", "firstIndex"]
+- !private ["SH", "isFavorited"]
+- !private ["SH", "prepareForReuse"]
+- !private ["SH", "print"]
+- !private ["SH", "red"]
+- !private ["SH", "remove"]
+- !private ["SH", "selectedCell"]
+- !private ["SH", "setSelected"]
+- !private ["SH", "white"]
+- !private ["10secondTest4JokeC", "deinit"]
+- !private ["10secondTest4JokeC", "isFavorited"]
+- !private ["SM", "append"]
+- !private ["SM", "firstIndex"]
+- !private ["SM", "remove"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "firstIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "remove"]
+- ["10secondTest15MyTableViewCellC", "Bool"]
+- !private ["10secondTest15MyTableViewCellC", "CoreDataManager"]
+- ["10secondTest15MyTableViewCellC", "Joke"]
+- ["10secondTest15MyTableViewCellC", "UIButton"]
+- ["10secondTest15MyTableViewCellC", "UILabel"]
+- ["10secondTest15MyTableViewCellC", "awakeFromNib"]
+- !private ["10secondTest15MyTableViewCellC", "backgroundColor"]
+- ["10secondTest15MyTableViewCellC", "deinit"]
+- ["10secondTest15MyTableViewCellC", "favorite"]
+- ["10secondTest15MyTableViewCellC", "favoritesArray"]
+- ["10secondTest15MyTableViewCellC", "init"]
+- ["10secondTest15MyTableViewCellC", "isFavorite"]
+- ["10secondTest15MyTableViewCellC", "isFavorited"]
+- ["10secondTest15MyTableViewCellC", "jokeLAbel"]
+- ["10secondTest15MyTableViewCellC", "prepareForReuse"]
+- !private ["10secondTest15MyTableViewCellC", "print"]
+- ["10secondTest15MyTableViewCellC", "selectedCell"]
+- ["10secondTest15MyTableViewCellC", "setSelected"]
+- !private ["So8NSCodingP", "CoreDataManager"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "favoritesArray"]
+- !private ["So8NSCodingP", "isFavorited"]
+- !private ["So8NSCodingP", "prepareForReuse"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "red"]
+- !private ["So8NSCodingP", "selectedCell"]
+- !private ["So8NSCodingP", "setSelected"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "red"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So20NSFetchRequestResultP", "isFavorited"]
+- !private ["So21NSItemProviderReadingP", "red"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "red"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So15NSManagedObjectC", "isFavorited"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CoreDataManager"]
+- ["So8NSObjectC", "Joke"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "favorite"]
+- ["So8NSObjectC", "favoritesArray"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isFavorite"]
+- ["So8NSObjectC", "isFavorited"]
+- ["So8NSObjectC", "jokeLAbel"]
+- ["So8NSObjectC", "prepareForReuse"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "red"]
+- ["So8NSObjectC", "selectedCell"]
+- ["So8NSObjectC", "setSelected"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "CoreDataManager"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "awakeFromNib"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "favoritesArray"]
+- !private ["So8NSObjectP", "isFavorited"]
+- !private ["So8NSObjectP", "prepareForReuse"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "red"]
+- !private ["So8NSObjectP", "selectedCell"]
+- !private ["So8NSObjectP", "setSelected"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "red"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["7Combine16ObservableObjectP", "isFavorited"]
+- !private ["Sq", "red"]
+- !private ["Sq", "white"]
+- !private ["Sk", "append"]
+- !private ["Sk", "firstIndex"]
+- !private ["Sk", "remove"]
+- !private ["Sm", "append"]
+- !private ["Sm", "firstIndex"]
+- !private ["Sm", "remove"]
+- !private ["ST", "append"]
+- !private ["ST", "firstIndex"]
+- !private ["ST", "remove"]
+- !private ["So29UIAccessibilityIdentificationP", "CoreDataManager"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "favoritesArray"]
+- !private ["So29UIAccessibilityIdentificationP", "isFavorited"]
+- !private ["So29UIAccessibilityIdentificationP", "prepareForReuse"]
+- !private ["So29UIAccessibilityIdentificationP", "print"]
+- !private ["So29UIAccessibilityIdentificationP", "selectedCell"]
+- !private ["So29UIAccessibilityIdentificationP", "setSelected"]
+- !private ["So12UIAppearanceP", "CoreDataManager"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "favoritesArray"]
+- !private ["So12UIAppearanceP", "isFavorited"]
+- !private ["So12UIAppearanceP", "prepareForReuse"]
+- !private ["So12UIAppearanceP", "print"]
+- !private ["So12UIAppearanceP", "selectedCell"]
+- !private ["So12UIAppearanceP", "setSelected"]
+- !private ["So21UIAppearanceContainerP", "CoreDataManager"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "favoritesArray"]
+- !private ["So21UIAppearanceContainerP", "isFavorited"]
+- !private ["So21UIAppearanceContainerP", "prepareForReuse"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "selectedCell"]
+- !private ["So21UIAppearanceContainerP", "setSelected"]
+- !private ["So7UIColorC", "red"]
+- !private ["So7UIColorC", "white"]
+- !private ["So17UICoordinateSpaceP", "CoreDataManager"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "favoritesArray"]
+- !private ["So17UICoordinateSpaceP", "isFavorited"]
+- !private ["So17UICoordinateSpaceP", "prepareForReuse"]
+- !private ["So17UICoordinateSpaceP", "print"]
+- !private ["So17UICoordinateSpaceP", "selectedCell"]
+- !private ["So17UICoordinateSpaceP", "setSelected"]
+- !private ["So13UIDynamicItemP", "CoreDataManager"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "favoritesArray"]
+- !private ["So13UIDynamicItemP", "isFavorited"]
+- !private ["So13UIDynamicItemP", "prepareForReuse"]
+- !private ["So13UIDynamicItemP", "print"]
+- !private ["So13UIDynamicItemP", "selectedCell"]
+- !private ["So13UIDynamicItemP", "setSelected"]
+- !private ["So18UIFocusEnvironmentP", "CoreDataManager"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "favoritesArray"]
+- !private ["So18UIFocusEnvironmentP", "isFavorited"]
+- !private ["So18UIFocusEnvironmentP", "prepareForReuse"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "selectedCell"]
+- !private ["So18UIFocusEnvironmentP", "setSelected"]
+- !private ["So11UIFocusItemP", "CoreDataManager"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "favoritesArray"]
+- !private ["So11UIFocusItemP", "isFavorited"]
+- !private ["So11UIFocusItemP", "prepareForReuse"]
+- !private ["So11UIFocusItemP", "print"]
+- !private ["So11UIFocusItemP", "selectedCell"]
+- !private ["So11UIFocusItemP", "setSelected"]
+- !private ["So20UIFocusItemContainerP", "CoreDataManager"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "awakeFromNib"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "favoritesArray"]
+- !private ["So20UIFocusItemContainerP", "isFavorited"]
+- !private ["So20UIFocusItemContainerP", "prepareForReuse"]
+- !private ["So20UIFocusItemContainerP", "print"]
+- !private ["So20UIFocusItemContainerP", "selectedCell"]
+- !private ["So20UIFocusItemContainerP", "setSelected"]
+- !private ["So27UIGestureRecognizerDelegateP", "CoreDataManager"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- !private ["So27UIGestureRecognizerDelegateP", "backgroundColor"]
+- !private ["So27UIGestureRecognizerDelegateP", "favoritesArray"]
+- !private ["So27UIGestureRecognizerDelegateP", "isFavorited"]
+- !private ["So27UIGestureRecognizerDelegateP", "prepareForReuse"]
+- !private ["So27UIGestureRecognizerDelegateP", "print"]
+- !private ["So27UIGestureRecognizerDelegateP", "selectedCell"]
+- !private ["So27UIGestureRecognizerDelegateP", "setSelected"]
+- !private ["So24UILargeContentViewerItemP", "CoreDataManager"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "awakeFromNib"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- !private ["So24UILargeContentViewerItemP", "favoritesArray"]
+- !private ["So24UILargeContentViewerItemP", "isFavorited"]
+- !private ["So24UILargeContentViewerItemP", "prepareForReuse"]
+- !private ["So24UILargeContentViewerItemP", "print"]
+- !private ["So24UILargeContentViewerItemP", "selectedCell"]
+- !private ["So24UILargeContentViewerItemP", "setSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "CoreDataManager"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "favoritesArray"]
+- !private ["So30UIPasteConfigurationSupportingP", "isFavorited"]
+- !private ["So30UIPasteConfigurationSupportingP", "prepareForReuse"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "setSelected"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "CoreDataManager"]
+- ["So11UIResponderC", "Joke"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "awakeFromNib"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "favorite"]
+- ["So11UIResponderC", "favoritesArray"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "isFavorite"]
+- ["So11UIResponderC", "isFavorited"]
+- ["So11UIResponderC", "jokeLAbel"]
+- ["So11UIResponderC", "prepareForReuse"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "selectedCell"]
+- ["So11UIResponderC", "setSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "CoreDataManager"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "favoritesArray"]
+- !private ["So30UIResponderStandardEditActionsP", "isFavorited"]
+- !private ["So30UIResponderStandardEditActionsP", "prepareForReuse"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedCell"]
+- !private ["So30UIResponderStandardEditActionsP", "setSelected"]
+- ["So15UITableViewCellC", "Bool"]
+- !private ["So15UITableViewCellC", "CoreDataManager"]
+- ["So15UITableViewCellC", "Joke"]
+- ["So15UITableViewCellC", "UIButton"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- !private ["So15UITableViewCellC", "backgroundColor"]
+- ["So15UITableViewCellC", "favorite"]
+- ["So15UITableViewCellC", "favoritesArray"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "isFavorite"]
+- ["So15UITableViewCellC", "isFavorited"]
+- ["So15UITableViewCellC", "jokeLAbel"]
+- ["So15UITableViewCellC", "prepareForReuse"]
+- !private ["So15UITableViewCellC", "print"]
+- ["So15UITableViewCellC", "selectedCell"]
+- ["So15UITableViewCellC", "setSelected"]
+- !private ["So18UITraitEnvironmentP", "CoreDataManager"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "favoritesArray"]
+- !private ["So18UITraitEnvironmentP", "isFavorited"]
+- !private ["So18UITraitEnvironmentP", "prepareForReuse"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "selectedCell"]
+- !private ["So18UITraitEnvironmentP", "setSelected"]
+- !private ["So23UIUserActivityRestoringP", "CoreDataManager"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "favoritesArray"]
+- !private ["So23UIUserActivityRestoringP", "isFavorited"]
+- !private ["So23UIUserActivityRestoringP", "prepareForReuse"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "selectedCell"]
+- !private ["So23UIUserActivityRestoringP", "setSelected"]
+- ["So6UIViewC", "Bool"]
+- !private ["So6UIViewC", "CoreDataManager"]
+- ["So6UIViewC", "Joke"]
+- ["So6UIViewC", "UIButton"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "awakeFromNib"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "favorite"]
+- ["So6UIViewC", "favoritesArray"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "isFavorite"]
+- ["So6UIViewC", "isFavorited"]
+- ["So6UIViewC", "jokeLAbel"]
+- ["So6UIViewC", "prepareForReuse"]
+- !private ["So6UIViewC", "print"]
+- ["So6UIViewC", "selectedCell"]
+- ["So6UIViewC", "setSelected"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "firstIndex"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "firstIndex"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s26_ExpressibleByColorLiteralP", "red"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "firstIndex"]
+- !private ["s19_HasContiguousBytesP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "firstIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CoreDataManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "favoritesArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFavorited"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prepareForReuse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CoreDataManager"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "awakeFromNib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "favoritesArray"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isFavorited"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "prepareForReuse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "red"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "selectedCell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setSelected"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "firstIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "red"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CoreDataManager"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "favoritesArray"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isFavorited"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "prepareForReuse"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "print"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "selectedCell"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setSelected"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "10secondTest15CoreDataManagerC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "10secondTest4JokeC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "10secondTest15MyTableViewCellC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So20NSFetchRequestResultP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So15NSManagedObjectC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "7Combine16ObservableObjectP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "06de3a7f935c7fc8c427cf2f3a2459d2"

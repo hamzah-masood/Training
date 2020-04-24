@@ -16,8 +16,19 @@
 		04500A6223A3E94E006340FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04500A6023A3E94E006340FF /* Main.storyboard */; };
 		04500A6423A3E950006340FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04500A6323A3E950006340FF /* Assets.xcassets */; };
 		04500A6723A3E950006340FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04500A6523A3E950006340FF /* LaunchScreen.storyboard */; };
+		0468A5F823BFA343005B8FE7 /* BookSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468A5F723BFA343005B8FE7 /* BookSearchTests.swift */; };
 		DF9A1C26DBDC5E630771395E /* Pods_BookSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0BCF4A7831CAEECBEFF501 /* Pods_BookSearch.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0468A5FA23BFA343005B8FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04500A4F23A3E94E006340FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04500A5623A3E94E006340FF;
+			remoteInfo = BookSearch;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04231F8323AAB12500031048 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +42,9 @@
 		04500A6323A3E950006340FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04500A6623A3E950006340FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04500A6823A3E950006340FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0468A5F523BFA343005B8FE7 /* BookSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0468A5F723BFA343005B8FE7 /* BookSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchTests.swift; sourceTree = "<group>"; };
+		0468A5F923BFA343005B8FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E0BCF4A7831CAEECBEFF501 /* Pods_BookSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		476ADF23CF27AA4DAECD45D6 /* Pods-BookSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookSearch.debug.xcconfig"; path = "Target Support Files/Pods-BookSearch/Pods-BookSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		CB5C2FD9898D8ECFC7DBD0EF /* Pods-BookSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookSearch.release.xcconfig"; path = "Target Support Files/Pods-BookSearch/Pods-BookSearch.release.xcconfig"; sourceTree = "<group>"; };
@@ -45,6 +59,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0468A5F223BFA343005B8FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -52,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				04500A5923A3E94E006340FF /* BookSearch */,
+				0468A5F623BFA343005B8FE7 /* BookSearchTests */,
 				04500A5823A3E94E006340FF /* Products */,
 				A4F51B6D20DF3C7FCED90C1C /* Pods */,
 				BC4A7CBA2A1B311C720F3626 /* Frameworks */,
@@ -62,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				04500A5723A3E94E006340FF /* BookSearch.app */,
+				0468A5F523BFA343005B8FE7 /* BookSearchTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +104,15 @@
 				04231F8723AAB2FE00031048 /* LibraryContainer.swift */,
 			);
 			path = BookSearch;
+			sourceTree = "<group>";
+		};
+		0468A5F623BFA343005B8FE7 /* BookSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				0468A5F723BFA343005B8FE7 /* BookSearchTests.swift */,
+				0468A5F923BFA343005B8FE7 /* Info.plist */,
+			);
+			path = BookSearchTests;
 			sourceTree = "<group>";
 		};
 		A4F51B6D20DF3C7FCED90C1C /* Pods */ = {
@@ -122,6 +154,24 @@
 			productReference = 04500A5723A3E94E006340FF /* BookSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0468A5F423BFA343005B8FE7 /* BookSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0468A5FE23BFA343005B8FE7 /* Build configuration list for PBXNativeTarget "BookSearchTests" */;
+			buildPhases = (
+				0468A5F123BFA343005B8FE7 /* Sources */,
+				0468A5F223BFA343005B8FE7 /* Frameworks */,
+				0468A5F323BFA343005B8FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0468A5FB23BFA343005B8FE7 /* PBXTargetDependency */,
+			);
+			name = BookSearchTests;
+			productName = BookSearchTests;
+			productReference = 0468A5F523BFA343005B8FE7 /* BookSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -134,6 +184,10 @@
 				TargetAttributes = {
 					04500A5623A3E94E006340FF = {
 						CreatedOnToolsVersion = 11.3;
+					};
+					0468A5F423BFA343005B8FE7 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 04500A5623A3E94E006340FF;
 					};
 				};
 			};
@@ -151,6 +205,7 @@
 			projectRoot = "";
 			targets = (
 				04500A5623A3E94E006340FF /* BookSearch */,
+				0468A5F423BFA343005B8FE7 /* BookSearchTests */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +218,13 @@
 				04500A6723A3E950006340FF /* LaunchScreen.storyboard in Resources */,
 				04500A6423A3E950006340FF /* Assets.xcassets in Resources */,
 				04500A6223A3E94E006340FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0468A5F323BFA343005B8FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +286,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0468A5F123BFA343005B8FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0468A5F823BFA343005B8FE7 /* BookSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0468A5FB23BFA343005B8FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04500A5623A3E94E006340FF /* BookSearch */;
+			targetProxy = 0468A5FA23BFA343005B8FE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		04500A6023A3E94E006340FF /* Main.storyboard */ = {
@@ -398,6 +476,46 @@
 			};
 			name = Release;
 		};
+		0468A5FC23BFA343005B8FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FE8BEE34N;
+				INFOPLIST_FILE = BookSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamzah-Masood.BookSearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookSearch.app/BookSearch";
+			};
+			name = Debug;
+		};
+		0468A5FD23BFA343005B8FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FE8BEE34N;
+				INFOPLIST_FILE = BookSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamzah-Masood.BookSearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookSearch.app/BookSearch";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +533,15 @@
 			buildConfigurations = (
 				04500A6C23A3E950006340FF /* Debug */,
 				04500A6D23A3E950006340FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0468A5FE23BFA343005B8FE7 /* Build configuration list for PBXNativeTarget "BookSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0468A5FC23BFA343005B8FE7 /* Debug */,
+				0468A5FD23BFA343005B8FE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

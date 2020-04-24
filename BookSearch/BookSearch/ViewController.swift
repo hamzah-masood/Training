@@ -45,11 +45,12 @@ class ViewController: UIViewController {
             
         }.resume()
         
+        //UIactivity indicator
         
         //ResultViewController.delegate = self
         
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let resultViewController = storyboard.instantiateViewController(identifier: "ResultViewController")
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let resultViewController = storyboard.instantiateViewController(identifier: "ResultViewController")
         //self.navigationController?.pushViewController(resultViewController, animated: true)
         resultTable.reloadData()
     }
@@ -68,7 +69,7 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        totalCount = finalSearchResult?.numFound ?? 0
+        //totalCount = finalSearchResult?.numFound ?? 0
         
         return resultArray.count
     }
@@ -77,10 +78,12 @@ extension ViewController: UITableViewDataSource {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
 
         
-        if resultArray.isEmpty == false {
-            cell.textLabel?.text = resultArray[indexPath.row].title
-            return cell
-        }
+//        if resultArray.isEmpty == false {
+//            cell.textLabel?.text = resultArray[indexPath.row].title
+//            return cell
+//        }
+        cell.textLabel?.text = resultArray[indexPath.row].title
+
         return cell
     }
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {

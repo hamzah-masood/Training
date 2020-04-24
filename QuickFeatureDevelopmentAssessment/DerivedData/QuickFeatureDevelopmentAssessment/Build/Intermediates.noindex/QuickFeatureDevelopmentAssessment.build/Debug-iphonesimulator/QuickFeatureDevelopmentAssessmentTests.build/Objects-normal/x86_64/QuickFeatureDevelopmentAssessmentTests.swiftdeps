@@ -1,0 +1,495 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "QuickFeatureDevelopmentAssessmentTests"
+- "MockSession"
+provides-nominal:
+- "38QuickFeatureDevelopmentAssessmentTestsAAC"
+- "38QuickFeatureDevelopmentAssessmentTests11MockSessionV"
+provides-member:
+- ["38QuickFeatureDevelopmentAssessmentTestsAAC", ""]
+- ["38QuickFeatureDevelopmentAssessmentTests11MockSessionV", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "sut"
+- "tearDown"
+- "testEpisodeAtIndex"
+- "testGetNewEpisodeOfFriends"
+- "testIfCompletiongHandlerReturnsEmpty"
+- "testNumberOfEpisodesAfterCallingAPI"
+- "testNumberOfEpisodesBeforeGettingAnEpisode"
+- "testNumberOfEpisodesFromMockSession"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Data"
+- !private "Episode"
+- !private "EpisodeContainer"
+- "Error"
+- !private "FloatLiteralType"
+- "FriendsViewModel"
+- !private "IntegerLiteralType"
+- !private "JSONEncoder"
+- "MockSession"
+- "QuickFeatureDevelopmentAssessmentTests"
+- "Session"
+- !private "StringLiteralType"
+- "URL"
+- !private "URLSession"
+- "Void"
+- !private "XCTAssert"
+- !private "XCTAssertEqual"
+- "XCTestCase"
+depends-member:
+- !private ["SK", "contains"]
+- !private ["s7CVarArgP", "Episode"]
+- !private ["s7CVarArgP", "EpisodeContainer"]
+- !private ["s7CVarArgP", "FriendsViewModel"]
+- !private ["s7CVarArgP", "JSONEncoder"]
+- !private ["s7CVarArgP", "MockSession"]
+- !private ["s7CVarArgP", "URLSession"]
+- !private ["s7CVarArgP", "XCTAssert"]
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "expectation"]
+- !private ["s7CVarArgP", "fulfill"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "sut"]
+- !private ["s7CVarArgP", "tearDown"]
+- !private ["s7CVarArgP", "waitForExpectations"]
+- !private ["Sl", "contains"]
+- !private ["SL", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "Episode"]
+- !private ["s28CustomDebugStringConvertibleP", "EpisodeContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "FriendsViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONEncoder"]
+- !private ["s28CustomDebugStringConvertibleP", "MockSession"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssert"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "episode"]
+- !private ["s28CustomDebugStringConvertibleP", "expectation"]
+- !private ["s28CustomDebugStringConvertibleP", "fulfill"]
+- !private ["s28CustomDebugStringConvertibleP", "getData"]
+- !private ["s28CustomDebugStringConvertibleP", "getTDDData"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfEpisodes"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "sut"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDown"]
+- !private ["s28CustomDebugStringConvertibleP", "waitForExpectations"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "episode"]
+- !private ["s17CustomReflectableP", "getData"]
+- !private ["s17CustomReflectableP", "getTDDData"]
+- !private ["s17CustomReflectableP", "numberOfEpisodes"]
+- !private ["s23CustomStringConvertibleP", "Episode"]
+- !private ["s23CustomStringConvertibleP", "EpisodeContainer"]
+- !private ["s23CustomStringConvertibleP", "FriendsViewModel"]
+- !private ["s23CustomStringConvertibleP", "JSONEncoder"]
+- !private ["s23CustomStringConvertibleP", "MockSession"]
+- !private ["s23CustomStringConvertibleP", "URLSession"]
+- !private ["s23CustomStringConvertibleP", "XCTAssert"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "expectation"]
+- !private ["s23CustomStringConvertibleP", "fulfill"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "sut"]
+- !private ["s23CustomStringConvertibleP", "tearDown"]
+- !private ["s23CustomStringConvertibleP", "waitForExpectations"]
+- !private ["Se", "airDate"]
+- !private ["Se", "airStamp"]
+- !private ["Se", "contains"]
+- !private ["Se", "episode"]
+- !private ["Se", "getData"]
+- !private ["Se", "getTDDData"]
+- !private ["Se", "image"]
+- !private ["Se", "init"]
+- !private ["Se", "name"]
+- !private ["Se", "numberOfEpisodes"]
+- !private ["Se", "runtime"]
+- !private ["Se", "summary"]
+- !private ["SE", "airDate"]
+- !private ["SE", "airStamp"]
+- !private ["SE", "contains"]
+- !private ["SE", "episode"]
+- !private ["SE", "getData"]
+- !private ["SE", "getTDDData"]
+- !private ["SE", "image"]
+- !private ["SE", "init"]
+- !private ["SE", "name"]
+- !private ["SE", "numberOfEpisodes"]
+- !private ["SE", "runtime"]
+- !private ["SE", "summary"]
+- !private ["33QuickFeatureDevelopmentAssessment7EpisodeV", "airDate"]
+- !private ["33QuickFeatureDevelopmentAssessment7EpisodeV", "airStamp"]
+- !private ["33QuickFeatureDevelopmentAssessment7EpisodeV", "image"]
+- !private ["33QuickFeatureDevelopmentAssessment7EpisodeV", "init"]
+- !private ["33QuickFeatureDevelopmentAssessment7EpisodeV", "name"]
+- !private ["33QuickFeatureDevelopmentAssessment7EpisodeV", "runtime"]
+- !private ["33QuickFeatureDevelopmentAssessment7EpisodeV", "summary"]
+- !private ["33QuickFeatureDevelopmentAssessment16EpisodeContainerV", "init"]
+- !private ["SQ", "Episode"]
+- !private ["SQ", "EpisodeContainer"]
+- !private ["SQ", "FriendsViewModel"]
+- !private ["SQ", "JSONEncoder"]
+- !private ["SQ", "MockSession"]
+- !private ["SQ", "URLSession"]
+- !private ["SQ", "XCTAssert"]
+- !private ["SQ", "XCTAssertEqual"]
+- ["SQ", ""]
+- !private ["SQ", "contains"]
+- !private ["SQ", "episode"]
+- !private ["SQ", "expectation"]
+- !private ["SQ", "fulfill"]
+- !private ["SQ", "getData"]
+- !private ["SQ", "getTDDData"]
+- !private ["SQ", "numberOfEpisodes"]
+- !private ["SQ", "setUp"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "sut"]
+- !private ["SQ", "tearDown"]
+- !private ["SQ", "waitForExpectations"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s23ExpressibleByNilLiteralP", "episode"]
+- !private ["s23ExpressibleByNilLiteralP", "getData"]
+- !private ["s23ExpressibleByNilLiteralP", "getTDDData"]
+- !private ["s23ExpressibleByNilLiteralP", "numberOfEpisodes"]
+- !private ["s32ExpressibleByStringInterpolationP", "contains"]
+- !private ["s26ExpressibleByStringLiteralP", "contains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contains"]
+- !private ["33QuickFeatureDevelopmentAssessment16FriendsViewModelC", "episode"]
+- !private ["33QuickFeatureDevelopmentAssessment16FriendsViewModelC", "getData"]
+- !private ["33QuickFeatureDevelopmentAssessment16FriendsViewModelC", "getTDDData"]
+- !private ["33QuickFeatureDevelopmentAssessment16FriendsViewModelC", "init"]
+- !private ["33QuickFeatureDevelopmentAssessment16FriendsViewModelC", "numberOfEpisodes"]
+- !private ["SH", "Episode"]
+- !private ["SH", "EpisodeContainer"]
+- !private ["SH", "FriendsViewModel"]
+- !private ["SH", "JSONEncoder"]
+- !private ["SH", "MockSession"]
+- !private ["SH", "URLSession"]
+- !private ["SH", "XCTAssert"]
+- !private ["SH", "XCTAssertEqual"]
+- ["SH", ""]
+- !private ["SH", "contains"]
+- !private ["SH", "episode"]
+- !private ["SH", "expectation"]
+- !private ["SH", "fulfill"]
+- !private ["SH", "getData"]
+- !private ["SH", "getTDDData"]
+- !private ["SH", "numberOfEpisodes"]
+- !private ["SH", "setUp"]
+- !private ["SH", "shared"]
+- !private ["SH", "sut"]
+- !private ["SH", "tearDown"]
+- !private ["SH", "waitForExpectations"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["s25LosslessStringConvertibleP", "contains"]
+- !private ["s10MirrorPathP", "contains"]
+- ["38QuickFeatureDevelopmentAssessmentTests11MockSessionV", "Data"]
+- ["38QuickFeatureDevelopmentAssessmentTests11MockSessionV", "Error"]
+- ["38QuickFeatureDevelopmentAssessmentTests11MockSessionV", "URL"]
+- ["38QuickFeatureDevelopmentAssessmentTests11MockSessionV", "Void"]
+- ["38QuickFeatureDevelopmentAssessmentTests11MockSessionV", "data"]
+- ["38QuickFeatureDevelopmentAssessmentTests11MockSessionV", "deinit"]
+- ["38QuickFeatureDevelopmentAssessmentTests11MockSessionV", "getData"]
+- ["38QuickFeatureDevelopmentAssessmentTests11MockSessionV", "init"]
+- !private ["So8NSCodingP", "contains"]
+- !private ["So9NSCopyingP", "contains"]
+- !private ["So21NSItemProviderReadingP", "contains"]
+- !private ["So21NSItemProviderWritingP", "contains"]
+- !private ["So16NSMutableCopyingP", "contains"]
+- !private ["So8NSObjectC", "Episode"]
+- !private ["So8NSObjectC", "EpisodeContainer"]
+- ["So8NSObjectC", "FriendsViewModel"]
+- !private ["So8NSObjectC", "JSONEncoder"]
+- !private ["So8NSObjectC", "MockSession"]
+- !private ["So8NSObjectC", "URLSession"]
+- !private ["So8NSObjectC", "XCTAssert"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- !private ["So8NSObjectC", "contains"]
+- !private ["So8NSObjectC", "expectation"]
+- !private ["So8NSObjectC", "fulfill"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "setUp"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "sut"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testEpisodeAtIndex"]
+- ["So8NSObjectC", "testGetNewEpisodeOfFriends"]
+- ["So8NSObjectC", "testIfCompletiongHandlerReturnsEmpty"]
+- ["So8NSObjectC", "testNumberOfEpisodesAfterCallingAPI"]
+- ["So8NSObjectC", "testNumberOfEpisodesBeforeGettingAnEpisode"]
+- ["So8NSObjectC", "testNumberOfEpisodesFromMockSession"]
+- !private ["So8NSObjectC", "waitForExpectations"]
+- !private ["So8NSObjectP", "Episode"]
+- !private ["So8NSObjectP", "EpisodeContainer"]
+- !private ["So8NSObjectP", "FriendsViewModel"]
+- !private ["So8NSObjectP", "JSONEncoder"]
+- !private ["So8NSObjectP", "MockSession"]
+- !private ["So8NSObjectP", "URLSession"]
+- !private ["So8NSObjectP", "XCTAssert"]
+- !private ["So8NSObjectP", "XCTAssertEqual"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "contains"]
+- !private ["So8NSObjectP", "expectation"]
+- !private ["So8NSObjectP", "fulfill"]
+- !private ["So8NSObjectP", "setUp"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "sut"]
+- !private ["So8NSObjectP", "tearDown"]
+- !private ["So8NSObjectP", "waitForExpectations"]
+- !private ["So14NSSecureCodingP", "contains"]
+- !private ["So8NSStringC", "contains"]
+- !private ["Sq", "episode"]
+- !private ["Sq", "getData"]
+- !private ["Sq", "getTDDData"]
+- !private ["Sq", "numberOfEpisodes"]
+- !private ["38QuickFeatureDevelopmentAssessmentTestsAAC", "Episode"]
+- !private ["38QuickFeatureDevelopmentAssessmentTestsAAC", "EpisodeContainer"]
+- ["38QuickFeatureDevelopmentAssessmentTestsAAC", "FriendsViewModel"]
+- !private ["38QuickFeatureDevelopmentAssessmentTestsAAC", "JSONEncoder"]
+- !private ["38QuickFeatureDevelopmentAssessmentTestsAAC", "MockSession"]
+- !private ["38QuickFeatureDevelopmentAssessmentTestsAAC", "URLSession"]
+- !private ["38QuickFeatureDevelopmentAssessmentTestsAAC", "XCTAssert"]
+- !private ["38QuickFeatureDevelopmentAssessmentTestsAAC", "XCTAssertEqual"]
+- ["38QuickFeatureDevelopmentAssessmentTestsAAC", "deinit"]
+- !private ["38QuickFeatureDevelopmentAssessmentTestsAAC", "expectation"]
+- ["38QuickFeatureDevelopmentAssessmentTestsAAC", "init"]
+- ["38QuickFeatureDevelopmentAssessmentTestsAAC", "setUp"]
+- ["38QuickFeatureDevelopmentAssessmentTestsAAC", "sut"]
+- ["38QuickFeatureDevelopmentAssessmentTestsAAC", "tearDown"]
+- ["38QuickFeatureDevelopmentAssessmentTestsAAC", "testEpisodeAtIndex"]
+- ["38QuickFeatureDevelopmentAssessmentTestsAAC", "testGetNewEpisodeOfFriends"]
+- ["38QuickFeatureDevelopmentAssessmentTestsAAC", "testIfCompletiongHandlerReturnsEmpty"]
+- ["38QuickFeatureDevelopmentAssessmentTestsAAC", "testNumberOfEpisodesAfterCallingAPI"]
+- ["38QuickFeatureDevelopmentAssessmentTestsAAC", "testNumberOfEpisodesBeforeGettingAnEpisode"]
+- ["38QuickFeatureDevelopmentAssessmentTestsAAC", "testNumberOfEpisodesFromMockSession"]
+- !private ["38QuickFeatureDevelopmentAssessmentTestsAAC", "waitForExpectations"]
+- !private ["Sm", "contains"]
+- !private ["ST", "contains"]
+- ["33QuickFeatureDevelopmentAssessment7SessionP", ""]
+- !private ["33QuickFeatureDevelopmentAssessment7SessionP", "data"]
+- ["33QuickFeatureDevelopmentAssessment7SessionP", "getData"]
+- !private ["33QuickFeatureDevelopmentAssessment7SessionP", "init"]
+- !private ["33QuickFeatureDevelopmentAssessment7SessionP", "shared"]
+- !private ["SS", "contains"]
+- !private ["Sy", "contains"]
+- !private ["s16TextOutputStreamP", "contains"]
+- !private ["s20TextOutputStreamableP", "contains"]
+- !private ["7Combine15TopLevelEncoderP", "encode"]
+- !private ["7Combine15TopLevelEncoderP", "init"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So11XCTActivityP", "Episode"]
+- !private ["So11XCTActivityP", "EpisodeContainer"]
+- !private ["So11XCTActivityP", "FriendsViewModel"]
+- !private ["So11XCTActivityP", "JSONEncoder"]
+- !private ["So11XCTActivityP", "MockSession"]
+- !private ["So11XCTActivityP", "URLSession"]
+- !private ["So11XCTActivityP", "XCTAssert"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "expectation"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "sut"]
+- !private ["So11XCTActivityP", "tearDown"]
+- !private ["So11XCTActivityP", "waitForExpectations"]
+- !private ["So17XCTWaiterDelegateP", "Episode"]
+- !private ["So17XCTWaiterDelegateP", "EpisodeContainer"]
+- !private ["So17XCTWaiterDelegateP", "FriendsViewModel"]
+- !private ["So17XCTWaiterDelegateP", "JSONEncoder"]
+- !private ["So17XCTWaiterDelegateP", "MockSession"]
+- !private ["So17XCTWaiterDelegateP", "URLSession"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssert"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "expectation"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "sut"]
+- !private ["So17XCTWaiterDelegateP", "tearDown"]
+- !private ["So17XCTWaiterDelegateP", "waitForExpectations"]
+- !private ["So6XCTestC", "Episode"]
+- !private ["So6XCTestC", "EpisodeContainer"]
+- ["So6XCTestC", "FriendsViewModel"]
+- !private ["So6XCTestC", "JSONEncoder"]
+- !private ["So6XCTestC", "MockSession"]
+- !private ["So6XCTestC", "URLSession"]
+- !private ["So6XCTestC", "XCTAssert"]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- !private ["So6XCTestC", "expectation"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "sut"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testEpisodeAtIndex"]
+- ["So6XCTestC", "testGetNewEpisodeOfFriends"]
+- ["So6XCTestC", "testIfCompletiongHandlerReturnsEmpty"]
+- ["So6XCTestC", "testNumberOfEpisodesAfterCallingAPI"]
+- ["So6XCTestC", "testNumberOfEpisodesBeforeGettingAnEpisode"]
+- ["So6XCTestC", "testNumberOfEpisodesFromMockSession"]
+- !private ["So6XCTestC", "waitForExpectations"]
+- !private ["So10XCTestCaseC", "Episode"]
+- !private ["So10XCTestCaseC", "EpisodeContainer"]
+- ["So10XCTestCaseC", "FriendsViewModel"]
+- !private ["So10XCTestCaseC", "JSONEncoder"]
+- !private ["So10XCTestCaseC", "MockSession"]
+- !private ["So10XCTestCaseC", "URLSession"]
+- !private ["So10XCTestCaseC", "XCTAssert"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- ["So10XCTestCaseC", ""]
+- !private ["So10XCTestCaseC", "expectation"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "sut"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testEpisodeAtIndex"]
+- ["So10XCTestCaseC", "testGetNewEpisodeOfFriends"]
+- ["So10XCTestCaseC", "testIfCompletiongHandlerReturnsEmpty"]
+- ["So10XCTestCaseC", "testNumberOfEpisodesAfterCallingAPI"]
+- ["So10XCTestCaseC", "testNumberOfEpisodesBeforeGettingAnEpisode"]
+- ["So10XCTestCaseC", "testNumberOfEpisodesFromMockSession"]
+- !private ["So10XCTestCaseC", "waitForExpectations"]
+- !private ["So17XCTestExpectationC", "fulfill"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contains"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Episode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EpisodeContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FriendsViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONEncoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expectation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fulfill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "waitForExpectations"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Episode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "EpisodeContainer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FriendsViewModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONEncoder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MockSession"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLSession"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssert"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertEqual"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contains"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "expectation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fulfill"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setUp"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sut"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tearDown"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "waitForExpectations"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "episode"]
+- !private ["s21_ObjectiveCBridgeableP", "getData"]
+- !private ["s21_ObjectiveCBridgeableP", "getTDDData"]
+- !private ["s21_ObjectiveCBridgeableP", "numberOfEpisodes"]
+depends-nominal:
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "33QuickFeatureDevelopmentAssessment7EpisodeV"
+- !private "33QuickFeatureDevelopmentAssessment16EpisodeContainerV"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "33QuickFeatureDevelopmentAssessment16FriendsViewModelC"
+- "SH"
+- !private "10Foundation11JSONEncoderC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "38QuickFeatureDevelopmentAssessmentTests11MockSessionV"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- "38QuickFeatureDevelopmentAssessmentTestsAAC"
+- !private "Sm"
+- !private "ST"
+- "33QuickFeatureDevelopmentAssessment7SessionP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Combine15TopLevelEncoderP"
+- !private "So12NSURLSessionC"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "So17XCTestExpectationC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/mcs/Documents/Training/QuickFeatureDevelopmentAssessment/DerivedData/QuickFeatureDevelopmentAssessment/Build/Products/Debug-iphonesimulator/QuickFeatureDevelopmentAssessment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5a0771f761d78cf0c6f32fc7cfcdd040"
