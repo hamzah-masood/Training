@@ -1,0 +1,368 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EpisodeContainer"
+- "Episode"
+provides-nominal:
+- "24NetworkLayerProjectTests16EpisodeContainerV"
+- "24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO"
+- "24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO"
+- "24NetworkLayerProjectTests7EpisodeV"
+- "24NetworkLayerProjectTests7EpisodeV10CodingKeysO"
+- "24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO"
+provides-member:
+- ["24NetworkLayerProjectTests16EpisodeContainerV", ""]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", ""]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", ""]
+- ["24NetworkLayerProjectTests7EpisodeV", ""]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", ""]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Codable"
+- "CodingKey"
+- "Decoder"
+- "Encoder"
+- "Episode"
+- "EpisodeContainer"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- !private ["s9CodingKeyP", "airDate"]
+- !private ["s9CodingKeyP", "airStamp"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "episodes"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- !private ["s9CodingKeyP", "image"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "name"]
+- !private ["s9CodingKeyP", "original"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "runtime"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "summary"]
+- !private ["s9CodingKeyP", "topLevel"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "=="]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "RawValue"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "_Default_RawValue"]
+- !private ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "_findStringSwitchCase"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "_rawHashValue"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "airDate"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "airStamp"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "debugDescription"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "deinit"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "description"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "hash"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "hashValue"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "image"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "init"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "intValue"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "name"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "rawValue"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "runtime"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "stringValue"]
+- ["24NetworkLayerProjectTests7EpisodeV10CodingKeysO", "summary"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "airDate"]
+- !private ["s28CustomDebugStringConvertibleP", "airStamp"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "episodes"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "original"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "runtime"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "summary"]
+- !private ["s28CustomDebugStringConvertibleP", "topLevel"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "airDate"]
+- !private ["s23CustomStringConvertibleP", "airStamp"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "episodes"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "original"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "runtime"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "summary"]
+- !private ["s23CustomStringConvertibleP", "topLevel"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "Episode"]
+- !private ["Se", "EpisodeCodingKeys"]
+- !private ["Se", "Int"]
+- !private ["Se", "String"]
+- !private ["Se", "TopLevelCodingKeys"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "airDate"]
+- !private ["Se", "airStamp"]
+- ["Se", "encode"]
+- !private ["Se", "episodes"]
+- !private ["Se", "image"]
+- !private ["Se", "imageCodingKeys"]
+- ["Se", "init"]
+- !private ["Se", "name"]
+- !private ["Se", "runtime"]
+- !private ["Se", "summary"]
+- !private ["s7DecoderP", "container"]
+- !private ["SE", "CodingKeys"]
+- !private ["SE", "Episode"]
+- !private ["SE", "EpisodeCodingKeys"]
+- !private ["SE", "Int"]
+- !private ["SE", "String"]
+- !private ["SE", "TopLevelCodingKeys"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "airDate"]
+- !private ["SE", "airStamp"]
+- ["SE", "encode"]
+- !private ["SE", "episodes"]
+- !private ["SE", "image"]
+- !private ["SE", "imageCodingKeys"]
+- ["SE", "init"]
+- !private ["SE", "name"]
+- !private ["SE", "runtime"]
+- !private ["SE", "summary"]
+- !private ["s7EncoderP", "container"]
+- ["24NetworkLayerProjectTests7EpisodeV", "CodingKey"]
+- ["24NetworkLayerProjectTests7EpisodeV", "CodingKeys"]
+- ["24NetworkLayerProjectTests7EpisodeV", "Decoder"]
+- ["24NetworkLayerProjectTests7EpisodeV", "Encoder"]
+- ["24NetworkLayerProjectTests7EpisodeV", "Int"]
+- ["24NetworkLayerProjectTests7EpisodeV", "String"]
+- !private ["24NetworkLayerProjectTests7EpisodeV", "_findStringSwitchCase"]
+- ["24NetworkLayerProjectTests7EpisodeV", "airDate"]
+- ["24NetworkLayerProjectTests7EpisodeV", "airStamp"]
+- ["24NetworkLayerProjectTests7EpisodeV", "deinit"]
+- ["24NetworkLayerProjectTests7EpisodeV", "encode"]
+- ["24NetworkLayerProjectTests7EpisodeV", "image"]
+- ["24NetworkLayerProjectTests7EpisodeV", "imageCodingKeys"]
+- ["24NetworkLayerProjectTests7EpisodeV", "init"]
+- ["24NetworkLayerProjectTests7EpisodeV", "name"]
+- ["24NetworkLayerProjectTests7EpisodeV", "runtime"]
+- ["24NetworkLayerProjectTests7EpisodeV", "summary"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "=="]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "RawValue"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "_Default_RawValue"]
+- !private ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "_findStringSwitchCase"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "_rawHashValue"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "debugDescription"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "deinit"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "description"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "episodes"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "hash"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "hashValue"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "init"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "intValue"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "rawValue"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO", "stringValue"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV", "CodingKey"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV", "Decoder"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV", "Encoder"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV", "Episode"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV", "EpisodeCodingKeys"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV", "String"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV", "TopLevelCodingKeys"]
+- !private ["24NetworkLayerProjectTests16EpisodeContainerV", "_findStringSwitchCase"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV", "deinit"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV", "encode"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV", "episodes"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV", "init"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "airDate"]
+- !private ["SQ", "airStamp"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "episodes"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "image"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "name"]
+- !private ["SQ", "original"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "runtime"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "summary"]
+- !private ["SQ", "topLevel"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "airDate"]
+- !private ["SH", "airStamp"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "episodes"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "image"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "name"]
+- !private ["SH", "original"]
+- ["SH", "rawValue"]
+- !private ["SH", "runtime"]
+- ["SH", "stringValue"]
+- !private ["SH", "summary"]
+- !private ["SH", "topLevel"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "nestedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "nestedContainer"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "nestedContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "nestedContainer"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "airDate"]
+- !private ["SY", "airStamp"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- !private ["SY", "episodes"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- !private ["SY", "image"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "name"]
+- !private ["SY", "original"]
+- ["SY", "rawValue"]
+- !private ["SY", "runtime"]
+- ["SY", "stringValue"]
+- !private ["SY", "summary"]
+- !private ["SY", "topLevel"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "=="]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "RawValue"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "_Default_RawValue"]
+- !private ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "_findStringSwitchCase"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "_rawHashValue"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "debugDescription"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "deinit"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "description"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "hash"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "hashValue"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "init"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "intValue"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "rawValue"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "stringValue"]
+- ["24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO", "topLevel"]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "=="]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "RawValue"]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "_Default_RawValue"]
+- !private ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "_findStringSwitchCase"]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "_rawHashValue"]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "debugDescription"]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "deinit"]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "description"]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "hash"]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "hashValue"]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "init"]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "intValue"]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "original"]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "rawValue"]
+- ["24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO", "stringValue"]
+depends-nominal:
+- "s9CodingKeyP"
+- "24NetworkLayerProjectTests7EpisodeV10CodingKeysO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "24NetworkLayerProjectTests7EpisodeV"
+- "24NetworkLayerProjectTests16EpisodeContainerV0E10CodingKeysO"
+- "24NetworkLayerProjectTests16EpisodeContainerV"
+- "SQ"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "SY"
+- "24NetworkLayerProjectTests16EpisodeContainerV18TopLevelCodingKeysO"
+- "24NetworkLayerProjectTests7EpisodeV15imageCodingKeysO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/mcs/Documents/Training/NetworkLayerProject/build/Debug-iphonesimulator/NetworkLayerProject.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3d3fca3734cb3241b2c846ebf1daa53a"

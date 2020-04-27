@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "83c1e682d3f2acaaade68d36cfe40803"
+build_time: [1587748705, 871683000]
+inputs:
+  "/Users/mcs/Documents/Training/NetworkLayerProject/NetworkLayerProject/EpisodeContainer.swift": !dirty [1587060998, 321620101]
+  "/Users/mcs/Documents/Training/NetworkLayerProject/NetworkLayerProject/ViewModel.swift": !dirty [1587748633, 10831971]
+  "/Users/mcs/Documents/Training/NetworkLayerProject/NetworkLayerProjectTests/NetworkLayerProjectTests.swift": !dirty [1587748705, 768457855]

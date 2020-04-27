@@ -1,9 +1,0 @@
-version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
-options: "d63abcf52de2a69c3c1f5bb723e91e60"
-build_time: [1587416653, 262746000]
-inputs:
-  "/Users/mcs/Documents/Training/NetworkLayerProject/NetworkLayerProject/ViewController.swift": [1587060878, 150252928]
-  "/Users/mcs/Documents/Training/NetworkLayerProject/NetworkLayerProject/AppDelegate.swift": [1587060878, 142814616]
-  "/Users/mcs/Documents/Training/NetworkLayerProject/NetworkLayerProject/ViewModel.swift": [1587060969, 592008820]
-  "/Users/mcs/Documents/Training/NetworkLayerProject/NetworkLayerProject/EpisodeContainer.swift": [1587060998, 321620101]
-  "/Users/mcs/Documents/Training/NetworkLayerProject/NetworkLayerProject/SceneDelegate.swift": [1587060878, 147616209]

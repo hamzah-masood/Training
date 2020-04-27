@@ -18,7 +18,7 @@ import Foundation
 //    }.resume()
 //  }
 //}
-
+//
 
 
 protocol FeedProviding {
@@ -51,20 +51,20 @@ protocol Networking {
 extension Networking {
     func execute<T: Decodable>(_ requestProvider: RequestProviding, completion: @escaping (Result<T, Error>) -> Void) {
         let urlRequest = requestProvider.urlRequest
-        
+
         URLSession.shared.dataTask(with: urlRequest){ data, response, error in
             do {
                 if let error = error {
                     completion(.failure(error))
                     return
                 }
-                
+
                 guard let data = data else {
                     preconditionFailure("No error, also no Data")
                 }
-                
+
                 let decodeObject = try JSONDecoder().decode(T.self, from: data)
-                
+
                 completion(.success(decodeObject))
             } catch {
                 completion(.failure(error))
@@ -108,22 +108,24 @@ extension Endpoint: RequestProviding {
             guard let url = URL(string: "https://mydomain.com/feed") else {
                 preconditionFailure("Invalid URL used")
             }
-            
+
             return URLRequest(url: url)
         }
     }
 }
 
 class ViewModel {
-    
+
     let service: FeedProviding
+    
+    //Feed object needs to be built
     var feed: Feed?
     var onFeedUpdate: () -> Void = {}
-    
+
     init(service: FeedProviding) {
         self.service = service
     }
-    
+
     func fetch() {
         service.getFeed { result in
             do {
@@ -135,8 +137,10 @@ class ViewModel {
         }
     }
 }
-    
-    
+
+
+//class ViewModel {
+//
 //  private let myURL = "https://api.tvmaze.com/shows/431?embed=episodes"
 //  private var episodes = [Episode]()
 //
@@ -153,6 +157,8 @@ class ViewModel {
 //      self?.episodes = episodeContainer.episodes
 //      }
 //  }
+//
+//}
     
 
     
