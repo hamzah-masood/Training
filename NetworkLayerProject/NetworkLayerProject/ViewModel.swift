@@ -53,6 +53,7 @@ extension Networking {
         let urlRequest = requestProvider.urlRequest
 
         URLSession.shared.dataTask(with: urlRequest){ data, response, error in
+            //in stead of catch, gaurd lets be functions that throw
             do {
                 if let error = error {
                     completion(.failure(error))
@@ -120,6 +121,7 @@ class ViewModel {
     
     //Feed object needs to be built
     var feed: Feed?
+    //make optional so only updates when Feed is updated.
     var onFeedUpdate: () -> Void = {}
 
     init(service: FeedProviding) {
