@@ -9,32 +9,42 @@
 import UIKit
 
 class AlbumTableViewController: UIViewController, UITableViewDataSource ,UITableViewDelegate {
+    
+    private let viewModel = ViewModel()
+
 
     
     let tableView = UITableView()
-    let cell = "cell"
+    //let cell = "cell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+      
         setupTableView()
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
     func setupTableView(){
         
-        //Registers a class for use in creating new table cells.
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: cell)
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.backgroundColor = .white
+        view.addSubview(tableView)
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+        tableView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        tableView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        tableView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
         
+        self.viewModel.getData {
+          DispatchQueue.main.async {
+            self.tableView.reloadData()
+          }
+        }
     
     }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
             // #warning Incomplete implementation, return the number of sections
             return 1
@@ -42,41 +52,38 @@ class AlbumTableViewController: UIViewController, UITableViewDataSource ,UITable
     
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             // #warning Incomplete implementation, return the number of rows
-            return 100
+            return self.viewModel.numberOfAlbums()
         }
     
     
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-            cell.textLabel?.text = "Album # \(indexPath)"
-    
+            
+//            let cell = AlbumTableViewCell()
+//            cell.albumName.text = albumArray[indexPath.row].name
+//            cell.artistName.text = albumArray[indexPath.row].artistName
+//            if let imageUrl = URL(string: albumArray[indexPath.row].artworkUrl100) {
+//                if let data = try? Data(contentsOf: imageUrl) {
+//                    cell.albumImage.image = UIImage(data: data)
+//                }
+//            }
+            
+            let cell = AlbumTableViewCell() //tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+            cell.albumLabel.text = self.viewModel.albumName(for: indexPath.row)
+            cell.artistLabel.text = self.viewModel.artistName(for: indexPath.row)
+            
+            DispatchQueue.main.async {
+                let cellImage = try! UIImage(data: NSData(contentsOf: NSURL(string:self.viewModel.albumImageURL(for: indexPath.row) ?? "")! as URL) as Data)
+              cell.albumImageView.image = cellImage
+            }
+
+            cell.setupViews()
     
             return cell
         }
+    
 
 
 }
 
-//extension AlbumTableViewController: UITableViewDataSource {
-//    func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return 1
-//    }
-//
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        // #warning Incomplete implementation, return the number of rows
-//        return 100
-//    }
-//
-//
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-//        cell.textLabel?.text = "Album # \(indexPath)"
-//
-//
-//        return cell
-//    }
-//
-//}
 
 
