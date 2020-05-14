@@ -70,9 +70,13 @@ class AlbumTableViewCell: UITableViewCell {
             "album": albumLabel,
         ]
 
-        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[image(20)]-|", options: [], metrics: nil, views: viewsDict))
-//        contentView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[artist]-[album]-|", options: [], metrics: nil, views: viewsDict))
-        //contentView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[artist]-|", options: [], metrics: nil, views: viewsDict))
+
+        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[image(100@999)]-|", options: [], metrics: nil, views: viewsDict))
+        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:[image(100)]-|", options: [], metrics: nil, views: viewsDict))
+        //self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[album]-[image(100)]", options: [], metrics: nil, views: viewsDict))
+
+        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[artist]-[album]-|", options: [], metrics: nil, views: viewsDict))
+        //self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[album]-|", options: [], metrics: nil, views: viewsDict))
     }
     
 

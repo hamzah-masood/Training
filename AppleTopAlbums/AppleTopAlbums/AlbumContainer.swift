@@ -23,7 +23,7 @@ struct Results: Codable {
     let copyright: String?
     let artworkUrl100: String?
     let genres: [Genres]?
-    let url: URL?
+    let url: String?
 }
 
 struct Genres: Codable {

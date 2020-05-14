@@ -22,7 +22,7 @@ extension URLSession: Session {
 
 final class ViewModel {
     private let RSSURL = "https://rss.itunes.apple.com/api/v1/us/apple-music/top-albums/all/100/explicit.json"
-    private var albums: [Results] = []
+    var albums: [Results] = []
     
     func getData(session: Session = URLSession.shared, _ completion: (() -> Void)?) {
         guard let RSSUrl = URL(string: self.RSSURL) else {
@@ -47,10 +47,14 @@ final class ViewModel {
     func numberOfAlbums() -> Int {
         return self.albums.count
     }
-    
-    func album(for index: Int) -> ResultViewModel {
-        return ResultViewModel(album: self.albums[index])
+
+    func album(for index: Int) -> Results {
+        return self.albums[index]
     }
+
+//    func aalbums(for index: Int) -> ResultViewModel {
+//        return ResultViewModel(album: self.albums[index])
+//    }
     
     func albumName(for index: Int) -> String? {
         return self.albums[index].name
@@ -59,8 +63,25 @@ final class ViewModel {
     func artistName(for index: Int) -> String? {
         return self.albums[index].artistName
     }
+    
     func albumImageURL(for index: Int) -> String? {
         return self.albums[index].artworkUrl100
     }
+
+//    func genre() {
+//
+//    }
     
+    func releaseDate(for index: Int) -> String? {
+        return self.albums[index].releaseDate
+    }
+    
+    func copywright(for index: Int) -> String? {
+        return self.albums[index].copyright
+    }
+    
+    func albumLink(for index: Int) -> String? {
+        return self.albums[index].url
+    }
+
 }

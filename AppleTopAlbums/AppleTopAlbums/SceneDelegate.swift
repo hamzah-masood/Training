@@ -23,7 +23,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = UIWindow.init(windowScene: scene)
         
         window?.makeKeyAndVisible()
-        window?.rootViewController = AlbumTableViewController()
+        //window?.rootViewController = AlbumDetailViewController()
+        window?.rootViewController = UINavigationController(rootViewController: AlbumTableViewController())//AlbumTableViewController()
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
