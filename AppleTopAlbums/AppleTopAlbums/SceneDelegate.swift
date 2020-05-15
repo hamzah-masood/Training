@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  AppleTopAlbums
 //
-//  Created by mcs on 4/28/20.
-//  Copyright © 2020 mcs. All rights reserved.
+//  Created by Hamzah Masood on 4/28/20.
+//  Copyright © 2020 Hamzah Masood. All rights reserved.
 //
 
 import UIKit
