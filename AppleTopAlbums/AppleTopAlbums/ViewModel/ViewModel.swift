@@ -37,12 +37,6 @@ final class ViewModel {
         self?.albums = albumContainer.feed.results
         }
     }
-//    func getTDDData(completion: () -> Void) {
-//      let newEpisode = Episode.init()
-//      episodes.append(newEpisode)
-//      completion()
-//    }
-//    
     
     func numberOfAlbums() -> Int {
         return self.albums.count
@@ -51,10 +45,6 @@ final class ViewModel {
     func album(for index: Int) -> Results {
         return self.albums[index]
     }
-
-//    func aalbums(for index: Int) -> ResultViewModel {
-//        return ResultViewModel(album: self.albums[index])
-//    }
     
     func albumName(for index: Int) -> String? {
         return self.albums[index].name
@@ -64,13 +54,13 @@ final class ViewModel {
         return self.albums[index].artistName
     }
     
-    func albumImageURL(for index: Int) -> String? {
+    func albumImageURL(for index: Int) -> URL? {
         return self.albums[index].artworkUrl100
     }
 
-//    func genre() {
-//
-//    }
+    func genre(for index: Int) -> [Genres]? {
+        return self.albums[index].genres
+    }
     
     func releaseDate(for index: Int) -> String? {
         return self.albums[index].releaseDate

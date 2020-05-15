@@ -16,6 +16,34 @@ final class ResultViewModel {
     init(album: Results) {
         self.album = album
     }
+    func albumName() -> String? {
+        return album.name
+    }
+        
+//        func artistName(for index: Int) -> String? {
+//            return self.albums[index].artistName
+//        }
+//        
+//        func albumImageURL() -> URL? {
+//            return album.artworkUrl100
+//        }
+//
+//    //    func genre() {
+//    //
+//    //    }
+//        
+//        func releaseDate(for index: Int) -> String? {
+//            return self.albums[index].releaseDate
+//        }
+//        
+//        func copywright(for index: Int) -> String? {
+//            return self.albums[index].copyright
+//        }
+//        
+//        func albumLink(for index: Int) -> String? {
+//            return self.albums[index].url
+//        }
+
     
 }
 
